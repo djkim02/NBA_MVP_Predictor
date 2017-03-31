@@ -60,22 +60,45 @@ def format_season(season):
 
 
 # Returns the statistics of a player in a season
-def get_stats(first_name, last_name, season):
+def get_stats(name, first_name, last_name, season):
 	formatted_season = format_season(season)
-	player_id = get_player(first_name, last_name, season=formatted_season)
-	stats = PlayerGeneralSplits(player_id, season=formatted_season)
-	return json.dumps(stats.json)
+	if name == "Yao Ming":
+		player_id = get_player(name, season=formatted_season)
+	else:
+		player_id = get_player(first_name, last_name, season=formatted_season)
 
+	player_general_splits = PlayerGeneralSplits(player_id, season=formatted_season)
+	stats = []
+	stats.append(name)
+	stats.extend(player_general_splits.json["resultSets"][0]["rowSet"][0][1:30])
+	return stats
 
-
-if __name__ == "__main__":
+# GROUP_VALUE, GP, W, L, W_PCT, MIN, FGM, FGA, FG_PCT, FG3M, FG3A, FG3_PCT, FTM, FTA, FT_PCT, OREB, DREB, REB, AST, TOV, STL, BLK, BLKA, PF, PFD, PTS, PLUS_MINUS, DD2, TD3
+def get_all_stats_and_pickle():
 	scoring_leaders_pkl_fn = 'scoring_leaders.pkl'
 	scoring_leaders = read_scoring_leaders_from_a_pickle(scoring_leaders_pkl_fn)
 	seasons = scoring_leaders.keys()
-
+	stats_dict = {}
 	for season in seasons:
+		season_stats = []
+		print "Starting to parse {} season's stats".format(format_season(season))
+
 		for player in scoring_leaders[season]:
+			print "Parsing {}".format(player)
 			first_name, last_name = parse_first_and_last_name(player)
-			stats = get_stats(first_name, last_name, season)
-			break
-		break
+			stats = get_stats(player, first_name, last_name, season)
+			season_stats.append(stats)
+
+		stats_dict[season] = season_stats
+		print "Done with parsing {} season's stats".format(format_season(season))
+
+	all_stats_fn = "all_stats.pkl"
+	pickle.dump(stats_dict, open(all_stats_fn, 'wb'))
+
+
+if __name__ == "__main__":
+	all_stats_fn = "all_stats.pkl"
+	all_stats = pickle.load(open(all_stats_fn, 'rb'))
+	print all_stats[2000]
+
+
