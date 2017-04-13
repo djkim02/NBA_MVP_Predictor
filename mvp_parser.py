@@ -34,7 +34,8 @@ def get_scoring_leaders_from_espn(year):
 
 # Returns a list of top 50 scoring leaders' player IDs, names, and teams for a given season from nba.com
 def get_scoring_leaders_from_nba(year):
-	link = "http://stats.nba.com/stats/leagueLeaders?LeagueID=00&PerMode=PerGame&Scope=S&Season={}&SeasonType=Regular+Season&StatCategory=PTS".format(format_season(year))
+	link = "http://stats.nba.com/stats/leagueLeaders?LeagueID=00&PerMode=PerGame&Scope=S&Season={}&SeasonType=Regular+Season&StatCategory=PTS&Rank=N".format(format_season(year))
+	print link
 	response = requests.get(link, headers = HEADER)
 	json_response_data = json.loads(response.text)
 	full_player_list = json_response_data["resultSet"]["rowSet"][:50]
@@ -51,6 +52,50 @@ def get_scoring_leaders_from_nba(year):
 		player_list.append(player_data)
 
 	return player_list
+
+def get_stats_of_top50_scorers_with_ranks(year):
+	return
+
+def get_stats_of_everyone_with_ranks(year):
+	base_link = "http://stats.nba.com/stats/leaguedashplayerstats?College=&Conference=&Country=&DateFrom=&DateTo=&Division=&DraftPick=&DraftYear=&GameScope=&GameSegment=&Height=&LastNGames=0&LeagueID=00&Location=&MeasureType=Base&Month=0&OpponentTeamID=0&Outcome=&PORound=0&PaceAdjust=N&PerMode=PerGame&Period=0&PlayerExperience=&PlayerPosition=&PlusMinus=N&Rank=N&Season={}&SeasonSegment=&SeasonType=Regular+Season&ShotClockRange=&StarterBench=&TeamID=0&VsConference=&VsDivision=&Weight=".format(format_season(year))
+	base_response = requests.get(base_link, headers = HEADER)
+	base_json_response_data = json.loads(base_response.text)
+	base_full_player_list = base_json_response_data["resultSets"][0]["rowSet"]
+
+	advanced_link = "http://stats.nba.com/stats/leaguedashplayerstats?College=&Conference=&Country=&DateFrom=&DateTo=&Division=&DraftPick=&DraftYear=&GameScope=&GameSegment=&Height=&LastNGames=0&LeagueID=00&Location=&MeasureType=Advanced&Month=0&OpponentTeamID=0&Outcome=&PORound=0&PaceAdjust=N&PerMode=PerGame&Period=0&PlayerExperience=&PlayerPosition=&PlusMinus=N&Rank=N&Season={}&SeasonSegment=&SeasonType=Regular+Season&ShotClockRange=&StarterBench=&TeamID=0&VsConference=&VsDivision=&Weight=".format(format_season(year))
+	advanced_response = requests.get(advanced_link, headers = HEADER)
+	advanced_json_response_data = json.loads(advanced_response.text)
+	advanced_full_player_list = advanced_json_response_data["resultSets"][0]["rowSet"]
+
+	season_stats = {}
+	for i in range(len(base_full_player_list)):
+		base_player = base_full_player_list[i]
+		player_stats = []
+		player_stats.extend(base_player[0:2])
+		player_stats.extend(base_player[5:10])
+		player_stats.append(base_player[12])
+		player_stats.append(base_player[15])
+		player_stats.append(base_player[18])
+		player_stats.extend(base_player[21:26])
+		player_stats.extend(base_player[29:38])
+		player_stats.append(base_player[40])
+		player_stats.append(base_player[43])
+		player_stats.append(base_player[46])
+		player_stats.extend(base_player[49:54])
+		player_stats.extend(base_player[57:61])
+		advanced_player = advanced_full_player_list[i]
+		player_stats.extend(advanced_player[10:14])
+		player_stats.append(advanced_player[18])
+		player_stats.extend(advanced_player[20:23])
+		player_stats.append(advanced_player[24])
+		player_stats.extend(advanced_player[35:39])
+		player_stats.append(advanced_player[43])
+		player_stats.extend(advanced_player[45:48])
+		player_stats.append(advanced_player[49])
+		season_stats[base_player[0]] = player_stats
+
+	return season_stats
+
 
 # Uses data parsed from stats.nba.com to get season statistics of top 50 scorers from 1996-97 season to 2016-17 season
 def get_stats_from_top_50_scorers_and_pickle():
@@ -157,5 +202,29 @@ def get_all_stats_and_pickle():
 	pickle.dump(stats_dict, open(all_stats_fn, 'wb'))
 
 if __name__ == "__main__":
-	stats = get_stats_from_top_50_scorers_and_pickle()
-	print stats
+	# players = get_scoring_leaders_from_nba(2017)
+	print get_stats_of_everyone_with_ranks(2017)
+
+	# Russell Westbrook
+	# print players[0][1]
+	# print json.dumps(player.PlayerGeneralSplits(players[0][0], measure_type='Advanced').json)
+
+	# # James Harden
+	# print players[1][1]
+	# print player.PlayerDefenseTracking(players[1][0]).json["resultSets"][0]["rowSet"][0]
+
+	# # Isaiah Thomas
+	# print players[2][1]
+	# print player.PlayerDefenseTracking(players[2][0]).json["resultSets"][0]["rowSet"][0]
+
+	# # Anthony Davis
+	# print players[3][1]
+	# print player.PlayerDefenseTracking(players[3][0]).json["resultSets"][0]["rowSet"][0]
+
+	# # Kawhi Leonard
+	# print players[8][1]
+	# print player.PlayerDefenseTracking(players[8][0]).json["resultSets"][0]["rowSet"][0]
+
+	# # Lebron James
+	# print players[7][1]
+	# print player.PlayerDefenseTracking(players[7][0]).json["resultSets"][0]["rowSet"][0]
