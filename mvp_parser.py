@@ -7,32 +7,6 @@ import json
 USER_AGENT = "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_4) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/56.0.2924.87 Safari/537.36"
 HEADER = {'User-Agent': USER_AGENT}
 
-# Returns the names of top 40 scoring leaders of a season from ESPN.
-# if year = 2000, this function returns the top 40 scoring leaders of 1999-00 season
-# if year = 2017, this function returns the top 40 scoring leaders of 2016-17 season
-def get_scoring_leaders_from_espn(year):
-	# Parsing the names from ESPN
-	link = "http://www.espn.com/nba/statistics/player/_/stat/scoring-per-game/sort/avgPoints/year/" + str(year) + "/seasontype/2"
-	html_response = requests.get(link, headers = HEADER)
-	beautiful_soup_html = BeautifulSoup(html_response.text, "html.parser")
-
-	players = beautiful_soup_html.findAll('tr', {'class': 'colhead'})
-	print players
-	scoring_leaders = []
-
-	# Index of where the first player starts
-	START = 21
-	SKIP = 16
-
-	# Fetching top 40 scoring leader's names
-	for i in range(4):
-		for j in range(10):
-			index = START + j
-			scoring_leaders.append(players[index])
-		START += SKIP
-
-	return scoring_leaders
-
 # Returns a list of top 50 scoring leaders' player IDs, names, and teams for a given season from nba.com
 def get_scoring_leaders_from_nba(year):
 	link = "http://stats.nba.com/stats/leagueLeaders?LeagueID=00&PerMode=PerGame&Scope=S&Season={}&SeasonType=Regular+Season&StatCategory=PTS&Rank=N".format(format_season(year))
