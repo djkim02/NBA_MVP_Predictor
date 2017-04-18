@@ -2,7 +2,7 @@
 I2016
 (lp2
 (lp3
-I201939
+I1
 aVStephen Curry
 p4
 aI79
@@ -54,7 +54,7 @@ aI7
 aI4
 aI1
 aa(lp5
-I201935
+I2
 aVJames Harden
 p6
 aI82
@@ -106,7 +106,7 @@ aI50
 aI3
 aI7
 aa(lp7
-I201142
+I3
 aVKevin Durant
 p8
 aI72
@@ -158,7 +158,7 @@ aI18
 aI11
 aI2
 aa(lp9
-I202326
+I5
 aVDeMarcus Cousins
 p10
 aI65
@@ -210,7 +210,7 @@ aI216
 aI2
 aI15
 aa(lp11
-I2544
+I3
 aVLeBron James
 p12
 aI76
@@ -262,7 +262,7 @@ aI62
 aI9
 aI3
 aa(lp13
-I203081
+I1
 aVDamian Lillard
 p14
 aI75
@@ -314,7 +314,7 @@ aI140
 aI10
 aI26
 aa(lp15
-I203076
+I4
 aVAnthony Davis
 p16
 aI61
@@ -366,7 +366,7 @@ aI145
 aI15
 aI11
 aa(lp17
-I201566
+I1
 aVRussell Westbrook
 p18
 aI80
@@ -418,7 +418,7 @@ aI161
 aI8
 aI4
 aa(lp19
-I201942
+I2
 aVDeMar DeRozan
 p20
 aI78
@@ -470,7 +470,7 @@ aI174
 aI14
 aI40
 aa(lp21
-I202331
+I3
 aVPaul George
 p22
 aI81
@@ -522,7 +522,7 @@ aI149
 aI13
 aI17
 aa(lp23
-I202738
+I1
 aVIsaiah Thomas
 p24
 aI82
@@ -574,7 +574,7 @@ aI130
 aI17
 aI30
 aa(lp25
-I202691
+I2
 aVKlay Thompson
 p26
 aI80
@@ -626,7 +626,7 @@ aI53
 aI38
 aI100
 aa(lp27
-I2546
+I3
 aVCarmelo Anthony
 p28
 aI72
@@ -678,7 +678,7 @@ aI251
 aI16
 aI29
 aa(lp29
-I200768
+I1
 aVKyle Lowry
 p30
 aI77
@@ -730,7 +730,7 @@ aI85
 aI42
 aI23
 aa(lp31
-I202695
+I3
 aVKawhi Leonard
 p32
 aI72
@@ -782,7 +782,7 @@ aI33
 aI44
 aI10
 aa(lp33
-I202710
+I2
 aVJimmy Butler
 p34
 aI67
@@ -834,7 +834,7 @@ aI129
 aI59
 aI32
 aa(lp35
-I202689
+I1
 aVKemba Walker
 p36
 aI81
@@ -886,7 +886,7 @@ aI159
 aI37
 aI44
 aa(lp37
-I203468
+I2
 aVCJ McCollum
 p38
 aI80
@@ -938,7 +938,7 @@ aI191
 aI32
 aI109
 aa(lp39
-I203952
+I3
 aVAndrew Wiggins
 p40
 aI81
@@ -990,7 +990,7 @@ aI201
 aI34
 aI191
 aa(lp41
-I201572
+I5
 aVBrook Lopez
 p42
 aI73
@@ -1042,7 +1042,7 @@ aI128
 aI28
 aI58
 aa(lp43
-I202322
+I1
 aVJohn Wall
 p44
 aI77
@@ -1094,7 +1094,7 @@ aI310
 aI26
 aI25
 aa(lp45
-I202330
+I3
 aVGordon Hayward
 p46
 aI80
@@ -1146,7 +1146,7 @@ aI144
 aI45
 aI60
 aa(lp47
-I101108
+I1
 aVChris Paul
 p48
 aI74
@@ -1198,7 +1198,7 @@ aI93
 aI33
 aI5
 aa(lp49
-I2548
+I2
 aVDwyane Wade
 p50
 aI74
@@ -1250,7 +1250,7 @@ aI288
 aI7
 aI48
 aa(lp51
-I202704
+I1
 aVReggie Jackson
 p52
 aI79
@@ -1302,7 +1302,7 @@ aI229
 aI23
 aI51
 aa(lp53
-I1626157
+I5
 aVKarl-Anthony Towns
 p54
 aI82
@@ -1354,7 +1354,7 @@ aI60
 aI55
 aI16
 aa(lp55
-I1717
+I4
 aVDirk Nowitzki
 p56
 aI75
@@ -1406,7 +1406,7 @@ aI156
 aI46
 aI45
 aa(lp57
-I202696
+I5
 aVNikola Vucevic
 p58
 aI65
@@ -1458,7 +1458,7 @@ aI244
 aI35
 aI37
 aa(lp59
-I203114
+I2
 aVKhris Middleton
 p60
 aI79
@@ -1510,7 +1510,7 @@ aI137
 aI95
 aI123
 aa(lp61
-I200746
+I4
 aVLaMarcus Aldridge
 p62
 aI74
@@ -1562,7 +1562,7 @@ aI118
 aI43
 aI18
 aa(lp63
-I977
+I2
 aVKobe Bryant
 p64
 aI66
@@ -1614,7 +1614,7 @@ aI399
 aI6
 aI227
 aa(lp65
-I200752
+I3
 aVRudy Gay
 p66
 aI70
@@ -1666,7 +1666,7 @@ aI219
 aI104
 aI152
 aa(lp67
-I200794
+I4
 aVPaul Millsap
 p68
 aI81
@@ -1718,7 +1718,7 @@ aI153
 aI70
 aI34
 aa(lp69
-I201583
+I4
 aVRyan Anderson
 p70
 aI66
@@ -1770,7 +1770,7 @@ aI187
 aI65
 aI121
 aa(lp71
-I203507
+I3
 aVGiannis Antetokounmpo
 p72
 aI80
@@ -1822,7 +1822,7 @@ aI113
 aI109
 aI57
 aa(lp73
-I201950
+I1
 aVJrue Holiday
 p74
 aI65
@@ -1874,7 +1874,7 @@ aI256
 aI24
 aI54
 aa(lp75
-I2200
+I4
 aVPau Gasol
 p76
 aI72
@@ -1926,7 +1926,7 @@ aI254
 aI56
 aI12
 aa(lp77
-I202324
+I4
 aVDerrick Favors
 p78
 aI62
@@ -1978,7 +1978,7 @@ aI172
 aI75
 aI36
 aa(lp79
-I201565
+I1
 aVDerrick Rose
 p80
 aI66
@@ -2030,7 +2030,7 @@ aI384
 aI31
 aI192
 aa(lp81
-I200755
+I2
 aVJJ Redick
 p82
 aI75
@@ -2082,7 +2082,7 @@ aI20
 aI106
 aI124
 aa(lp83
-I203083
+I5
 aVAndre Drummond
 p84
 aI81
@@ -2134,7 +2134,7 @@ aI347
 aI71
 aI38
 aa(lp85
-I201567
+I4
 aVKevin Love
 p86
 aI77
@@ -2186,7 +2186,7 @@ aI162
 aI78
 aI27
 aa(lp87
-I203506
+I2
 aVVictor Oladipo
 p88
 aI72
@@ -2238,7 +2238,7 @@ aI231
 aI99
 aI111
 aa(lp89
-I201952
+I1
 aVJeff Teague
 p90
 aI79
@@ -2290,7 +2290,7 @@ aI171
 aI39
 aI82
 aa(lp91
-I203903
+I2
 aVJordan Clarkson
 p92
 aI79
@@ -2342,7 +2342,7 @@ aI293
 aI98
 aI241
 aa(lp93
-I203095
+I2
 aVEvan Fournier
 p94
 aI79
@@ -2394,7 +2394,7 @@ aI66
 aI162
 aI240
 aa(lp95
-I101150
+I2
 aVLou Williams
 p96
 aI67
@@ -2446,7 +2446,7 @@ aI73
 aI101
 aI142
 aa(lp97
-I202328
+I5
 aVGreg Monroe
 p98
 aI79
@@ -2498,7 +2498,7 @@ aI131
 aI79
 aI22
 aa(lp99
-I2216
+I4
 aVZach Randolph
 p100
 aI68
@@ -2550,7 +2550,7 @@ aI286
 aI53
 aI52
 aa(lp101
-I201143
+I5
 aVAl Horford
 p102
 aI82
@@ -2604,7 +2604,7 @@ aI42
 aasI2017
 (lp103
 (lp104
-I201566
+I1
 aVRussell Westbrook
 p105
 aI81
@@ -2656,7 +2656,7 @@ aI181
 aI2
 aI1
 aa(lp106
-I201935
+I2
 aVJames Harden
 p107
 aI81
@@ -2708,7 +2708,7 @@ aI40
 aI7
 aI5
 aa(lp108
-I202738
+I1
 aVIsaiah Thomas
 p109
 aI76
@@ -2760,7 +2760,7 @@ aI28
 aI8
 aI18
 aa(lp110
-I203076
+I4
 aVAnthony Davis
 p111
 aI75
@@ -2812,7 +2812,7 @@ aI112
 aI9
 aI4
 aa(lp112
-I201942
+I2
 aVDeMar DeRozan
 p113
 aI74
@@ -2864,7 +2864,7 @@ aI187
 aI6
 aI22
 aa(lp114
-I203081
+I1
 aVDamian Lillard
 p115
 aI75
@@ -2916,7 +2916,7 @@ aI97
 aI12
 aI20
 aa(lp116
-I202326
+I5
 aVDeMarcus Cousins
 p117
 aI72
@@ -2968,7 +2968,7 @@ aI156
 aI4
 aI9
 aa(lp118
-I2544
+I3
 aVLeBron James
 p119
 aI74
@@ -3020,7 +3020,7 @@ aI35
 aI15
 aI7
 aa(lp120
-I202695
+I3
 aVKawhi Leonard
 p121
 aI74
@@ -3072,7 +3072,7 @@ aI50
 aI11
 aI11
 aa(lp122
-I201939
+I1
 aVStephen Curry
 p123
 aI79
@@ -3124,7 +3124,7 @@ aI30
 aI18
 aI29
 aa(lp124
-I202681
+I1
 aVKyrie Irving
 p125
 aI72
@@ -3176,7 +3176,7 @@ aI111
 aI14
 aI44
 aa(lp126
-I1626157
+I5
 aVKarl-Anthony Towns
 p127
 aI82
@@ -3228,7 +3228,7 @@ aI36
 aI35
 aI13
 aa(lp128
-I201142
+I3
 aVKevin Durant
 p129
 aI62
@@ -3280,7 +3280,7 @@ aI12
 aI31
 aI6
 aa(lp130
-I202710
+I2
 aVJimmy Butler
 p131
 aI76
@@ -3332,7 +3332,7 @@ aI95
 aI41
 aI15
 aa(lp132
-I202331
+I3
 aVPaul George
 p133
 aI75
@@ -3384,7 +3384,7 @@ aI92
 aI20
 aI43
 aa(lp134
-I203952
+I3
 aVAndrew Wiggins
 p135
 aI82
@@ -3436,7 +3436,7 @@ aI254
 aI23
 aI174
 aa(lp136
-I202689
+I1
 aVKemba Walker
 p137
 aI79
@@ -3488,7 +3488,7 @@ aI136
 aI19
 aI40
 aa(lp138
-I202322
+I1
 aVJohn Wall
 p139
 aI78
@@ -3540,7 +3540,7 @@ aI228
 aI13
 aI25
 aa(lp140
-I203078
+I2
 aVBradley Beal
 p141
 aI77
@@ -3592,7 +3592,7 @@ aI55
 aI45
 aI82
 aa(lp142
-I203468
+I2
 aVCJ McCollum
 p143
 aI80
@@ -3644,7 +3644,7 @@ aI99
 aI36
 aI66
 aa(lp144
-I203507
+I3
 aVGiannis Antetokounmpo
 p145
 aI80
@@ -3696,7 +3696,7 @@ aI67
 aI28
 aI10
 aa(lp146
-I2546
+I3
 aVCarmelo Anthony
 p147
 aI74
@@ -3748,7 +3748,7 @@ aI251
 aI21
 aI83
 aa(lp148
-I200768
+I1
 aVKyle Lowry
 p149
 aI60
@@ -3800,7 +3800,7 @@ aI31
 aI62
 aI33
 aa(lp150
-I202691
+I2
 aVKlay Thompson
 p151
 aI78
@@ -3852,7 +3852,7 @@ aI82
 aI46
 aI111
 aa(lp152
-I1626164
+I2
 aVDevin Booker
 p153
 aI78
@@ -3904,7 +3904,7 @@ aI268
 aI26
 aI209
 aa(lp154
-I202330
+I3
 aVGordon Hayward
 p155
 aI73
@@ -3956,7 +3956,7 @@ aI74
 aI33
 aI21
 aa(lp156
-I201933
+I4
 aVBlake Griffin
 p157
 aI61
@@ -4008,7 +4008,7 @@ aI137
 aI30
 aI26
 aa(lp158
-I202339
+I1
 aVEric Bledsoe
 p159
 aI66
@@ -4060,7 +4060,7 @@ aI155
 aI29
 aI36
 aa(lp160
-I201572
+I5
 aVBrook Lopez
 p161
 aI75
@@ -4112,7 +4112,7 @@ aI120
 aI22
 aI69
 aa(lp162
-I201144
+I1
 aVMike Conley
 p163
 aI69
@@ -4164,7 +4164,7 @@ aI53
 aI44
 aI19
 aa(lp164
-I201609
+I1
 aVGoran Dragic
 p165
 aI73
@@ -4216,7 +4216,7 @@ aI123
 aI38
 aI54
 aa(lp166
-I201188
+I5
 aVMarc Gasol
 p167
 aI74
@@ -4268,7 +4268,7 @@ aI180
 aI40
 aI30
 aa(lp168
-I203084
+I3
 aVHarrison Barnes
 p169
 aI79
@@ -4320,7 +4320,7 @@ aI231
 aI54
 aI100
 aa(lp170
-I201567
+I4
 aVKevin Love
 p171
 aI60
@@ -4372,7 +4372,7 @@ aI129
 aI55
 aI32
 aa(lp172
-I2548
+I2
 aVDwyane Wade
 p173
 aI60
@@ -4424,7 +4424,7 @@ aI341
 aI17
 aI77
 aa(lp174
-I201568
+I3
 aVDanilo Gallinari
 p175
 aI63
@@ -4476,7 +4476,7 @@ aI33
 aI163
 aI95
 aa(lp176
-I204001
+I4
 aVKristaps Porzingis
 p177
 aI66
@@ -4528,7 +4528,7 @@ aI214
 aI69
 aI126
 aa(lp178
-I101108
+I1
 aVChris Paul
 p179
 aI61
@@ -4580,7 +4580,7 @@ aI39
 aI72
 aI8
 aa(lp180
-I200794
+I4
 aVPaul Millsap
 p181
 aI69
@@ -4632,7 +4632,7 @@ aI227
 aI70
 aI62
 aa(lp182
-I201565
+I1
 aVDerrick Rose
 p183
 aI64
@@ -4684,7 +4684,7 @@ aI271
 aI53
 aI101
 aa(lp184
-I203471
+I1
 aVDennis Schroder
 p185
 aI79
@@ -4736,7 +4736,7 @@ aI259
 aI32
 aI86
 aa(lp186
-I101150
+I2
 aVLou Williams
 p187
 aI81
@@ -4788,7 +4788,7 @@ aI79
 aI27
 aI46
 aa(lp188
-I200746
+I4
 aVLaMarcus Aldridge
 p189
 aI72
@@ -4840,7 +4840,7 @@ aI265
 aI61
 aI75
 aa(lp190
-I203095
+I2
 aVEvan Fournier
 p191
 aI68
@@ -4892,7 +4892,7 @@ aI176
 aI85
 aI243
 aa(lp192
-I202355
+I5
 aVHassan Whiteside
 p193
 aI77
@@ -4944,7 +4944,7 @@ aI115
 aI92
 aI16
 aa(lp194
-I203999
+I5
 aVNikola Jokic
 p195
 aI73
@@ -4996,7 +4996,7 @@ aI19
 aI83
 aI14
 aa(lp196
-I201569
+I2
 aVEric Gordon
 p197
 aI75
@@ -5048,7 +5048,7 @@ aI170
 aI109
 aI258
 aa(lp198
-I202699
+I3
 aVTobias Harris
 p199
 aI82
@@ -5100,7 +5100,7 @@ aI138
 aI117
 aI97
 aa(lp200
-I203506
+I2
 aVVictor Oladipo
 p201
 aI67
@@ -5152,7 +5152,7 @@ aI256
 aI130
 aI169
 aa(lp202
-I201163
+I3
 aVWilson Chandler
 p203
 aI71
@@ -5206,7 +5206,7 @@ aI157
 aasI1997
 (lp204
 (lp205
-I893
+I2
 aVMichael Jordan
 p206
 aI82
@@ -5258,7 +5258,7 @@ aI67
 aI3
 aI4
 aa(lp207
-I252
+I4
 aVKarl Malone
 p208
 aI82
@@ -5310,7 +5310,7 @@ aI25
 aI4
 aI1
 aa(lp209
-I779
+I3
 aVGlen Rice
 p210
 aI79
@@ -5362,7 +5362,7 @@ aI20
 aI24
 aI49
 aa(lp211
-I782
+I2
 aVMitch Richmond
 p212
 aI81
@@ -5414,7 +5414,7 @@ aI53
 aI10
 aI22
 aa(lp213
-I84
+I2
 aVLatrell Sprewell
 p214
 aI80
@@ -5466,7 +5466,7 @@ aI65
 aI25
 aI32
 aa(lp215
-I947
+I1
 aVAllen Iverson
 p216
 aI76
@@ -5518,7 +5518,7 @@ aI262
 aI13
 aI102
 aa(lp217
-I165
+I5
 aVHakeem Olajuwon
 p218
 aI78
@@ -5570,7 +5570,7 @@ aI82
 aI7
 aI15
 aa(lp219
-I121
+I5
 aVPatrick Ewing
 p220
 aI78
@@ -5622,7 +5622,7 @@ aI114
 aI8
 aI7
 aa(lp221
-I383
+I2
 aVKendall Gill
 p222
 aI82
@@ -5674,7 +5674,7 @@ aI182
 aI38
 aI47
 aa(lp223
-I56
+I1
 aVGary Payton
 p224
 aI82
@@ -5726,7 +5726,7 @@ aI121
 aI32
 aI16
 aa(lp225
-I397
+I2
 aVReggie Miller
 p226
 aI81
@@ -5778,7 +5778,7 @@ aI22
 aI45
 aI23
 aa(lp227
-I255
+I3
 aVGrant Hill
 p228
 aI80
@@ -5830,7 +5830,7 @@ aI89
 aI14
 aI3
 aa(lp229
-I299
+I3
 aVGlenn Robinson
 p230
 aI80
@@ -5882,7 +5882,7 @@ aI190
 aI18
 aI67
 aa(lp231
-I452
+I4
 aVVin Baker
 p232
 aI78
@@ -5934,7 +5934,7 @@ aI99
 aI36
 aI35
 aa(lp233
-I711
+I2
 aVJerry Stackhouse
 p234
 aI81
@@ -5986,7 +5986,7 @@ aI206
 aI39
 aI247
 aa(lp235
-I339
+I4
 aVTom Gugliotta
 p236
 aI81
@@ -6038,7 +6038,7 @@ aI194
 aI20
 aI28
 aa(lp237
-I896
+I1
 aVTim Hardaway
 p238
 aI81
@@ -6090,7 +6090,7 @@ aI171
 aI31
 aI14
 aa(lp239
-I937
+I3
 aVScottie Pippen
 p240
 aI82
@@ -6142,7 +6142,7 @@ aI94
 aI51
 aI24
 aa(lp241
-I757
+I1
 aVDamon Stoudamire
 p242
 aI81
@@ -6194,7 +6194,7 @@ aI249
 aI42
 aI39
 aa(lp243
-I134
+I1
 aVKevin Johnson
 p244
 aI70
@@ -6246,7 +6246,7 @@ aI10
 aI89
 aI17
 aa(lp245
-I185
+I4
 aVChris Webber
 p246
 aI72
@@ -6298,7 +6298,7 @@ aI96
 aI55
 aI18
 aa(lp247
-I120
+I3
 aVSteven Smith
 p248
 aI72
@@ -6350,7 +6350,7 @@ aI111
 aI41
 aI80
 aa(lp249
-I210
+I1
 aVTerrell Brandon
 p250
 aI78
@@ -6402,7 +6402,7 @@ aI198
 aI15
 aI13
 aa(lp251
-I436
+I4
 aVJuwan Howard
 p252
 aI82
@@ -6454,7 +6454,7 @@ aI186
 aI71
 aI71
 aa(lp253
-I431
+I4
 aVShawn Kemp
 p254
 aI81
@@ -6506,7 +6506,7 @@ aI45
 aI34
 aI25
 aa(lp255
-I949
+I4
 aVShareef Abdur-Rahim
 p256
 aI80
@@ -6558,7 +6558,7 @@ aI243
 aI21
 aI89
 aa(lp257
-I693
+I4
 aVJoe Smith
 p258
 aI80
@@ -6610,7 +6610,7 @@ aI265
 aI61
 aI135
 aa(lp259
-I686
+I4
 aVAntonio McDyess
 p260
 aI74
@@ -6662,7 +6662,7 @@ aI272
 aI27
 aI145
 aa(lp261
-I363
+I4
 aVChristian Laettner
 p262
 aI82
@@ -6714,7 +6714,7 @@ aI75
 aI66
 aI27
 aa(lp263
-I72
+I1
 aVKenny Anderson
 p264
 aI82
@@ -6766,7 +6766,7 @@ aI138
 aI101
 aI29
 aa(lp265
-I952
+I4
 aVAntoine Walker
 p266
 aI82
@@ -6818,7 +6818,7 @@ aI339
 aI44
 aI161
 aa(lp267
-I302
+I1
 aVMookie Blaylock
 p268
 aI78
@@ -6870,7 +6870,7 @@ aI113
 aI106
 aI20
 aa(lp269
-I938
+I5
 aVRony Seikaly
 p270
 aI74
@@ -6922,7 +6922,7 @@ aI68
 aI62
 aI76
 aa(lp271
-I393
+I1
 aVRod Strickland
 p272
 aI82
@@ -6974,7 +6974,7 @@ aI170
 aI64
 aI30
 aa(lp273
-I224
+I2
 aVEddie Jones
 p274
 aI80
@@ -7026,7 +7026,7 @@ aI80
 aI139
 aI77
 aa(lp275
-I708
+I4
 aVKevin Garnett
 p276
 aI77
@@ -7078,7 +7078,7 @@ aI153
 aI118
 aI38
 aa(lp277
-I133
+I1
 aVDavid Wesley
 p278
 aI74
@@ -7130,7 +7130,7 @@ aI73
 aI197
 aI87
 aa(lp279
-I107
+I3
 aVDale Ellis
 p280
 aI82
@@ -7182,7 +7182,7 @@ aI150
 aI124
 aI239
 aa(lp281
-I954
+I2
 aVKerry Kittles
 p282
 aI82
@@ -7234,7 +7234,7 @@ aI220
 aI169
 aI124
 aa(lp283
-I1005
+I3
 aVWalt Williams
 p284
 aI73
@@ -7286,7 +7286,7 @@ aI109
 aI121
 aI180
 aa(lp285
-I193
+I4
 aVAnthony Mason
 p286
 aI73
@@ -7338,7 +7338,7 @@ aI40
 aI232
 aI19
 aa(lp287
-I735
+I5
 aVBryant Reeves
 p288
 aI75
@@ -7390,7 +7390,7 @@ aI216
 aI96
 aI141
 aa(lp289
-I375
+I2
 aVIsaiah Rider
 p290
 aI76
@@ -7442,7 +7442,7 @@ aI87
 aI83
 aI173
 aa(lp291
-I754
+I2
 aVJim Jackson
 p292
 aI77
@@ -7494,7 +7494,7 @@ aI199
 aI123
 aI117
 aa(lp293
-I296
+I3
 aVRick Fox
 p294
 aI76
@@ -7546,7 +7546,7 @@ aI107
 aI155
 aI122
 aa(lp295
-I89
+I1
 aVNick Van Exel
 p296
 aI79
@@ -7598,7 +7598,7 @@ aI242
 aI137
 aI65
 aa(lp297
-I361
+I4
 aVClifford Robinson
 p298
 aI81
@@ -7650,7 +7650,7 @@ aI238
 aI170
 aI221
 aa(lp299
-I714
+I2
 aVMichael Finley
 p300
 aI83
@@ -7702,7 +7702,7 @@ aI181
 aI104
 aI98
 aa(lp301
-I677
+I3
 aVEric Williams
 p302
 aI72
@@ -7754,7 +7754,7 @@ aI169
 aI144
 aI250
 aa(lp303
-I922
+I4
 aVElden Campbell
 p304
 aI77
@@ -7808,7 +7808,7 @@ aI83
 aasI1998
 (lp305
 (lp306
-I893
+I2
 aVMichael Jordan
 p307
 aI82
@@ -7860,7 +7860,7 @@ aI135
 aI3
 aI8
 aa(lp308
-I406
+I5
 aVShaquille O'Neal
 p309
 aI60
@@ -7912,7 +7912,7 @@ aI25
 aI6
 aI5
 aa(lp310
-I252
+I4
 aVKarl Malone
 p311
 aI81
@@ -7964,7 +7964,7 @@ aI17
 aI7
 aI4
 aa(lp312
-I782
+I2
 aVMitch Richmond
 p313
 aI70
@@ -8016,7 +8016,7 @@ aI55
 aI18
 aI25
 aa(lp314
-I952
+I4
 aVAntoine Walker
 p315
 aI82
@@ -8068,7 +8068,7 @@ aI304
 aI12
 aI53
 aa(lp316
-I949
+I4
 aVShareef Abdur-Rahim
 p317
 aI82
@@ -8120,7 +8120,7 @@ aI71
 aI16
 aI50
 aa(lp318
-I779
+I3
 aVGlen Rice
 p319
 aI82
@@ -8172,7 +8172,7 @@ aI56
 aI43
 aI92
 aa(lp320
-I947
+I1
 aVAllen Iverson
 p321
 aI80
@@ -8224,7 +8224,7 @@ aI130
 aI28
 aI35
 aa(lp322
-I185
+I4
 aVChris Webber
 p323
 aI71
@@ -8276,7 +8276,7 @@ aI178
 aI27
 aI19
 aa(lp324
-I764
+I5
 aVDavid Robinson
 p325
 aI73
@@ -8328,7 +8328,7 @@ aI39
 aI11
 aI3
 aa(lp326
-I714
+I2
 aVMichael Finley
 p327
 aI82
@@ -8380,7 +8380,7 @@ aI180
 aI35
 aI52
 aa(lp328
-I255
+I3
 aVGrant Hill
 p329
 aI81
@@ -8432,7 +8432,7 @@ aI187
 aI23
 aI9
 aa(lp330
-I1495
+I4
 aVTim Duncan
 p331
 aI82
@@ -8484,7 +8484,7 @@ aI41
 aI33
 aI7
 aa(lp332
-I120
+I3
 aVSteven Smith
 p333
 aI73
@@ -8536,7 +8536,7 @@ aI67
 aI69
 aI76
 aa(lp334
-I375
+I2
 aVIsaiah Rider
 p335
 aI74
@@ -8588,7 +8588,7 @@ aI208
 aI31
 aI129
 aa(lp336
-I208
+I1
 aVSam Cassell
 p337
 aI75
@@ -8640,7 +8640,7 @@ aI134
 aI24
 aI30
 aa(lp338
-I951
+I2
 aVRay Allen
 p339
 aI82
@@ -8692,7 +8692,7 @@ aI120
 aI68
 aI107
 aa(lp340
-I397
+I2
 aVReggie Miller
 p341
 aI81
@@ -8744,7 +8744,7 @@ aI11
 aI80
 aI48
 aa(lp342
-I452
+I4
 aVVin Baker
 p343
 aI82
@@ -8796,7 +8796,7 @@ aI60
 aI59
 aI60
 aa(lp344
-I56
+I1
 aVGary Payton
 p345
 aI82
@@ -8848,7 +8848,7 @@ aI108
 aI60
 aI15
 aa(lp346
-I896
+I1
 aVTim Hardaway
 p347
 aI81
@@ -8900,7 +8900,7 @@ aI151
 aI41
 aI16
 aa(lp348
-I708
+I4
 aVKevin Garnett
 p349
 aI82
@@ -8952,7 +8952,7 @@ aI159
 aI109
 aI21
 aa(lp350
-I275
+I2
 aVAllan Houston
 p351
 aI82
@@ -9004,7 +9004,7 @@ aI152
 aI29
 aI117
 aa(lp352
-I17
+I2
 aVClyde Drexler
 p353
 aI70
@@ -9056,7 +9056,7 @@ aI147
 aI36
 aI61
 aa(lp354
-I431
+I4
 aVShawn Kemp
 p355
 aI80
@@ -9108,7 +9108,7 @@ aI212
 aI17
 aI51
 aa(lp356
-I393
+I1
 aVRod Strickland
 p357
 aI76
@@ -9160,7 +9160,7 @@ aI244
 aI83
 aI18
 aa(lp358
-I722
+I4
 aVCorliss Williamson
 p359
 aI79
@@ -9212,7 +9212,7 @@ aI160
 aI66
 aI126
 aa(lp360
-I950
+I1
 aVStephon Marbury
 p361
 aI82
@@ -9264,7 +9264,7 @@ aI226
 aI71
 aI111
 aa(lp362
-I757
+I1
 aVDamon Stoudamire
 p363
 aI71
@@ -9316,7 +9316,7 @@ aI237
 aI108
 aI77
 aa(lp364
-I954
+I2
 aVKerry Kittles
 p365
 aI77
@@ -9368,7 +9368,7 @@ aI168
 aI144
 aI91
 aa(lp366
-I224
+I2
 aVEddie Jones
 p367
 aI80
@@ -9420,7 +9420,7 @@ aI20
 aI187
 aI73
 aa(lp368
-I22
+I5
 aVRik Smits
 p369
 aI73
@@ -9472,7 +9472,7 @@ aI144
 aI13
 aI32
 aa(lp370
-I57
+I2
 aVDoug Christie
 p371
 aI78
@@ -9524,7 +9524,7 @@ aI154
 aI134
 aI121
 aa(lp372
-I735
+I5
 aVBryant Reeves
 p373
 aI74
@@ -9576,7 +9576,7 @@ aI76
 aI123
 aI108
 aa(lp374
-I183
+I5
 aVBison Dele
 p375
 aI78
@@ -9628,7 +9628,7 @@ aI111
 aI72
 aI56
 aa(lp376
-I788
+I4
 aVKevin Willis
 p377
 aI81
@@ -9680,7 +9680,7 @@ aI84
 aI64
 aI66
 aa(lp378
-I717
+I5
 aVArvydas Sabonis
 p379
 aI73
@@ -9732,7 +9732,7 @@ aI37
 aI93
 aI11
 aa(lp380
-I711
+I2
 aVJerry Stackhouse
 p381
 aI79
@@ -9784,7 +9784,7 @@ aI140
 aI52
 aI143
 aa(lp382
-I96
+I3
 aVDetlef Schrempf
 p383
 aI78
@@ -9836,7 +9836,7 @@ aI30
 aI155
 aI31
 aa(lp384
-I754
+I2
 aVJim Jackson
 p385
 aI79
@@ -9888,7 +9888,7 @@ aI228
 aI124
 aI172
 aa(lp386
-I913
+I4
 aVLarry Johnson
 p387
 aI70
@@ -9940,7 +9940,7 @@ aI119
 aI113
 aI125
 aa(lp388
-I977
+I2
 aVKobe Bryant
 p389
 aI79
@@ -9992,7 +9992,7 @@ aI99
 aI25
 aI81
 aa(lp390
-I441
+I3
 aVLamond Murray
 p391
 aI79
@@ -10044,7 +10044,7 @@ aI98
 aI115
 aI84
 aa(lp392
-I923
+I4
 aVDonyell Marshall
 p393
 aI73
@@ -10096,7 +10096,7 @@ aI322
 aI120
 aI114
 aa(lp394
-I1500
+I3
 aVRon Mercer
 p395
 aI80
@@ -10148,7 +10148,7 @@ aI278
 aI112
 aI180
 aa(lp396
-I686
+I4
 aVAntonio McDyess
 p397
 aI81
@@ -10200,7 +10200,7 @@ aI50
 aI102
 aI43
 aa(lp398
-I915
+I3
 aVRodney Rogers
 p399
 aI76
@@ -10252,7 +10252,7 @@ aI141
 aI104
 aI195
 aa(lp400
-I145
+I3
 aVTracy Murray
 p401
 aI82
@@ -10304,7 +10304,7 @@ aI65
 aI86
 aI98
 aa(lp402
-I271
+I3
 aVJohnny Newman
 p403
 aI74
@@ -10356,7 +10356,7 @@ aI101
 aI76
 aI207
 aa(lp404
-I445
+I2
 aVWesley Person
 p405
 aI82
@@ -10410,7 +10410,7 @@ aI78
 aasI1999
 (lp406
 (lp407
-I947
+I1
 aVAllen Iverson
 p408
 aI48
@@ -10462,7 +10462,7 @@ aI188
 aI10
 aI24
 aa(lp409
-I406
+I5
 aVShaquille O'Neal
 p410
 aI49
@@ -10514,7 +10514,7 @@ aI29
 aI9
 aI7
 aa(lp411
-I252
+I4
 aVKarl Malone
 p412
 aI49
@@ -10566,7 +10566,7 @@ aI34
 aI12
 aI6
 aa(lp413
-I949
+I4
 aVShareef Abdur-Rahim
 p414
 aI50
@@ -10618,7 +10618,7 @@ aI125
 aI20
 aI34
 aa(lp415
-I1496
+I3
 aVKeith Van Horn
 p416
 aI42
@@ -10670,7 +10670,7 @@ aI162
 aI24
 aI44
 aa(lp417
-I56
+I1
 aVGary Payton
 p418
 aI50
@@ -10722,7 +10722,7 @@ aI161
 aI42
 aI23
 aa(lp419
-I1495
+I4
 aVTim Duncan
 p420
 aI50
@@ -10774,7 +10774,7 @@ aI103
 aI34
 aI12
 aa(lp421
-I950
+I1
 aVStephon Marbury
 p422
 aI49
@@ -10826,7 +10826,7 @@ aI160
 aI39
 aI36
 aa(lp423
-I686
+I4
 aVAntonio McDyess
 p424
 aI50
@@ -10878,7 +10878,7 @@ aI171
 aI35
 aI47
 aa(lp425
-I255
+I3
 aVGrant Hill
 p426
 aI50
@@ -10930,7 +10930,7 @@ aI97
 aI17
 aI9
 aa(lp427
-I708
+I4
 aVKevin Garnett
 p428
 aI47
@@ -10982,7 +10982,7 @@ aI236
 aI29
 aI21
 aa(lp429
-I431
+I4
 aVShawn Kemp
 p430
 aI42
@@ -11034,7 +11034,7 @@ aI33
 aI26
 aI15
 aa(lp431
-I714
+I2
 aVMichael Finley
 p432
 aI50
@@ -11086,7 +11086,7 @@ aI164
 aI65
 aI62
 aa(lp433
-I297
+I5
 aVAlonzo Mourning
 p434
 aI46
@@ -11138,7 +11138,7 @@ aI54
 aI40
 aI11
 aa(lp435
-I977
+I2
 aVKobe Bryant
 p436
 aI50
@@ -11190,7 +11190,7 @@ aI77
 aI50
 aI48
 aa(lp437
-I782
+I2
 aVMitch Richmond
 p438
 aI50
@@ -11242,7 +11242,7 @@ aI136
 aI48
 aI151
 aa(lp439
-I165
+I5
 aVHakeem Olajuwon
 p440
 aI50
@@ -11294,7 +11294,7 @@ aI60
 aI46
 aI22
 aa(lp441
-I389
+I3
 aVToni Kukoc
 p442
 aI44
@@ -11346,7 +11346,7 @@ aI241
 aI33
 aI26
 aa(lp443
-I299
+I3
 aVGlenn Robinson
 p444
 aI47
@@ -11398,7 +11398,7 @@ aI149
 aI25
 aI49
 aa(lp445
-I397
+I2
 aVReggie Miller
 p446
 aI50
@@ -11450,7 +11450,7 @@ aI25
 aI93
 aI105
 aa(lp447
-I1713
+I2
 aVVince Carter
 p448
 aI50
@@ -11502,7 +11502,7 @@ aI168
 aI49
 aI55
 aa(lp449
-I896
+I1
 aVTim Hardaway
 p450
 aI48
@@ -11554,7 +11554,7 @@ aI181
 aI44
 aI33
 aa(lp451
-I951
+I2
 aVRay Allen
 p452
 aI50
@@ -11606,7 +11606,7 @@ aI53
 aI66
 aI64
 aa(lp453
-I339
+I4
 aVTom Gugliotta
 p454
 aI43
@@ -11658,7 +11658,7 @@ aI92
 aI108
 aI46
 aa(lp455
-I467
+I1
 aVJason Kidd
 p456
 aI50
@@ -11710,7 +11710,7 @@ aI141
 aI143
 aI18
 aa(lp457
-I1508
+I4
 aVMaurice Taylor
 p458
 aI46
@@ -11762,7 +11762,7 @@ aI199
 aI41
 aI260
 aa(lp459
-I89
+I1
 aVNick Van Exel
 p460
 aI50
@@ -11814,7 +11814,7 @@ aI250
 aI64
 aI125
 aa(lp461
-I1718
+I3
 aVPaul Pierce
 p462
 aI48
@@ -11866,7 +11866,7 @@ aI107
 aI83
 aI88
 aa(lp463
-I361
+I4
 aVClifford Robinson
 p464
 aI50
@@ -11918,7 +11918,7 @@ aI59
 aI119
 aI112
 aa(lp465
-I275
+I2
 aVAllan Houston
 p466
 aI50
@@ -11970,7 +11970,7 @@ aI170
 aI67
 aI164
 aa(lp467
-I718
+I4
 aVGary Trent
 p468
 aI45
@@ -12022,7 +12022,7 @@ aI183
 aI47
 aI59
 aa(lp469
-I358
+I2
 aVAnfernee Hardaway
 p470
 aI50
@@ -12074,7 +12074,7 @@ aI249
 aI105
 aI68
 aa(lp471
-I764
+I5
 aVDavid Robinson
 p472
 aI49
@@ -12126,7 +12126,7 @@ aI52
 aI71
 aI8
 aa(lp473
-I393
+I1
 aVRod Strickland
 p474
 aI44
@@ -12178,7 +12178,7 @@ aI251
 aI73
 aI27
 aa(lp475
-I224
+I2
 aVEddie Jones
 p476
 aI50
@@ -12230,7 +12230,7 @@ aI86
 aI184
 aI87
 aa(lp477
-I57
+I2
 aVDoug Christie
 p478
 aI50
@@ -12282,7 +12282,7 @@ aI210
 aI98
 aI96
 aa(lp479
-I96
+I3
 aVDetlef Schrempf
 p480
 aI50
@@ -12334,7 +12334,7 @@ aI42
 aI194
 aI39
 aa(lp481
-I98
+I2
 aVNick Anderson
 p482
 aI47
@@ -12386,7 +12386,7 @@ aI237
 aI86
 aI97
 aa(lp483
-I22
+I5
 aVRik Smits
 p484
 aI49
@@ -12438,7 +12438,7 @@ aI140
 aI21
 aI80
 aa(lp485
-I937
+I3
 aVScottie Pippen
 p486
 aI50
@@ -12490,7 +12490,7 @@ aI126
 aI185
 aI75
 aa(lp487
-I124
+I5
 aVVlade Divac
 p488
 aI50
@@ -12542,7 +12542,7 @@ aI118
 aI201
 aI53
 aa(lp489
-I184
+I2
 aVBobby Phills
 p490
 aI43
@@ -12594,7 +12594,7 @@ aI113
 aI179
 aI201
 aa(lp491
-I133
+I1
 aVDavid Wesley
 p492
 aI50
@@ -12646,7 +12646,7 @@ aI58
 aI189
 aI81
 aa(lp493
-I1497
+I1
 aVChauncey Billups
 p494
 aI45
@@ -12698,7 +12698,7 @@ aI82
 aI168
 aI242
 aa(lp495
-I375
+I2
 aVIsaiah Rider
 p496
 aI47
@@ -12750,7 +12750,7 @@ aI261
 aI52
 aI205
 aa(lp497
-I353
+I1
 aVDarrell Armstrong
 p498
 aI50
@@ -12802,7 +12802,7 @@ aI40
 aI101
 aI10
 aa(lp499
-I317
+I2
 aVJohn Starks
 p500
 aI50
@@ -12854,7 +12854,7 @@ aI343
 aI100
 aI180
 aa(lp501
-I693
+I4
 aVJoe Smith
 p502
 aI43
@@ -12906,7 +12906,7 @@ aI260
 aI159
 aI131
 aa(lp503
-I761
+I5
 aVMatt Geiger
 p504
 aI50
@@ -12958,7 +12958,7 @@ aI123
 aI126
 aI72
 aa(lp505
-I302
+I1
 aVMookie Blaylock
 p506
 aI48
@@ -13012,7 +13012,7 @@ aI30
 aasI2000
 (lp507
 (lp508
-I406
+I5
 aVShaquille O'Neal
 p509
 aI79
@@ -13064,7 +13064,7 @@ aI33
 aI4
 aI1
 aa(lp510
-I947
+I1
 aVAllen Iverson
 p511
 aI70
@@ -13116,7 +13116,7 @@ aI250
 aI1
 aI42
 aa(lp512
-I255
+I3
 aVGrant Hill
 p513
 aI74
@@ -13168,7 +13168,7 @@ aI55
 aI5
 aI7
 aa(lp514
-I1713
+I2
 aVVince Carter
 p515
 aI82
@@ -13220,7 +13220,7 @@ aI111
 aI6
 aI17
 aa(lp516
-I252
+I4
 aVKarl Malone
 p517
 aI82
@@ -13272,7 +13272,7 @@ aI31
 aI3
 aI2
 aa(lp518
-I185
+I4
 aVChris Webber
 p519
 aI75
@@ -13324,7 +13324,7 @@ aI153
 aI14
 aI11
 aa(lp520
-I56
+I1
 aVGary Payton
 p521
 aI82
@@ -13376,7 +13376,7 @@ aI138
 aI25
 aI10
 aa(lp522
-I711
+I2
 aVJerry Stackhouse
 p523
 aI82
@@ -13428,7 +13428,7 @@ aI108
 aI10
 aI76
 aa(lp524
-I1495
+I4
 aVTim Duncan
 p525
 aI74
@@ -13480,7 +13480,7 @@ aI74
 aI12
 aI3
 aa(lp526
-I708
+I4
 aVKevin Garnett
 p527
 aI81
@@ -13532,7 +13532,7 @@ aI106
 aI19
 aI4
 aa(lp528
-I714
+I2
 aVMichael Finley
 p529
 aI82
@@ -13584,7 +13584,7 @@ aI179
 aI40
 aI36
 aa(lp530
-I977
+I2
 aVKobe Bryant
 p531
 aI66
@@ -13636,7 +13636,7 @@ aI102
 aI26
 aI14
 aa(lp532
-I950
+I1
 aVStephon Marbury
 p533
 aI74
@@ -13688,7 +13688,7 @@ aI163
 aI16
 aI33
 aa(lp534
-I951
+I2
 aVRay Allen
 p535
 aI82
@@ -13740,7 +13740,7 @@ aI42
 aI37
 aI34
 aa(lp536
-I297
+I5
 aVAlonzo Mourning
 p537
 aI79
@@ -13792,7 +13792,7 @@ aI19
 aI15
 aI6
 aa(lp538
-I299
+I3
 aVGlenn Robinson
 p539
 aI81
@@ -13844,7 +13844,7 @@ aI144
 aI21
 aI80
 aa(lp540
-I952
+I4
 aVAntoine Walker
 p541
 aI82
@@ -13896,7 +13896,7 @@ aI254
 aI13
 aI58
 aa(lp542
-I949
+I4
 aVShareef Abdur-Rahim
 p543
 aI82
@@ -13948,7 +13948,7 @@ aI99
 aI44
 aI20
 aa(lp544
-I1882
+I4
 aVElton Brand
 p545
 aI81
@@ -14000,7 +14000,7 @@ aI164
 aI24
 aI24
 aa(lp546
-I224
+I2
 aVEddie Jones
 p547
 aI72
@@ -14052,7 +14052,7 @@ aI75
 aI69
 aI30
 aa(lp548
-I275
+I2
 aVAllan Houston
 p549
 aI82
@@ -14104,7 +14104,7 @@ aI44
 aI62
 aI81
 aa(lp550
-I1718
+I3
 aVPaul Pierce
 p551
 aI73
@@ -14156,7 +14156,7 @@ aI89
 aI48
 aI38
 aa(lp552
-I1496
+I3
 aVKeith Van Horn
 p553
 aI80
@@ -14208,7 +14208,7 @@ aI135
 aI27
 aI52
 aa(lp554
-I686
+I4
 aVAntonio McDyess
 p555
 aI81
@@ -14260,7 +14260,7 @@ aI129
 aI22
 aI59
 aa(lp556
-I208
+I1
 aVSam Cassell
 p557
 aI81
@@ -14312,7 +14312,7 @@ aI84
 aI46
 aI22
 aa(lp558
-I84
+I2
 aVLatrell Sprewell
 p559
 aI82
@@ -14364,7 +14364,7 @@ aI204
 aI50
 aI67
 aa(lp560
-I361
+I4
 aVClifford Robinson
 p561
 aI80
@@ -14416,7 +14416,7 @@ aI60
 aI78
 aI83
 aa(lp562
-I1722
+I2
 aVMichael Dickerson
 p563
 aI82
@@ -14468,7 +14468,7 @@ aI156
 aI77
 aI184
 aa(lp564
-I147
+I2
 aVJalen Rose
 p565
 aI80
@@ -14520,7 +14520,7 @@ aI97
 aI76
 aI89
 aa(lp566
-I397
+I2
 aVReggie Miller
 p567
 aI81
@@ -14572,7 +14572,7 @@ aI15
 aI129
 aI107
 aa(lp568
-I1883
+I1
 aVSteve Francis
 p569
 aI77
@@ -14624,7 +14624,7 @@ aI114
 aI45
 aI56
 aa(lp570
-I431
+I4
 aVShawn Kemp
 p571
 aI82
@@ -14676,7 +14676,7 @@ aI221
 aI7
 aI97
 aa(lp572
-I764
+I5
 aVDavid Robinson
 p573
 aI80
@@ -14728,7 +14728,7 @@ aI48
 aI33
 aI5
 aa(lp574
-I1717
+I4
 aVDirk Nowitzki
 p575
 aI82
@@ -14780,7 +14780,7 @@ aI57
 aI114
 aI87
 aa(lp576
-I469
+I3
 aVJamal Mashburn
 p577
 aI76
@@ -14832,7 +14832,7 @@ aI167
 aI66
 aI95
 aa(lp578
-I782
+I2
 aVMitch Richmond
 p579
 aI74
@@ -14884,7 +14884,7 @@ aI136
 aI41
 aI106
 aa(lp580
-I210
+I1
 aVTerrell Brandon
 p581
 aI71
@@ -14936,7 +14936,7 @@ aI139
 aI81
 aI19
 aa(lp582
-I934
+I4
 aVDerrick Coleman
 p583
 aI74
@@ -14988,7 +14988,7 @@ aI123
 aI38
 aI25
 aa(lp584
-I754
+I2
 aVJim Jackson
 p585
 aI79
@@ -15040,7 +15040,7 @@ aI251
 aI58
 aI172
 aa(lp586
-I452
+I4
 aVVin Baker
 p587
 aI79
@@ -15092,7 +15092,7 @@ aI232
 aI64
 aI232
 aa(lp588
-I1885
+I4
 aVLamar Odom
 p589
 aI76
@@ -15144,7 +15144,7 @@ aI183
 aI73
 aI82
 aa(lp590
-I739
+I4
 aVRasheed Wallace
 p591
 aI81
@@ -15196,7 +15196,7 @@ aI72
 aI100
 aI41
 aa(lp592
-I353
+I1
 aVDarrell Armstrong
 p593
 aI82
@@ -15248,7 +15248,7 @@ aI119
 aI71
 aI23
 aa(lp594
-I89
+I1
 aVNick Van Exel
 p595
 aI79
@@ -15300,7 +15300,7 @@ aI283
 aI90
 aI64
 aa(lp596
-I779
+I3
 aVGlen Rice
 p597
 aI80
@@ -15352,7 +15352,7 @@ aI86
 aI96
 aI94
 aa(lp598
-I441
+I3
 aVLamond Murray
 p599
 aI74
@@ -15404,7 +15404,7 @@ aI196
 aI60
 aI123
 aa(lp600
-I1749
+I2
 aVCuttino Mobley
 p601
 aI81
@@ -15456,7 +15456,7 @@ aI105
 aI63
 aI116
 aa(lp602
-I1503
+I2
 aVTracy McGrady
 p603
 aI79
@@ -15508,7 +15508,7 @@ aI218
 aI53
 aI35
 aa(lp604
-I1716
+I3
 aVLarry Hughes
 p605
 aI82
@@ -15560,7 +15560,7 @@ aI329
 aI20
 aI161
 aa(lp606
-I120
+I3
 aVSteven Smith
 p607
 aI82
@@ -15614,7 +15614,7 @@ aI111
 aasI2001
 (lp608
 (lp609
-I947
+I1
 aVAllen Iverson
 p610
 aI71
@@ -15666,7 +15666,7 @@ aI173
 aI1
 aI17
 aa(lp611
-I711
+I2
 aVJerry Stackhouse
 p612
 aI80
@@ -15718,7 +15718,7 @@ aI161
 aI2
 aI30
 aa(lp613
-I406
+I5
 aVShaquille O'Neal
 p614
 aI74
@@ -15770,7 +15770,7 @@ aI29
 aI4
 aI3
 aa(lp615
-I977
+I2
 aVKobe Bryant
 p616
 aI68
@@ -15822,7 +15822,7 @@ aI66
 aI5
 aI14
 aa(lp617
-I1713
+I2
 aVVince Carter
 p618
 aI75
@@ -15874,7 +15874,7 @@ aI69
 aI10
 aI20
 aa(lp619
-I185
+I4
 aVChris Webber
 p620
 aI70
@@ -15926,7 +15926,7 @@ aI180
 aI6
 aI10
 aa(lp621
-I1503
+I2
 aVTracy McGrady
 p622
 aI77
@@ -15978,7 +15978,7 @@ aI163
 aI7
 aI7
 aa(lp623
-I1718
+I3
 aVPaul Pierce
 p624
 aI82
@@ -16030,7 +16030,7 @@ aI48
 aI9
 aI25
 aa(lp625
-I1712
+I4
 aVAntawn Jamison
 p626
 aI82
@@ -16082,7 +16082,7 @@ aI242
 aI21
 aI75
 aa(lp627
-I950
+I1
 aVStephon Marbury
 p628
 aI67
@@ -16134,7 +16134,7 @@ aI97
 aI14
 aI22
 aa(lp629
-I952
+I4
 aVAntoine Walker
 p630
 aI81
@@ -16186,7 +16186,7 @@ aI227
 aI15
 aI36
 aa(lp631
-I252
+I4
 aVKarl Malone
 p632
 aI81
@@ -16238,7 +16238,7 @@ aI31
 aI13
 aI4
 aa(lp633
-I56
+I1
 aVGary Payton
 p634
 aI79
@@ -16290,7 +16290,7 @@ aI160
 aI23
 aI23
 aa(lp635
-I1495
+I4
 aVTim Duncan
 p636
 aI82
@@ -16342,7 +16342,7 @@ aI108
 aI17
 aI8
 aa(lp637
-I299
+I3
 aVGlenn Robinson
 p638
 aI76
@@ -16394,7 +16394,7 @@ aI146
 aI16
 aI50
 aa(lp639
-I708
+I4
 aVKevin Garnett
 p640
 aI81
@@ -16446,7 +16446,7 @@ aI124
 aI22
 aI6
 aa(lp641
-I951
+I2
 aVRay Allen
 p642
 aI82
@@ -16498,7 +16498,7 @@ aI14
 aI51
 aI24
 aa(lp643
-I1717
+I4
 aVDirk Nowitzki
 p644
 aI82
@@ -16550,7 +16550,7 @@ aI18
 aI59
 aI15
 aa(lp645
-I714
+I2
 aVMichael Finley
 p646
 aI82
@@ -16602,7 +16602,7 @@ aI165
 aI39
 aI70
 aa(lp647
-I686
+I4
 aVAntonio McDyess
 p648
 aI70
@@ -16654,7 +16654,7 @@ aI102
 aI25
 aI18
 aa(lp649
-I949
+I4
 aVShareef Abdur-Rahim
 p650
 aI81
@@ -16706,7 +16706,7 @@ aI72
 aI46
 aI40
 aa(lp651
-I147
+I2
 aVJalen Rose
 p652
 aI72
@@ -16758,7 +16758,7 @@ aI125
 aI33
 aI46
 aa(lp653
-I978
+I3
 aVPeja Stojakovic
 p654
 aI75
@@ -16810,7 +16810,7 @@ aI27
 aI94
 aI66
 aa(lp655
-I1882
+I4
 aVElton Brand
 p656
 aI74
@@ -16862,7 +16862,7 @@ aI152
 aI30
 aI42
 aa(lp657
-I469
+I3
 aVJamal Mashburn
 p658
 aI76
@@ -16914,7 +16914,7 @@ aI254
 aI26
 aI37
 aa(lp659
-I1883
+I1
 aVSteve Francis
 p660
 aI80
@@ -16966,7 +16966,7 @@ aI47
 aI55
 aI35
 aa(lp661
-I1891
+I2
 aVJason Terry
 p662
 aI82
@@ -17018,7 +17018,7 @@ aI123
 aI37
 aI82
 aa(lp663
-I1749
+I2
 aVCuttino Mobley
 p664
 aI79
@@ -17070,7 +17070,7 @@ aI95
 aI48
 aI85
 aa(lp665
-I739
+I4
 aVRasheed Wallace
 p666
 aI77
@@ -17122,7 +17122,7 @@ aI56
 aI64
 aI29
 aa(lp667
-I397
+I2
 aVReggie Miller
 p668
 aI81
@@ -17174,7 +17174,7 @@ aI28
 aI113
 aI65
 aa(lp669
-I275
+I2
 aVAllan Houston
 p670
 aI78
@@ -17226,7 +17226,7 @@ aI84
 aI34
 aI76
 aa(lp671
-I208
+I1
 aVSam Cassell
 p672
 aI76
@@ -17278,7 +17278,7 @@ aI89
 aI42
 aI44
 aa(lp673
-I1888
+I2
 aVRichard Hamilton
 p674
 aI78
@@ -17330,7 +17330,7 @@ aI211
 aI20
 aI145
 aa(lp675
-I436
+I4
 aVJuwan Howard
 p676
 aI81
@@ -17382,7 +17382,7 @@ aI136
 aI44
 aI107
 aa(lp677
-I89
+I1
 aVNick Van Exel
 p678
 aI71
@@ -17434,7 +17434,7 @@ aI182
 aI63
 aI51
 aa(lp679
-I84
+I2
 aVLatrell Sprewell
 p680
 aI77
@@ -17486,7 +17486,7 @@ aI249
 aI31
 aI92
 aa(lp681
-I1890
+I3
 aVShawn Marion
 p682
 aI79
@@ -17538,7 +17538,7 @@ aI122
 aI97
 aI9
 aa(lp683
-I133
+I1
 aVDavid Wesley
 p684
 aI82
@@ -17590,7 +17590,7 @@ aI207
 aI80
 aI146
 aa(lp685
-I1885
+I4
 aVLamar Odom
 p686
 aI76
@@ -17642,7 +17642,7 @@ aI106
 aI50
 aI34
 aa(lp687
-I467
+I1
 aVJason Kidd
 p688
 aI77
@@ -17694,7 +17694,7 @@ aI202
 aI85
 aI11
 aa(lp689
-I361
+I4
 aVClifford Robinson
 p690
 aI82
@@ -17746,7 +17746,7 @@ aI238
 aI38
 aI172
 aa(lp691
-I1722
+I2
 aVMichael Dickerson
 p692
 aI70
@@ -17798,7 +17798,7 @@ aI234
 aI87
 aI277
 aa(lp693
-I193
+I4
 aVAnthony Mason
 p694
 aI80
@@ -17850,7 +17850,7 @@ aI63
 aI151
 aI28
 aa(lp695
-I210
+I1
 aVTerrell Brandon
 p696
 aI78
@@ -17902,7 +17902,7 @@ aI216
 aI98
 aI38
 aa(lp697
-I1710
+I1
 aVMike Bibby
 p698
 aI82
@@ -17954,7 +17954,7 @@ aI147
 aI121
 aI56
 aa(lp699
-I353
+I1
 aVDarrell Armstrong
 p700
 aI75
@@ -18006,7 +18006,7 @@ aI113
 aI129
 aI41
 aa(lp701
-I1889
+I1
 aVAndre Miller
 p702
 aI82
@@ -18058,7 +18058,7 @@ aI91
 aI76
 aI31
 aa(lp703
-I959
+I1
 aVSteve Nash
 p704
 aI70
@@ -18110,7 +18110,7 @@ aI17
 aI122
 aI45
 aa(lp705
-I1507
+I2
 aVDerek Anderson
 p706
 aI82
@@ -18162,7 +18162,7 @@ aI86
 aI104
 aI80
 aa(lp707
-I258
+I4
 aVBrian Grant
 p708
 aI82
@@ -18216,7 +18216,7 @@ aI52
 aasI2002
 (lp709
 (lp710
-I947
+I1
 aVAllen Iverson
 p711
 aI60
@@ -18268,7 +18268,7 @@ aI266
 aI2
 aI18
 aa(lp712
-I406
+I5
 aVShaquille O'Neal
 p713
 aI67
@@ -18320,7 +18320,7 @@ aI23
 aI5
 aI3
 aa(lp714
-I1718
+I3
 aVPaul Pierce
 p715
 aI82
@@ -18372,7 +18372,7 @@ aI41
 aI12
 aI14
 aa(lp716
-I1503
+I2
 aVTracy McGrady
 p717
 aI76
@@ -18424,7 +18424,7 @@ aI134
 aI6
 aI6
 aa(lp718
-I1495
+I4
 aVTim Duncan
 p719
 aI82
@@ -18476,7 +18476,7 @@ aI30
 aI13
 aI2
 aa(lp720
-I977
+I2
 aVKobe Bryant
 p721
 aI80
@@ -18528,7 +18528,7 @@ aI95
 aI8
 aI11
 aa(lp722
-I1713
+I2
 aVVince Carter
 p723
 aI60
@@ -18580,7 +18580,7 @@ aI182
 aI9
 aI52
 aa(lp724
-I1717
+I4
 aVDirk Nowitzki
 p725
 aI76
@@ -18632,7 +18632,7 @@ aI18
 aI38
 aI9
 aa(lp726
-I252
+I4
 aVKarl Malone
 p727
 aI80
@@ -18684,7 +18684,7 @@ aI135
 aI15
 aI7
 aa(lp728
-I952
+I4
 aVAntoine Walker
 p729
 aI81
@@ -18736,7 +18736,7 @@ aI262
 aI21
 aI50
 aa(lp730
-I56
+I1
 aVGary Payton
 p731
 aI82
@@ -18788,7 +18788,7 @@ aI148
 aI24
 aI8
 aa(lp732
-I951
+I2
 aVRay Allen
 p733
 aI69
@@ -18840,7 +18840,7 @@ aI19
 aI32
 aI27
 aa(lp734
-I1749
+I2
 aVCuttino Mobley
 p735
 aI74
@@ -18892,7 +18892,7 @@ aI121
 aI41
 aI138
 aa(lp736
-I711
+I2
 aVJerry Stackhouse
 p737
 aI76
@@ -18944,7 +18944,7 @@ aI173
 aI4
 aI37
 aa(lp738
-I949
+I4
 aVShareef Abdur-Rahim
 p739
 aI77
@@ -18996,7 +18996,7 @@ aI125
 aI26
 aI26
 aa(lp740
-I978
+I3
 aVPeja Stojakovic
 p741
 aI71
@@ -19048,7 +19048,7 @@ aI21
 aI69
 aI53
 aa(lp742
-I708
+I4
 aVKevin Garnett
 p743
 aI81
@@ -19100,7 +19100,7 @@ aI123
 aI33
 aI4
 aa(lp744
-I714
+I2
 aVMichael Finley
 p745
 aI69
@@ -19152,7 +19152,7 @@ aI136
 aI54
 aI91
 aa(lp746
-I147
+I2
 aVJalen Rose
 p747
 aI83
@@ -19204,7 +19204,7 @@ aI141
 aI35
 aI77
 aa(lp748
-I950
+I1
 aVStephon Marbury
 p749
 aI82
@@ -19256,7 +19256,7 @@ aI169
 aI29
 aI60
 aa(lp750
-I275
+I2
 aVAllan Houston
 p751
 aI77
@@ -19308,7 +19308,7 @@ aI105
 aI36
 aI170
 aa(lp752
-I1712
+I4
 aVAntawn Jamison
 p753
 aI82
@@ -19360,7 +19360,7 @@ aI179
 aI60
 aI104
 aa(lp754
-I208
+I1
 aVSam Cassell
 p755
 aI74
@@ -19412,7 +19412,7 @@ aI90
 aI27
 aI24
 aa(lp756
-I84
+I2
 aVLatrell Sprewell
 p757
 aI81
@@ -19464,7 +19464,7 @@ aI225
 aI42
 aI190
 aa(lp758
-I1891
+I2
 aVJason Terry
 p759
 aI78
@@ -19516,7 +19516,7 @@ aI78
 aI62
 aI45
 aa(lp760
-I739
+I4
 aVRasheed Wallace
 p761
 aI79
@@ -19568,7 +19568,7 @@ aI104
 aI57
 aI39
 aa(lp762
-I1890
+I3
 aVShawn Marion
 p763
 aI81
@@ -19620,7 +19620,7 @@ aI174
 aI65
 aI20
 aa(lp764
-I979
+I5
 aVJermaine O'Neal
 p765
 aI72
@@ -19672,7 +19672,7 @@ aI164
 aI40
 aI44
 aa(lp766
-I1887
+I2
 aVWally Szczerbiak
 p767
 aI82
@@ -19724,7 +19724,7 @@ aI28
 aI110
 aI80
 aa(lp768
-I89
+I1
 aVNick Van Exel
 p769
 aI72
@@ -19776,7 +19776,7 @@ aI247
 aI28
 aI54
 aa(lp770
-I224
+I2
 aVEddie Jones
 p771
 aI81
@@ -19828,7 +19828,7 @@ aI84
 aI80
 aI47
 aa(lp772
-I1882
+I4
 aVElton Brand
 p773
 aI80
@@ -19880,7 +19880,7 @@ aI26
 aI119
 aI16
 aa(lp774
-I1884
+I1
 aVBaron Davis
 p775
 aI82
@@ -19932,7 +19932,7 @@ aI237
 aI59
 aI61
 aa(lp776
-I959
+I1
 aVSteve Nash
 p777
 aI82
@@ -19984,7 +19984,7 @@ aI12
 aI75
 aI29
 aa(lp778
-I2200
+I4
 aVPau Gasol
 p779
 aI82
@@ -20036,7 +20036,7 @@ aI52
 aI85
 aI31
 aa(lp780
-I1719
+I2
 aVBonzi Wells
 p781
 aI74
@@ -20088,7 +20088,7 @@ aI114
 aI30
 aI66
 aa(lp782
-I1740
+I3
 aVRashard Lewis
 p783
 aI71
@@ -20140,7 +20140,7 @@ aI55
 aI132
 aI63
 aa(lp784
-I441
+I3
 aVLamond Murray
 p785
 aI71
@@ -20192,7 +20192,7 @@ aI129
 aI45
 aI100
 aa(lp786
-I397
+I2
 aVReggie Miller
 p787
 aI79
@@ -20244,7 +20244,7 @@ aI9
 aI218
 aI81
 aa(lp788
-I1889
+I1
 aVAndre Miller
 p789
 aI81
@@ -20296,7 +20296,7 @@ aI117
 aI81
 aI19
 aa(lp790
-I297
+I5
 aVAlonzo Mourning
 p791
 aI75
@@ -20348,7 +20348,7 @@ aI66
 aI49
 aI34
 aa(lp792
-I445
+I2
 aVWesley Person
 p793
 aI78
@@ -20400,7 +20400,7 @@ aI24
 aI257
 aI105
 aa(lp794
-I2030
+I4
 aVKenyon Martin
 p795
 aI73
@@ -20452,7 +20452,7 @@ aI217
 aI93
 aI205
 aa(lp796
-I1496
+I3
 aVKeith Van Horn
 p797
 aI81
@@ -20504,7 +20504,7 @@ aI200
 aI58
 aI67
 aa(lp798
-I467
+I1
 aVJason Kidd
 p799
 aI82
@@ -20556,7 +20556,7 @@ aI277
 aI99
 aI12
 aa(lp800
-I436
+I4
 aVJuwan Howard
 p801
 aI81
@@ -20608,7 +20608,7 @@ aI192
 aI90
 aI141
 aa(lp802
-I976
+I1
 aVJeff McInnis
 p803
 aI81
@@ -20660,7 +20660,7 @@ aI275
 aI141
 aI186
 aa(lp804
-I361
+I4
 aVClifford Robinson
 p805
 aI80
@@ -20712,7 +20712,7 @@ aI218
 aI112
 aI216
 aa(lp806
-I213
+I4
 aVAntonio Davis
 p807
 aI77
@@ -20764,7 +20764,7 @@ aI242
 aI175
 aI89
 aa(lp808
-I2203
+I3
 aVShane Battier
 p809
 aI78
@@ -20818,7 +20818,7 @@ aI231
 aasI2003
 (lp810
 (lp811
-I1503
+I2
 aVTracy McGrady
 p812
 aI75
@@ -20870,7 +20870,7 @@ aI45
 aI1
 aI3
 aa(lp813
-I977
+I2
 aVKobe Bryant
 p814
 aI82
@@ -20922,7 +20922,7 @@ aI75
 aI3
 aI4
 aa(lp815
-I947
+I1
 aVAllen Iverson
 p816
 aI82
@@ -20974,7 +20974,7 @@ aI228
 aI4
 aI33
 aa(lp817
-I406
+I5
 aVShaquille O'Neal
 p818
 aI67
@@ -21026,7 +21026,7 @@ aI7
 aI9
 aI5
 aa(lp819
-I1718
+I3
 aVPaul Pierce
 p820
 aI79
@@ -21078,7 +21078,7 @@ aI112
 aI2
 aI10
 aa(lp821
-I1717
+I4
 aVDirk Nowitzki
 p822
 aI80
@@ -21130,7 +21130,7 @@ aI24
 aI25
 aI6
 aa(lp823
-I1495
+I4
 aVTim Duncan
 p824
 aI81
@@ -21182,7 +21182,7 @@ aI47
 aI16
 aI1
 aa(lp825
-I185
+I4
 aVChris Webber
 p826
 aI67
@@ -21234,7 +21234,7 @@ aI266
 aI8
 aI19
 aa(lp827
-I708
+I4
 aVKevin Garnett
 p828
 aI82
@@ -21286,7 +21286,7 @@ aI65
 aI31
 aI2
 aa(lp829
-I951
+I2
 aVRay Allen
 p830
 aI76
@@ -21338,7 +21338,7 @@ aI41
 aI15
 aI37
 aa(lp831
-I275
+I2
 aVAllan Houston
 p832
 aI82
@@ -21390,7 +21390,7 @@ aI51
 aI29
 aI91
 aa(lp833
-I950
+I1
 aVStephon Marbury
 p834
 aI81
@@ -21442,7 +21442,7 @@ aI156
 aI23
 aI38
 aa(lp835
-I1712
+I4
 aVAntawn Jamison
 p836
 aI82
@@ -21494,7 +21494,7 @@ aI90
 aI48
 aI71
 aa(lp837
-I147
+I2
 aVJalen Rose
 p838
 aI82
@@ -21546,7 +21546,7 @@ aI197
 aI24
 aI146
 aa(lp839
-I469
+I3
 aVJamal Mashburn
 p840
 aI82
@@ -21598,7 +21598,7 @@ aI201
 aI27
 aI35
 aa(lp841
-I711
+I2
 aVJerry Stackhouse
 p842
 aI70
@@ -21650,7 +21650,7 @@ aI132
 aI19
 aI59
 aa(lp843
-I1890
+I3
 aVShawn Marion
 p844
 aI81
@@ -21702,7 +21702,7 @@ aI102
 aI71
 aI16
 aa(lp845
-I1883
+I1
 aVSteve Francis
 p846
 aI81
@@ -21754,7 +21754,7 @@ aI95
 aI36
 aI34
 aa(lp847
-I299
+I3
 aVGlenn Robinson
 p848
 aI69
@@ -21806,7 +21806,7 @@ aI161
 aI13
 aI80
 aa(lp849
-I979
+I5
 aVJermaine O'Neal
 p850
 aI77
@@ -21858,7 +21858,7 @@ aI100
 aI30
 aI15
 aa(lp851
-I1729
+I2
 aVRicky Davis
 p852
 aI79
@@ -21910,7 +21910,7 @@ aI265
 aI28
 aI93
 aa(lp853
-I252
+I4
 aVKarl Malone
 p854
 aI81
@@ -21962,7 +21962,7 @@ aI109
 aI22
 aI9
 aa(lp855
-I56
+I1
 aVGary Payton
 p856
 aI80
@@ -22014,7 +22014,7 @@ aI210
 aI37
 aI27
 aa(lp857
-I952
+I4
 aVAntoine Walker
 p858
 aI78
@@ -22066,7 +22066,7 @@ aI302
 aI20
 aI112
 aa(lp859
-I893
+I2
 aVMichael Jordan
 p860
 aI82
@@ -22118,7 +22118,7 @@ aI253
 aI12
 aI29
 aa(lp861
-I949
+I4
 aVShareef Abdur-Rahim
 p862
 aI81
@@ -22170,7 +22170,7 @@ aI40
 aI46
 aI30
 aa(lp863
-I208
+I1
 aVSam Cassell
 p864
 aI78
@@ -22222,7 +22222,7 @@ aI42
 aI34
 aI26
 aa(lp865
-I1888
+I2
 aVRichard Hamilton
 p866
 aI82
@@ -22274,7 +22274,7 @@ aI120
 aI6
 aI61
 aa(lp867
-I978
+I3
 aVPeja Stojakovic
 p868
 aI72
@@ -22326,7 +22326,7 @@ aI10
 aI93
 aI48
 aa(lp869
-I2200
+I4
 aVPau Gasol
 p870
 aI82
@@ -22378,7 +22378,7 @@ aI36
 aI57
 aI42
 aa(lp871
-I467
+I1
 aVJason Kidd
 p872
 aI80
@@ -22430,7 +22430,7 @@ aI137
 aI40
 aI8
 aa(lp873
-I436
+I4
 aVJuwan Howard
 p874
 aI77
@@ -22482,7 +22482,7 @@ aI222
 aI32
 aI39
 aa(lp875
-I2240
+I1
 aVGilbert Arenas
 p876
 aI82
@@ -22534,7 +22534,7 @@ aI96
 aI45
 aI69
 aa(lp877
-I1740
+I3
 aVRashard Lewis
 p878
 aI77
@@ -22586,7 +22586,7 @@ aI106
 aI94
 aI97
 aa(lp879
-I739
+I4
 aVRasheed Wallace
 p880
 aI74
@@ -22638,7 +22638,7 @@ aI67
 aI70
 aI55
 aa(lp881
-I959
+I1
 aVSteve Nash
 p882
 aI82
@@ -22690,7 +22690,7 @@ aI31
 aI51
 aI20
 aa(lp883
-I1723
+I3
 aVMatt Harpring
 p884
 aI78
@@ -22742,7 +22742,7 @@ aI22
 aI65
 aI40
 aa(lp885
-I1749
+I2
 aVCuttino Mobley
 p886
 aI73
@@ -22794,7 +22794,7 @@ aI104
 aI144
 aI160
 aa(lp887
-I1891
+I2
 aVJason Terry
 p888
 aI81
@@ -22846,7 +22846,7 @@ aI77
 aI90
 aI52
 aa(lp889
-I980
+I5
 aVZydrunas Ilgauskas
 p890
 aI81
@@ -22898,7 +22898,7 @@ aI168
 aI18
 aI70
 aa(lp891
-I133
+I1
 aVDavid Wesley
 p892
 aI73
@@ -22950,7 +22950,7 @@ aI110
 aI121
 aI165
 aa(lp893
-I2030
+I4
 aVKenyon Martin
 p894
 aI77
@@ -23002,7 +23002,7 @@ aI181
 aI43
 aI63
 aa(lp895
-I84
+I2
 aVLatrell Sprewell
 p896
 aI74
@@ -23054,7 +23054,7 @@ aI236
 aI82
 aI156
 aa(lp897
-I1497
+I1
 aVChauncey Billups
 p898
 aI74
@@ -23106,7 +23106,7 @@ aI23
 aI53
 aI18
 aa(lp899
-I1496
+I3
 aVKeith Van Horn
 p900
 aI74
@@ -23158,7 +23158,7 @@ aI60
 aI72
 aI87
 aa(lp901
-I2202
+I2
 aVJason Richardson
 p902
 aI82
@@ -23210,7 +23210,7 @@ aI224
 aI78
 aI198
 aa(lp903
-I2210
+I3
 aVRichard Jefferson
 p904
 aI80
@@ -23262,7 +23262,7 @@ aI49
 aI175
 aI64
 aa(lp905
-I2225
+I1
 aVTony Parker
 p906
 aI82
@@ -23314,7 +23314,7 @@ aI93
 aI79
 aI72
 aa(lp907
-I2406
+I3
 aVCaron Butler
 p908
 aI78
@@ -23366,7 +23366,7 @@ aI219
 aI76
 aI132
 aa(lp909
-I1719
+I2
 aVBonzi Wells
 p910
 aI75
@@ -23420,7 +23420,7 @@ aI123
 aasI2004
 (lp911
 (lp912
-I1503
+I2
 aVTracy McGrady
 p913
 aI67
@@ -23472,7 +23472,7 @@ aI137
 aI3
 aI10
 aa(lp914
-I978
+I3
 aVPeja Stojakovic
 p915
 aI81
@@ -23524,7 +23524,7 @@ aI7
 aI71
 aI21
 aa(lp916
-I708
+I4
 aVKevin Garnett
 p917
 aI82
@@ -23576,7 +23576,7 @@ aI65
 aI11
 aI1
 aa(lp918
-I977
+I2
 aVKobe Bryant
 p919
 aI65
@@ -23628,7 +23628,7 @@ aI55
 aI16
 aI8
 aa(lp920
-I1718
+I3
 aVPaul Pierce
 p921
 aI80
@@ -23680,7 +23680,7 @@ aI165
 aI6
 aI27
 aa(lp922
-I1884
+I1
 aVBaron Davis
 p923
 aI67
@@ -23732,7 +23732,7 @@ aI264
 aI10
 aI31
 aa(lp924
-I1713
+I2
 aVVince Carter
 p925
 aI73
@@ -23784,7 +23784,7 @@ aI231
 aI5
 aI37
 aa(lp926
-I1495
+I4
 aVTim Duncan
 p927
 aI69
@@ -23836,7 +23836,7 @@ aI106
 aI8
 aI2
 aa(lp928
-I1717
+I4
 aVDirk Nowitzki
 p929
 aI77
@@ -23888,7 +23888,7 @@ aI44
 aI59
 aI19
 aa(lp930
-I2072
+I2
 aVMichael Redd
 p931
 aI82
@@ -23940,7 +23940,7 @@ aI72
 aI39
 aI50
 aa(lp932
-I406
+I5
 aVShaquille O'Neal
 p933
 aI67
@@ -23992,7 +23992,7 @@ aI28
 aI40
 aI7
 aa(lp934
-I2546
+I3
 aVCarmelo Anthony
 p935
 aI82
@@ -24044,7 +24044,7 @@ aI207
 aI18
 aI118
 aa(lp936
-I2544
+I3
 aVLeBron James
 p937
 aI79
@@ -24096,7 +24096,7 @@ aI274
 aI21
 aI49
 aa(lp938
-I1894
+I3
 aVCorey Maggette
 p939
 aI73
@@ -24148,7 +24148,7 @@ aI19
 aI49
 aI38
 aa(lp940
-I950
+I1
 aVStephon Marbury
 p941
 aI81
@@ -24200,7 +24200,7 @@ aI156
 aI45
 aI23
 aa(lp942
-I979
+I5
 aVJermaine O'Neal
 p943
 aI78
@@ -24252,7 +24252,7 @@ aI272
 aI7
 aI12
 aa(lp944
-I2216
+I4
 aVZach Randolph
 p945
 aI81
@@ -24304,7 +24304,7 @@ aI126
 aI25
 aI34
 aa(lp946
-I208
+I1
 aVSam Cassell
 p947
 aI81
@@ -24356,7 +24356,7 @@ aI41
 aI29
 aI11
 aa(lp948
-I1890
+I3
 aVShawn Marion
 p949
 aI79
@@ -24408,7 +24408,7 @@ aI176
 aI97
 aI24
 aa(lp950
-I2202
+I2
 aVJason Richardson
 p951
 aI78
@@ -24460,7 +24460,7 @@ aI223
 aI44
 aI82
 aa(lp952
-I714
+I2
 aVMichael Finley
 p953
 aI72
@@ -24512,7 +24512,7 @@ aI88
 aI141
 aI126
 aa(lp954
-I2210
+I3
 aVRichard Jefferson
 p955
 aI82
@@ -24564,7 +24564,7 @@ aI32
 aI96
 aI40
 aa(lp956
-I1710
+I1
 aVMike Bibby
 p957
 aI82
@@ -24616,7 +24616,7 @@ aI42
 aI90
 aI71
 aa(lp958
-I1897
+I3
 aVMetta World Peace
 p959
 aI73
@@ -24668,7 +24668,7 @@ aI192
 aI38
 aI57
 aa(lp960
-I1536
+I3
 aVStephen Jackson
 p961
 aI80
@@ -24720,7 +24720,7 @@ aI150
 aI53
 aI143
 aa(lp962
-I1740
+I3
 aVRashard Lewis
 p963
 aI80
@@ -24772,7 +24772,7 @@ aI131
 aI83
 aI109
 aa(lp964
-I2200
+I4
 aVPau Gasol
 p965
 aI78
@@ -24824,7 +24824,7 @@ aI78
 aI32
 aI26
 aa(lp966
-I1888
+I2
 aVRichard Hamilton
 p967
 aI78
@@ -24876,7 +24876,7 @@ aI144
 aI46
 aI76
 aa(lp968
-I2397
+I5
 aVYao Ming
 p969
 aI82
@@ -24928,7 +24928,7 @@ aI21
 aI48
 aI5
 aa(lp970
-I224
+I2
 aVEddie Jones
 p971
 aI81
@@ -24980,7 +24980,7 @@ aI94
 aI100
 aI86
 aa(lp972
-I2037
+I2
 aVJamal Crawford
 p973
 aI80
@@ -25032,7 +25032,7 @@ aI279
 aI42
 aI100
 aa(lp974
-I1885
+I4
 aVLamar Odom
 p975
 aI80
@@ -25084,7 +25084,7 @@ aI169
 aI57
 aI16
 aa(lp976
-I436
+I4
 aVJuwan Howard
 p977
 aI81
@@ -25136,7 +25136,7 @@ aI180
 aI72
 aI175
 aa(lp978
-I1497
+I1
 aVChauncey Billups
 p979
 aI78
@@ -25188,7 +25188,7 @@ aI59
 aI84
 aI29
 aa(lp980
-I1891
+I2
 aVJason Terry
 p981
 aI81
@@ -25240,7 +25240,7 @@ aI160
 aI87
 aI99
 aa(lp982
-I84
+I2
 aVLatrell Sprewell
 p983
 aI82
@@ -25292,7 +25292,7 @@ aI260
 aI80
 aI141
 aa(lp984
-I2207
+I2
 aVJoe Johnson
 p985
 aI82
@@ -25344,7 +25344,7 @@ aI267
 aI127
 aI167
 aa(lp986
-I1883
+I1
 aVSteve Francis
 p987
 aI79
@@ -25396,7 +25396,7 @@ aI233
 aI75
 aI96
 aa(lp988
-I1905
+I3
 aVAndrei Kirilenko
 p989
 aI78
@@ -25448,7 +25448,7 @@ aI45
 aI123
 aI4
 aa(lp990
-I949
+I4
 aVShareef Abdur-Rahim
 p991
 aI85
@@ -25500,7 +25500,7 @@ aI49
 aI54
 aI14
 aa(lp992
-I1496
+I3
 aVKeith Van Horn
 p993
 aI72
@@ -25552,7 +25552,7 @@ aI43
 aI76
 aI68
 aa(lp994
-I1749
+I2
 aVCuttino Mobley
 p995
 aI80
@@ -25604,7 +25604,7 @@ aI103
 aI162
 aI131
 aa(lp996
-I2430
+I4
 aVCarlos Boozer
 p997
 aI75
@@ -25656,7 +25656,7 @@ aI38
 aI167
 aI9
 aa(lp998
-I980
+I5
 aVZydrunas Ilgauskas
 p999
 aI81
@@ -25708,7 +25708,7 @@ aI82
 aI91
 aI85
 aa(lp1000
-I1889
+I1
 aVAndre Miller
 p1001
 aI82
@@ -25760,7 +25760,7 @@ aI80
 aI149
 aI43
 aa(lp1002
-I1712
+I4
 aVAntawn Jamison
 p1003
 aI82
@@ -25812,7 +25812,7 @@ aI23
 aI150
 aI58
 aa(lp1004
-I923
+I4
 aVDonyell Marshall
 p1005
 aI82
@@ -25864,7 +25864,7 @@ aI64
 aI176
 aI28
 aa(lp1006
-I2201
+I5
 aVEddy Curry
 p1007
 aI73
@@ -25916,7 +25916,7 @@ aI92
 aI55
 aI184
 aa(lp1008
-I2225
+I1
 aVTony Parker
 p1009
 aI75
@@ -25968,7 +25968,7 @@ aI170
 aI102
 aI75
 aa(lp1010
-I56
+I1
 aVGary Payton
 p1011
 aI82
@@ -26022,7 +26022,7 @@ aI56
 aasI2005
 (lp1012
 (lp1013
-I947
+I1
 aVAllen Iverson
 p1014
 aI75
@@ -26074,7 +26074,7 @@ aI161
 aI3
 aI10
 aa(lp1015
-I977
+I2
 aVKobe Bryant
 p1016
 aI66
@@ -26126,7 +26126,7 @@ aI76
 aI4
 aI19
 aa(lp1017
-I2544
+I3
 aVLeBron James
 p1018
 aI80
@@ -26178,7 +26178,7 @@ aI98
 aI11
 aI5
 aa(lp1019
-I1717
+I4
 aVDirk Nowitzki
 p1020
 aI78
@@ -26230,7 +26230,7 @@ aI50
 aI17
 aI6
 aa(lp1021
-I2405
+I4
 aVAmar'e Stoudemire
 p1022
 aI80
@@ -26282,7 +26282,7 @@ aI11
 aI18
 aI17
 aa(lp1023
-I1503
+I2
 aVTracy McGrady
 p1024
 aI78
@@ -26334,7 +26334,7 @@ aI182
 aI6
 aI9
 aa(lp1025
-I2240
+I1
 aVGilbert Arenas
 p1026
 aI80
@@ -26386,7 +26386,7 @@ aI72
 aI30
 aI39
 aa(lp1027
-I1713
+I2
 aVVince Carter
 p1028
 aI77
@@ -26438,7 +26438,7 @@ aI129
 aI5
 aI18
 aa(lp1029
-I2548
+I2
 aVDwyane Wade
 p1030
 aI77
@@ -26490,7 +26490,7 @@ aI79
 aI8
 aI16
 aa(lp1031
-I951
+I2
 aVRay Allen
 p1032
 aI78
@@ -26542,7 +26542,7 @@ aI93
 aI24
 aI41
 aa(lp1033
-I2072
+I2
 aVMichael Redd
 p1034
 aI75
@@ -26594,7 +26594,7 @@ aI148
 aI28
 aI75
 aa(lp1035
-I406
+I5
 aVShaquille O'Neal
 p1036
 aI73
@@ -26646,7 +26646,7 @@ aI39
 aI9
 aI11
 aa(lp1037
-I1894
+I3
 aVCorey Maggette
 p1038
 aI66
@@ -26698,7 +26698,7 @@ aI58
 aI26
 aI35
 aa(lp1039
-I708
+I4
 aVKevin Garnett
 p1040
 aI82
@@ -26750,7 +26750,7 @@ aI69
 aI32
 aI3
 aa(lp1041
-I950
+I1
 aVStephon Marbury
 p1042
 aI82
@@ -26802,7 +26802,7 @@ aI56
 aI58
 aI26
 aa(lp1043
-I2202
+I2
 aVJason Richardson
 p1044
 aI72
@@ -26854,7 +26854,7 @@ aI211
 aI33
 aI59
 aa(lp1045
-I1718
+I3
 aVPaul Pierce
 p1046
 aI82
@@ -26906,7 +26906,7 @@ aI38
 aI35
 aI24
 aa(lp1047
-I1883
+I1
 aVSteve Francis
 p1048
 aI78
@@ -26958,7 +26958,7 @@ aI202
 aI19
 aI50
 aa(lp1049
-I2546
+I3
 aVCarmelo Anthony
 p1050
 aI75
@@ -27010,7 +27010,7 @@ aI184
 aI15
 aI111
 aa(lp1051
-I1740
+I3
 aVRashard Lewis
 p1052
 aI71
@@ -27062,7 +27062,7 @@ aI61
 aI66
 aI57
 aa(lp1053
-I1882
+I4
 aVElton Brand
 p1054
 aI81
@@ -27114,7 +27114,7 @@ aI97
 aI47
 aI20
 aa(lp1055
-I1710
+I1
 aVMike Bibby
 p1056
 aI80
@@ -27166,7 +27166,7 @@ aI117
 aI70
 aI64
 aa(lp1057
-I1890
+I3
 aVShawn Marion
 p1058
 aI81
@@ -27218,7 +27218,7 @@ aI87
 aI127
 aI30
 aa(lp1059
-I952
+I4
 aVAntoine Walker
 p1060
 aI77
@@ -27270,7 +27270,7 @@ aI332
 aI29
 aI93
 aa(lp1061
-I1888
+I2
 aVRichard Hamilton
 p1062
 aI76
@@ -27322,7 +27322,7 @@ aI175
 aI52
 aI89
 aa(lp1063
-I147
+I2
 aVJalen Rose
 p1064
 aI81
@@ -27374,7 +27374,7 @@ aI77
 aI45
 aI117
 aa(lp1065
-I2397
+I5
 aVYao Ming
 p1066
 aI80
@@ -27426,7 +27426,7 @@ aI13
 aI36
 aI21
 aa(lp1067
-I2037
+I2
 aVJamal Crawford
 p1068
 aI70
@@ -27478,7 +27478,7 @@ aI204
 aI88
 aI157
 aa(lp1069
-I2046
+I2
 aVDesmond Mason
 p1070
 aI80
@@ -27530,7 +27530,7 @@ aI181
 aI77
 aI195
 aa(lp1071
-I2207
+I2
 aVJoe Johnson
 p1072
 aI82
@@ -27582,7 +27582,7 @@ aI88
 aI203
 aI177
 aa(lp1073
-I980
+I5
 aVZydrunas Ilgauskas
 p1074
 aI78
@@ -27634,7 +27634,7 @@ aI106
 aI61
 aI82
 aa(lp1075
-I2547
+I4
 aVChris Bosh
 p1076
 aI81
@@ -27686,7 +27686,7 @@ aI116
 aI110
 aI70
 aa(lp1077
-I2225
+I1
 aVTony Parker
 p1078
 aI80
@@ -27738,7 +27738,7 @@ aI174
 aI49
 aI36
 aa(lp1079
-I1497
+I1
 aVChauncey Billups
 p1080
 aI80
@@ -27790,7 +27790,7 @@ aI14
 aI140
 aI40
 aa(lp1081
-I2250
+I3
 aVBobby Simmons
 p1082
 aI75
@@ -27842,7 +27842,7 @@ aI131
 aI137
 aI86
 aa(lp1083
-I1938
+I2
 aVManu Ginobili
 p1084
 aI74
@@ -27894,7 +27894,7 @@ aI15
 aI63
 aI13
 aa(lp1085
-I1729
+I2
 aVRicky Davis
 p1086
 aI82
@@ -27946,7 +27946,7 @@ aI114
 aI73
 aI122
 aa(lp1087
-I757
+I1
 aVDamon Stoudamire
 p1088
 aI81
@@ -27998,7 +27998,7 @@ aI251
 aI71
 aI80
 aa(lp1089
-I2550
+I2
 aVKirk Hinrich
 p1090
 aI77
@@ -28050,7 +28050,7 @@ aI285
 aI93
 aI66
 aa(lp1091
-I959
+I1
 aVSteve Nash
 p1092
 aI75
@@ -28102,7 +28102,7 @@ aI18
 aI149
 aI25
 aa(lp1093
-I2030
+I4
 aVKenyon Martin
 p1094
 aI70
@@ -28154,7 +28154,7 @@ aI200
 aI72
 aI69
 aa(lp1095
-I2406
+I3
 aVCaron Butler
 p1096
 aI77
@@ -28206,7 +28206,7 @@ aI173
 aI143
 aI168
 aa(lp1097
-I1887
+I2
 aVWally Szczerbiak
 p1098
 aI81
@@ -28258,7 +28258,7 @@ aI27
 aI123
 aI94
 aa(lp1099
-I2211
+I4
 aVTroy Murphy
 p1100
 aI70
@@ -28310,7 +28310,7 @@ aI286
 aI103
 aI76
 aa(lp1101
-I2731
+I5
 aVEmeka Okafor
 p1102
 aI73
@@ -28362,7 +28362,7 @@ aI330
 aI113
 aI84
 aa(lp1103
-I2732
+I2
 aVBen Gordon
 p1104
 aI82
@@ -28414,7 +28414,7 @@ aI183
 aI10
 aI116
 aa(lp1105
-I2047
+I2
 aVQuentin Richardson
 p1106
 aI79
@@ -28466,7 +28466,7 @@ aI195
 aI213
 aI238
 aa(lp1107
-I2419
+I3
 aVTayshaun Prince
 p1108
 aI82
@@ -28518,7 +28518,7 @@ aI86
 aI209
 aI74
 aa(lp1109
-I739
+I4
 aVRasheed Wallace
 p1110
 aI79
@@ -28570,7 +28570,7 @@ aI280
 aI97
 aI71
 aa(lp1111
-I2400
+I4
 aVDrew Gooden
 p1112
 aI82
@@ -28624,7 +28624,7 @@ aI33
 aasI2006
 (lp1113
 (lp1114
-I977
+I2
 aVKobe Bryant
 p1115
 aI80
@@ -28676,7 +28676,7 @@ aI99
 aI2
 aI8
 aa(lp1116
-I947
+I1
 aVAllen Iverson
 p1117
 aI72
@@ -28728,7 +28728,7 @@ aI150
 aI3
 aI14
 aa(lp1118
-I2544
+I3
 aVLeBron James
 p1119
 aI79
@@ -28780,7 +28780,7 @@ aI79
 aI5
 aI5
 aa(lp1120
-I2240
+I1
 aVGilbert Arenas
 p1121
 aI80
@@ -28832,7 +28832,7 @@ aI58
 aI12
 aI30
 aa(lp1122
-I2548
+I2
 aVDwyane Wade
 p1123
 aI75
@@ -28884,7 +28884,7 @@ aI64
 aI8
 aI6
 aa(lp1124
-I1718
+I3
 aVPaul Pierce
 p1125
 aI79
@@ -28936,7 +28936,7 @@ aI55
 aI11
 aI17
 aa(lp1126
-I1717
+I4
 aVDirk Nowitzki
 p1127
 aI81
@@ -28988,7 +28988,7 @@ aI40
 aI13
 aI3
 aa(lp1128
-I2546
+I3
 aVCarmelo Anthony
 p1129
 aI80
@@ -29040,7 +29040,7 @@ aI89
 aI10
 aI36
 aa(lp1130
-I2072
+I2
 aVMichael Redd
 p1131
 aI80
@@ -29092,7 +29092,7 @@ aI73
 aI19
 aI37
 aa(lp1132
-I951
+I2
 aVRay Allen
 p1133
 aI78
@@ -29144,7 +29144,7 @@ aI34
 aI27
 aI39
 aa(lp1134
-I1882
+I4
 aVElton Brand
 p1135
 aI79
@@ -29196,7 +29196,7 @@ aI59
 aI24
 aI9
 aa(lp1136
-I1713
+I2
 aVVince Carter
 p1137
 aI79
@@ -29248,7 +29248,7 @@ aI179
 aI9
 aI29
 aa(lp1138
-I2202
+I2
 aVJason Richardson
 p1139
 aI75
@@ -29300,7 +29300,7 @@ aI171
 aI23
 aI58
 aa(lp1140
-I2547
+I4
 aVChris Bosh
 p1141
 aI70
@@ -29352,7 +29352,7 @@ aI46
 aI38
 aI27
 aa(lp1142
-I1890
+I3
 aVShawn Marion
 p1143
 aI81
@@ -29404,7 +29404,7 @@ aI33
 aI101
 aI19
 aa(lp1144
-I708
+I4
 aVKevin Garnett
 p1145
 aI76
@@ -29456,7 +29456,7 @@ aI38
 aI36
 aI2
 aa(lp1146
-I1710
+I1
 aVMike Bibby
 p1147
 aI82
@@ -29508,7 +29508,7 @@ aI112
 aI39
 aI71
 aa(lp1148
-I1712
+I4
 aVAntawn Jamison
 p1149
 aI82
@@ -29560,7 +29560,7 @@ aI234
 aI64
 aI46
 aa(lp1150
-I2200
+I4
 aVPau Gasol
 p1151
 aI80
@@ -29612,7 +29612,7 @@ aI108
 aI32
 aI13
 aa(lp1152
-I2229
+I1
 aVMike James
 p1153
 aI79
@@ -29664,7 +29664,7 @@ aI53
 aI42
 aI57
 aa(lp1154
-I185
+I4
 aVChris Webber
 p1155
 aI75
@@ -29716,7 +29716,7 @@ aI336
 aI25
 aI56
 aa(lp1156
-I2207
+I2
 aVJoe Johnson
 p1157
 aI82
@@ -29768,7 +29768,7 @@ aI177
 aI51
 aI54
 aa(lp1158
-I1888
+I2
 aVRichard Hamilton
 p1159
 aI80
@@ -29820,7 +29820,7 @@ aI115
 aI22
 aI78
 aa(lp1160
-I1740
+I3
 aVRashard Lewis
 p1161
 aI78
@@ -29872,7 +29872,7 @@ aI47
 aI79
 aI79
 aa(lp1162
-I2210
+I3
 aVRichard Jefferson
 p1163
 aI78
@@ -29924,7 +29924,7 @@ aI20
 aI107
 aI32
 aa(lp1164
-I1729
+I2
 aVRicky Davis
 p1165
 aI78
@@ -29976,7 +29976,7 @@ aI225
 aI60
 aI88
 aa(lp1166
-I1887
+I2
 aVWally Szczerbiak
 p1167
 aI72
@@ -30028,7 +30028,7 @@ aI28
 aI96
 aI62
 aa(lp1168
-I2225
+I1
 aVTony Parker
 p1169
 aI80
@@ -30080,7 +30080,7 @@ aI52
 aI30
 aI21
 aa(lp1170
-I959
+I1
 aVSteve Nash
 p1171
 aI79
@@ -30132,7 +30132,7 @@ aI8
 aI71
 aI12
 aa(lp1172
-I1733
+I4
 aVAl Harrington
 p1173
 aI76
@@ -30184,7 +30184,7 @@ aI248
 aI35
 aI106
 aa(lp1174
-I1495
+I4
 aVTim Duncan
 p1175
 aI80
@@ -30236,7 +30236,7 @@ aI221
 aI20
 aI10
 aa(lp1176
-I1497
+I1
 aVChauncey Billups
 p1177
 aI81
@@ -30288,7 +30288,7 @@ aI21
 aI76
 aI15
 aa(lp1178
-I978
+I3
 aVPeja Stojakovic
 p1179
 aI71
@@ -30340,7 +30340,7 @@ aI78
 aI115
 aI86
 aa(lp1180
-I2216
+I4
 aVZach Randolph
 p1181
 aI74
@@ -30392,7 +30392,7 @@ aI333
 aI17
 aI80
 aa(lp1182
-I2246
+I5
 aVMehmet Okur
 p1183
 aI82
@@ -30444,7 +30444,7 @@ aI110
 aI66
 aI33
 aa(lp1184
-I2406
+I3
 aVCaron Butler
 p1185
 aI75
@@ -30496,7 +30496,7 @@ aI184
 aI78
 aI70
 aa(lp1186
-I208
+I1
 aVSam Cassell
 p1187
 aI78
@@ -30548,7 +30548,7 @@ aI188
 aI50
 aI52
 aa(lp1188
-I1891
+I2
 aVJason Terry
 p1189
 aI80
@@ -30600,7 +30600,7 @@ aI68
 aI104
 aI84
 aa(lp1190
-I2561
+I4
 aVDavid West
 p1191
 aI74
@@ -30652,7 +30652,7 @@ aI113
 aI83
 aI43
 aa(lp1192
-I2732
+I2
 aVBen Gordon
 p1193
 aI80
@@ -30704,7 +30704,7 @@ aI196
 aI33
 aI147
 aa(lp1194
-I2050
+I2
 aVMorris Peterson
 p1195
 aI82
@@ -30756,7 +30756,7 @@ aI94
 aI175
 aI159
 aa(lp1196
-I1536
+I3
 aVStephen Jackson
 p1197
 aI81
@@ -30808,7 +30808,7 @@ aI257
 aI58
 aI157
 aa(lp1198
-I101108
+I1
 aVChris Paul
 p1199
 aI78
@@ -30860,7 +30860,7 @@ aI136
 aI105
 aI16
 aa(lp1200
-I2550
+I2
 aVKirk Hinrich
 p1201
 aI81
@@ -30912,7 +30912,7 @@ aI208
 aI124
 aI75
 aa(lp1202
-I2730
+I5
 aVDwight Howard
 p1203
 aI82
@@ -30964,7 +30964,7 @@ aI85
 aI133
 aI38
 aa(lp1204
-I980
+I5
 aVZydrunas Ilgauskas
 p1205
 aI78
@@ -31016,7 +31016,7 @@ aI67
 aI49
 aI42
 aa(lp1206
-I739
+I4
 aVRasheed Wallace
 p1207
 aI80
@@ -31068,7 +31068,7 @@ aI211
 aI131
 aI68
 aa(lp1208
-I1802
+I5
 aVBrad Miller
 p1209
 aI79
@@ -31120,7 +31120,7 @@ aI66
 aI198
 aI49
 aa(lp1210
-I2045
+I3
 aVHedo Turkoglu
 p1211
 aI78
@@ -31172,7 +31172,7 @@ aI60
 aI147
 aI94
 aa(lp1212
-I1885
+I4
 aVLamar Odom
 p1213
 aI80
@@ -31226,7 +31226,7 @@ aI45
 aasI2007
 (lp1214
 (lp1215
-I977
+I2
 aVKobe Bryant
 p1216
 aI77
@@ -31278,7 +31278,7 @@ aI68
 aI5
 aI8
 aa(lp1217
-I2546
+I3
 aVCarmelo Anthony
 p1218
 aI65
@@ -31330,7 +31330,7 @@ aI141
 aI4
 aI37
 aa(lp1219
-I2240
+I1
 aVGilbert Arenas
 p1220
 aI74
@@ -31382,7 +31382,7 @@ aI110
 aI9
 aI26
 aa(lp1221
-I2544
+I3
 aVLeBron James
 p1222
 aI78
@@ -31434,7 +31434,7 @@ aI139
 aI8
 aI7
 aa(lp1223
-I2072
+I2
 aVMichael Redd
 p1224
 aI53
@@ -31486,7 +31486,7 @@ aI55
 aI14
 aI40
 aa(lp1225
-I951
+I2
 aVRay Allen
 p1226
 aI55
@@ -31538,7 +31538,7 @@ aI113
 aI13
 aI38
 aa(lp1227
-I947
+I1
 aVAllen Iverson
 p1228
 aI65
@@ -31590,7 +31590,7 @@ aI178
 aI15
 aI43
 aa(lp1229
-I1713
+I2
 aVVince Carter
 p1230
 aI82
@@ -31642,7 +31642,7 @@ aI122
 aI10
 aI21
 aa(lp1231
-I2207
+I2
 aVJoe Johnson
 p1232
 aI57
@@ -31694,7 +31694,7 @@ aI124
 aI18
 aI29
 aa(lp1233
-I1503
+I2
 aVTracy McGrady
 p1234
 aI71
@@ -31746,7 +31746,7 @@ aI264
 aI2
 aI13
 aa(lp1235
-I1717
+I4
 aVDirk Nowitzki
 p1236
 aI78
@@ -31798,7 +31798,7 @@ aI25
 aI17
 aI1
 aa(lp1237
-I2216
+I4
 aVZach Randolph
 p1238
 aI68
@@ -31850,7 +31850,7 @@ aI191
 aI7
 aI11
 aa(lp1239
-I2547
+I4
 aVChris Bosh
 p1240
 aI69
@@ -31902,7 +31902,7 @@ aI77
 aI24
 aI15
 aa(lp1241
-I708
+I4
 aVKevin Garnett
 p1242
 aI76
@@ -31954,7 +31954,7 @@ aI162
 aI21
 aI3
 aa(lp1243
-I2732
+I2
 aVBen Gordon
 p1244
 aI82
@@ -32006,7 +32006,7 @@ aI83
 aI16
 aI50
 aa(lp1245
-I2430
+I4
 aVCarlos Boozer
 p1246
 aI74
@@ -32058,7 +32058,7 @@ aI49
 aI27
 aI6
 aa(lp1247
-I1882
+I4
 aVElton Brand
 p1248
 aI80
@@ -32110,7 +32110,7 @@ aI67
 aI50
 aI18
 aa(lp1249
-I2405
+I4
 aVAmar'e Stoudemire
 p1250
 aI82
@@ -32162,7 +32162,7 @@ aI13
 aI34
 aI25
 aa(lp1251
-I2755
+I2
 aVKevin Martin
 p1252
 aI80
@@ -32214,7 +32214,7 @@ aI17
 aI70
 aI49
 aa(lp1253
-I1495
+I4
 aVTim Duncan
 p1254
 aI80
@@ -32266,7 +32266,7 @@ aI71
 aI20
 aI4
 aa(lp1255
-I1712
+I4
 aVAntawn Jamison
 p1256
 aI70
@@ -32318,7 +32318,7 @@ aI168
 aI87
 aI73
 aa(lp1257
-I1888
+I2
 aVRichard Hamilton
 p1258
 aI75
@@ -32370,7 +32370,7 @@ aI146
 aI29
 aI76
 aa(lp1259
-I2201
+I5
 aVEddy Curry
 p1260
 aI81
@@ -32422,7 +32422,7 @@ aI26
 aI31
 aI116
 aa(lp1261
-I2572
+I3
 aVJosh Howard
 p1262
 aI70
@@ -32474,7 +32474,7 @@ aI151
 aI36
 aI44
 aa(lp1263
-I1897
+I3
 aVMetta World Peace
 p1264
 aI70
@@ -32526,7 +32526,7 @@ aI184
 aI60
 aI63
 aa(lp1265
-I2736
+I3
 aVLuol Deng
 p1266
 aI82
@@ -32578,7 +32578,7 @@ aI119
 aI93
 aI24
 aa(lp1267
-I959
+I1
 aVSteve Nash
 p1268
 aI76
@@ -32630,7 +32630,7 @@ aI8
 aI77
 aI10
 aa(lp1269
-I2225
+I1
 aVTony Parker
 p1270
 aI77
@@ -32682,7 +32682,7 @@ aI86
 aI23
 aI17
 aa(lp1271
-I2034
+I3
 aVMike Miller
 p1272
 aI70
@@ -32734,7 +32734,7 @@ aI48
 aI132
 aI70
 aa(lp1273
-I2738
+I3
 aVAndre Iguodala
 p1274
 aI76
@@ -32786,7 +32786,7 @@ aI116
 aI83
 aI46
 aa(lp1275
-I2222
+I3
 aVGerald Wallace
 p1276
 aI72
@@ -32838,7 +32838,7 @@ aI99
 aI89
 aI42
 aa(lp1277
-I2571
+I2
 aVLeandro Barbosa
 p1278
 aI80
@@ -32890,7 +32890,7 @@ aI36
 aI61
 aI75
 aa(lp1279
-I2730
+I5
 aVDwight Howard
 p1280
 aI82
@@ -32942,7 +32942,7 @@ aI16
 aI84
 aI12
 aa(lp1281
-I2246
+I5
 aVMehmet Okur
 p1282
 aI80
@@ -32994,7 +32994,7 @@ aI91
 aI69
 aI66
 aa(lp1283
-I1890
+I3
 aVShawn Marion
 p1284
 aI80
@@ -33046,7 +33046,7 @@ aI37
 aI187
 aI34
 aa(lp1285
-I1710
+I1
 aVMike Bibby
 p1286
 aI82
@@ -33098,7 +33098,7 @@ aI208
 aI48
 aI107
 aa(lp1287
-I1497
+I1
 aVChauncey Billups
 p1288
 aI70
@@ -33150,7 +33150,7 @@ aI42
 aI112
 aI23
 aa(lp1289
-I1729
+I2
 aVRicky Davis
 p1290
 aI81
@@ -33202,7 +33202,7 @@ aI109
 aI104
 aI90
 aa(lp1291
-I1894
+I3
 aVCorey Maggette
 p1292
 aI75
@@ -33254,7 +33254,7 @@ aI63
 aI30
 aI47
 aa(lp1293
-I1891
+I2
 aVJason Terry
 p1294
 aI81
@@ -33306,7 +33306,7 @@ aI53
 aI127
 aI51
 aa(lp1295
-I2550
+I2
 aVKirk Hinrich
 p1296
 aI80
@@ -33358,7 +33358,7 @@ aI121
 aI118
 aI52
 aa(lp1297
-I1938
+I2
 aVManu Ginobili
 p1298
 aI75
@@ -33410,7 +33410,7 @@ aI21
 aI26
 aI9
 aa(lp1299
-I101145
+I2
 aVMonta Ellis
 p1300
 aI77
@@ -33462,7 +33462,7 @@ aI167
 aI88
 aI162
 aa(lp1301
-I1733
+I4
 aVAl Harrington
 p1302
 aI78
@@ -33514,7 +33514,7 @@ aI179
 aI72
 aI155
 aa(lp1303
-I2746
+I4
 aVJosh Smith
 p1304
 aI72
@@ -33566,7 +33566,7 @@ aI290
 aI49
 aI57
 aa(lp1305
-I950
+I1
 aVStephon Marbury
 p1306
 aI74
@@ -33618,7 +33618,7 @@ aI182
 aI122
 aI128
 aa(lp1307
-I101114
+I1
 aVDeron Williams
 p1308
 aI80
@@ -33670,7 +33670,7 @@ aI198
 aI92
 aI56
 aa(lp1309
-I1536
+I3
 aVStephen Jackson
 p1310
 aI75
@@ -33722,7 +33722,7 @@ aI181
 aI103
 aI179
 aa(lp1311
-I1716
+I3
 aVLarry Hughes
 p1312
 aI70
@@ -33774,7 +33774,7 @@ aI347
 aI120
 aI233
 aa(lp1313
-I1739
+I3
 aVRuben Patterson
 p1314
 aI81
@@ -33828,7 +33828,7 @@ aI96
 aasI2008
 (lp1315
 (lp1316
-I2544
+I3
 aVLeBron James
 p1317
 aI75
@@ -33880,7 +33880,7 @@ aI97
 aI2
 aI5
 aa(lp1318
-I977
+I2
 aVKobe Bryant
 p1319
 aI82
@@ -33932,7 +33932,7 @@ aI72
 aI4
 aI14
 aa(lp1320
-I947
+I1
 aVAllen Iverson
 p1321
 aI82
@@ -33984,7 +33984,7 @@ aI99
 aI24
 aI33
 aa(lp1322
-I2546
+I3
 aVCarmelo Anthony
 p1323
 aI77
@@ -34036,7 +34036,7 @@ aI95
 aI7
 aI38
 aa(lp1324
-I2405
+I4
 aVAmar'e Stoudemire
 p1325
 aI79
@@ -34088,7 +34088,7 @@ aI9
 aI13
 aI11
 aa(lp1326
-I2755
+I2
 aVKevin Martin
 p1327
 aI61
@@ -34140,7 +34140,7 @@ aI24
 aI31
 aI49
 aa(lp1328
-I1717
+I4
 aVDirk Nowitzki
 p1329
 aI77
@@ -34192,7 +34192,7 @@ aI53
 aI9
 aI9
 aa(lp1330
-I2072
+I2
 aVMichael Redd
 p1331
 aI72
@@ -34244,7 +34244,7 @@ aI113
 aI23
 aI70
 aa(lp1332
-I2210
+I3
 aVRichard Jefferson
 p1333
 aI82
@@ -34296,7 +34296,7 @@ aI90
 aI29
 aI89
 aa(lp1334
-I2547
+I4
 aVChris Bosh
 p1335
 aI67
@@ -34348,7 +34348,7 @@ aI48
 aI12
 aI16
 aa(lp1336
-I1894
+I3
 aVCorey Maggette
 p1337
 aI70
@@ -34400,7 +34400,7 @@ aI41
 aI21
 aI48
 aa(lp1338
-I1884
+I1
 aVBaron Davis
 p1339
 aI82
@@ -34452,7 +34452,7 @@ aI221
 aI39
 aI59
 aa(lp1340
-I2202
+I2
 aVJason Richardson
 p1341
 aI82
@@ -34504,7 +34504,7 @@ aI128
 aI32
 aI67
 aa(lp1342
-I2207
+I2
 aVJoe Johnson
 p1343
 aI82
@@ -34556,7 +34556,7 @@ aI182
 aI34
 aI63
 aa(lp1344
-I1503
+I2
 aVTracy McGrady
 p1345
 aI66
@@ -34608,7 +34608,7 @@ aI328
 aI6
 aI32
 aa(lp1346
-I1712
+I4
 aVAntawn Jamison
 p1347
 aI79
@@ -34660,7 +34660,7 @@ aI216
 aI38
 aI39
 aa(lp1348
-I1713
+I2
 aVVince Carter
 p1349
 aI76
@@ -34712,7 +34712,7 @@ aI134
 aI42
 aI42
 aa(lp1350
-I2430
+I4
 aVCarlos Boozer
 p1351
 aI81
@@ -34764,7 +34764,7 @@ aI64
 aI25
 aI19
 aa(lp1352
-I101108
+I1
 aVChris Paul
 p1353
 aI80
@@ -34816,7 +34816,7 @@ aI74
 aI43
 aI7
 aa(lp1354
-I2744
+I5
 aVAl Jefferson
 p1355
 aI82
@@ -34868,7 +34868,7 @@ aI183
 aI17
 aI23
 aa(lp1356
-I2730
+I5
 aVDwight Howard
 p1357
 aI82
@@ -34920,7 +34920,7 @@ aI22
 aI69
 aI17
 aa(lp1358
-I2561
+I4
 aVDavid West
 p1359
 aI76
@@ -34972,7 +34972,7 @@ aI179
 aI28
 aI46
 aa(lp1360
-I2037
+I2
 aVJamal Crawford
 p1361
 aI80
@@ -35024,7 +35024,7 @@ aI207
 aI60
 aI129
 aa(lp1362
-I201142
+I3
 aVKevin Durant
 p1363
 aI80
@@ -35076,7 +35076,7 @@ aI231
 aI15
 aI128
 aa(lp1364
-I101145
+I2
 aVMonta Ellis
 p1365
 aI81
@@ -35128,7 +35128,7 @@ aI67
 aI121
 aI71
 aa(lp1366
-I200752
+I3
 aVRudy Gay
 p1367
 aI81
@@ -35180,7 +35180,7 @@ aI148
 aI47
 aI114
 aa(lp1368
-I1536
+I3
 aVStephen Jackson
 p1369
 aI73
@@ -35232,7 +35232,7 @@ aI177
 aI82
 aI178
 aa(lp1370
-I2572
+I3
 aVJosh Howard
 p1371
 aI76
@@ -35284,7 +35284,7 @@ aI184
 aI35
 aI51
 aa(lp1372
-I2738
+I3
 aVAndre Iguodala
 p1373
 aI82
@@ -35336,7 +35336,7 @@ aI153
 aI68
 aI40
 aa(lp1374
-I1718
+I3
 aVPaul Pierce
 p1375
 aI80
@@ -35388,7 +35388,7 @@ aI38
 aI56
 aI22
 aa(lp1376
-I101122
+I3
 aVDanny Granger
 p1377
 aI80
@@ -35440,7 +35440,7 @@ aI87
 aI79
 aI101
 aa(lp1378
-I2045
+I3
 aVHedo Turkoglu
 p1379
 aI82
@@ -35492,7 +35492,7 @@ aI73
 aI51
 aI55
 aa(lp1380
-I1938
+I2
 aVManu Ginobili
 p1381
 aI74
@@ -35544,7 +35544,7 @@ aI27
 aI14
 aI10
 aa(lp1382
-I1495
+I4
 aVTim Duncan
 p1383
 aI78
@@ -35596,7 +35596,7 @@ aI150
 aI10
 aI8
 aa(lp1384
-I200750
+I2
 aVBrandon Roy
 p1385
 aI74
@@ -35648,7 +35648,7 @@ aI196
 aI50
 aI37
 aa(lp1386
-I2399
+I3
 aVMike Dunleavy
 p1387
 aI82
@@ -35700,7 +35700,7 @@ aI33
 aI119
 aI64
 aa(lp1388
-I101114
+I1
 aVDeron Williams
 p1389
 aI82
@@ -35752,7 +35752,7 @@ aI40
 aI80
 aI24
 aa(lp1390
-I708
+I4
 aVKevin Garnett
 p1391
 aI71
@@ -35804,7 +35804,7 @@ aI49
 aI33
 aI6
 aa(lp1392
-I2732
+I2
 aVBen Gordon
 p1393
 aI72
@@ -35856,7 +35856,7 @@ aI118
 aI37
 aI92
 aa(lp1394
-I1740
+I3
 aVRashard Lewis
 p1395
 aI81
@@ -35908,7 +35908,7 @@ aI45
 aI144
 aI99
 aa(lp1396
-I200746
+I4
 aVLaMarcus Aldridge
 p1397
 aI76
@@ -35960,7 +35960,7 @@ aI222
 aI45
 aI77
 aa(lp1398
-I951
+I2
 aVRay Allen
 p1399
 aI73
@@ -36012,7 +36012,7 @@ aI56
 aI123
 aI93
 aa(lp1400
-I1888
+I2
 aVRichard Hamilton
 p1401
 aI72
@@ -36064,7 +36064,7 @@ aI131
 aI58
 aI72
 aa(lp1402
-I2746
+I4
 aVJosh Smith
 p1403
 aI81
@@ -36116,7 +36116,7 @@ aI227
 aI52
 aI56
 aa(lp1404
-I1889
+I1
 aVAndre Miller
 p1405
 aI82
@@ -36168,7 +36168,7 @@ aI175
 aI92
 aI47
 aa(lp1406
-I1497
+I1
 aVChauncey Billups
 p1407
 aI78
@@ -36220,7 +36220,7 @@ aI23
 aI83
 aI15
 aa(lp1408
-I959
+I1
 aVSteve Nash
 p1409
 aI81
@@ -36272,7 +36272,7 @@ aI14
 aI115
 aI21
 aa(lp1410
-I978
+I3
 aVPeja Stojakovic
 p1411
 aI77
@@ -36324,7 +36324,7 @@ aI65
 aI187
 aI171
 aa(lp1412
-I2034
+I3
 aVMike Miller
 p1413
 aI70
@@ -36376,7 +36376,7 @@ aI21
 aI171
 aI69
 aa(lp1414
-I2571
+I2
 aVLeandro Barbosa
 p1415
 aI82
@@ -36430,7 +36430,7 @@ aI155
 aasI2009
 (lp1416
 (lp1417
-I2548
+I2
 aVDwyane Wade
 p1418
 aI79
@@ -36482,7 +36482,7 @@ aI87
 aI3
 aI7
 aa(lp1419
-I2544
+I3
 aVLeBron James
 p1420
 aI81
@@ -36534,7 +36534,7 @@ aI52
 aI4
 aI4
 aa(lp1421
-I977
+I2
 aVKobe Bryant
 p1422
 aI82
@@ -36586,7 +36586,7 @@ aI122
 aI5
 aI13
 aa(lp1423
-I1717
+I4
 aVDirk Nowitzki
 p1424
 aI81
@@ -36638,7 +36638,7 @@ aI115
 aI10
 aI12
 aa(lp1425
-I101122
+I3
 aVDanny Granger
 p1426
 aI67
@@ -36690,7 +36690,7 @@ aI70
 aI12
 aI38
 aa(lp1427
-I201142
+I3
 aVKevin Durant
 p1428
 aI74
@@ -36742,7 +36742,7 @@ aI83
 aI17
 aI23
 aa(lp1429
-I101108
+I1
 aVChris Paul
 p1430
 aI78
@@ -36794,7 +36794,7 @@ aI36
 aI24
 aI5
 aa(lp1431
-I2546
+I3
 aVCarmelo Anthony
 p1432
 aI66
@@ -36846,7 +36846,7 @@ aI217
 aI7
 aI43
 aa(lp1433
-I2547
+I4
 aVChris Bosh
 p1434
 aI77
@@ -36898,7 +36898,7 @@ aI101
 aI27
 aI22
 aa(lp1435
-I200750
+I2
 aVBrandon Roy
 p1436
 aI78
@@ -36950,7 +36950,7 @@ aI89
 aI22
 aI14
 aa(lp1437
-I1712
+I4
 aVAntawn Jamison
 p1438
 aI81
@@ -37002,7 +37002,7 @@ aI157
 aI42
 aI42
 aa(lp1439
-I2225
+I1
 aVTony Parker
 p1440
 aI72
@@ -37054,7 +37054,7 @@ aI134
 aI8
 aI16
 aa(lp1441
-I2207
+I2
 aVJoe Johnson
 p1442
 aI79
@@ -37106,7 +37106,7 @@ aI208
 aI33
 aI62
 aa(lp1443
-I2734
+I1
 aVDevin Harris
 p1444
 aI69
@@ -37158,7 +37158,7 @@ aI117
 aI18
 aI30
 aa(lp1445
-I2561
+I4
 aVDavid West
 p1446
 aI76
@@ -37210,7 +37210,7 @@ aI192
 aI36
 aI45
 aa(lp1447
-I1713
+I2
 aVVince Carter
 p1448
 aI80
@@ -37262,7 +37262,7 @@ aI175
 aI30
 aI57
 aa(lp1449
-I2732
+I2
 aVBen Gordon
 p1450
 aI82
@@ -37314,7 +37314,7 @@ aI90
 aI56
 aI103
 aa(lp1451
-I2730
+I5
 aVDwight Howard
 p1452
 aI79
@@ -37366,7 +37366,7 @@ aI35
 aI39
 aI8
 aa(lp1453
-I1718
+I3
 aVPaul Pierce
 p1454
 aI81
@@ -37418,7 +37418,7 @@ aI72
 aI50
 aI40
 aa(lp1455
-I1733
+I4
 aVAl Harrington
 p1456
 aI73
@@ -37470,7 +37470,7 @@ aI167
 aI43
 aI143
 aa(lp1457
-I2397
+I5
 aVYao Ming
 p1458
 aI77
@@ -37522,7 +37522,7 @@ aI20
 aI35
 aI11
 aa(lp1459
-I2210
+I3
 aVRichard Jefferson
 p1460
 aI82
@@ -37574,7 +37574,7 @@ aI145
 aI58
 aI121
 aa(lp1461
-I1891
+I2
 aVJason Terry
 p1462
 aI74
@@ -37626,7 +37626,7 @@ aI94
 aI45
 aI77
 aa(lp1463
-I1495
+I4
 aVTim Duncan
 p1464
 aI75
@@ -37678,7 +37678,7 @@ aI155
 aI15
 aI10
 aa(lp1465
-I200752
+I3
 aVRudy Gay
 p1466
 aI79
@@ -37730,7 +37730,7 @@ aI234
 aI44
 aI152
 aa(lp1467
-I2200
+I4
 aVPau Gasol
 p1468
 aI81
@@ -37782,7 +37782,7 @@ aI21
 aI150
 aI18
 aa(lp1469
-I2738
+I3
 aVAndre Iguodala
 p1470
 aI82
@@ -37834,7 +37834,7 @@ aI124
 aI101
 aI34
 aa(lp1471
-I201564
+I2
 aVO.J. Mayo
 p1472
 aI82
@@ -37886,7 +37886,7 @@ aI197
 aI65
 aI165
 aa(lp1473
-I2422
+I3
 aVJohn Salmons
 p1474
 aI79
@@ -37938,7 +37938,7 @@ aI78
 aI116
 aI125
 aa(lp1475
-I951
+I2
 aVRay Allen
 p1476
 aI79
@@ -37990,7 +37990,7 @@ aI14
 aI134
 aI74
 aa(lp1477
-I200746
+I4
 aVLaMarcus Aldridge
 p1478
 aI81
@@ -38042,7 +38042,7 @@ aI231
 aI74
 aI71
 aa(lp1479
-I2590
+I1
 aVMo Williams
 p1480
 aI81
@@ -38094,7 +38094,7 @@ aI59
 aI76
 aI82
 aa(lp1481
-I406
+I5
 aVShaquille O'Neal
 p1482
 aI75
@@ -38146,7 +38146,7 @@ aI15
 aI64
 aI48
 aa(lp1483
-I1740
+I3
 aVRashard Lewis
 p1484
 aI79
@@ -38198,7 +38198,7 @@ aI80
 aI105
 aI80
 aa(lp1485
-I1497
+I1
 aVChauncey Billups
 p1486
 aI79
@@ -38250,7 +38250,7 @@ aI48
 aI106
 aI41
 aa(lp1487
-I101126
+I1
 aVNate Robinson
 p1488
 aI74
@@ -38302,7 +38302,7 @@ aI158
 aI49
 aI83
 aa(lp1489
-I2246
+I5
 aVMehmet Okur
 p1490
 aI72
@@ -38354,7 +38354,7 @@ aI50
 aI111
 aI72
 aa(lp1491
-I2202
+I2
 aVJason Richardson
 p1492
 aI72
@@ -38406,7 +38406,7 @@ aI96
 aI123
 aI138
 aa(lp1493
-I201154
+I3
 aVAl Thornton
 p1494
 aI71
@@ -38458,7 +38458,7 @@ aI303
 aI95
 aI279
 aa(lp1495
-I2045
+I3
 aVHedo Turkoglu
 p1496
 aI77
@@ -38510,7 +38510,7 @@ aI189
 aI90
 aI90
 aa(lp1497
-I201565
+I1
 aVDerrick Rose
 p1498
 aI81
@@ -38562,7 +38562,7 @@ aI263
 aI100
 aI93
 aa(lp1499
-I2222
+I3
 aVGerald Wallace
 p1500
 aI71
@@ -38614,7 +38614,7 @@ aI67
 aI153
 aI29
 aa(lp1501
-I201145
+I4
 aVJeff Green
 p1502
 aI78
@@ -38666,7 +38666,7 @@ aI204
 aI125
 aI156
 aa(lp1503
-I1889
+I1
 aVAndre Miller
 p1504
 aI82
@@ -38718,7 +38718,7 @@ aI166
 aI110
 aI44
 aa(lp1505
-I200751
+I2
 aVRandy Foye
 p1506
 aI70
@@ -38770,7 +38770,7 @@ aI262
 aI99
 aI223
 aa(lp1507
-I101111
+I4
 aVCharlie Villanueva
 p1508
 aI78
@@ -38822,7 +38822,7 @@ aI230
 aI16
 aI54
 aa(lp1509
-I201569
+I2
 aVEric Gordon
 p1510
 aI78
@@ -38874,7 +38874,7 @@ aI46
 aI138
 aI180
 aa(lp1511
-I101135
+I4
 aVDavid Lee
 p1512
 aI81
@@ -38926,7 +38926,7 @@ aI56
 aI193
 aI36
 aa(lp1513
-I959
+I1
 aVSteve Nash
 p1514
 aI74
@@ -38978,7 +38978,7 @@ aI24
 aI124
 aI31
 aa(lp1515
-I200745
+I4
 aVAndrea Bargnani
 p1516
 aI78
@@ -39032,7 +39032,7 @@ aI191
 aasI2010
 (lp1517
 (lp1518
-I201142
+I3
 aVKevin Durant
 p1519
 aI82
@@ -39084,7 +39084,7 @@ aI33
 aI6
 aI5
 aa(lp1520
-I2544
+I3
 aVLeBron James
 p1521
 aI76
@@ -39136,7 +39136,7 @@ aI37
 aI3
 aI3
 aa(lp1522
-I2546
+I3
 aVCarmelo Anthony
 p1523
 aI69
@@ -39188,7 +39188,7 @@ aI149
 aI4
 aI30
 aa(lp1524
-I977
+I2
 aVKobe Bryant
 p1525
 aI73
@@ -39240,7 +39240,7 @@ aI161
 aI5
 aI23
 aa(lp1526
-I2548
+I2
 aVDwyane Wade
 p1527
 aI77
@@ -39292,7 +39292,7 @@ aI113
 aI2
 aI7
 aa(lp1528
-I101145
+I2
 aVMonta Ellis
 p1529
 aI64
@@ -39344,7 +39344,7 @@ aI273
 aI8
 aI119
 aa(lp1530
-I1717
+I4
 aVDirk Nowitzki
 p1531
 aI81
@@ -39396,7 +39396,7 @@ aI71
 aI10
 aI12
 aa(lp1532
-I101122
+I3
 aVDanny Granger
 p1533
 aI62
@@ -39448,7 +39448,7 @@ aI107
 aI12
 aI43
 aa(lp1534
-I2547
+I4
 aVChris Bosh
 p1535
 aI70
@@ -39500,7 +39500,7 @@ aI51
 aI11
 aI10
 aa(lp1536
-I2405
+I4
 aVAmar'e Stoudemire
 p1537
 aI82
@@ -39552,7 +39552,7 @@ aI25
 aI18
 aI33
 aa(lp1538
-I2207
+I2
 aVJoe Johnson
 p1539
 aI76
@@ -39604,7 +39604,7 @@ aI187
 aI24
 aI54
 aa(lp1540
-I201565
+I1
 aVDerrick Rose
 p1541
 aI78
@@ -39656,7 +39656,7 @@ aI206
 aI19
 aI34
 aa(lp1542
-I2216
+I4
 aVZach Randolph
 p1543
 aI81
@@ -39708,7 +39708,7 @@ aI159
 aI52
 aI29
 aa(lp1544
-I1536
+I3
 aVStephen Jackson
 p1545
 aI81
@@ -39760,7 +39760,7 @@ aI270
 aI16
 aI98
 aa(lp1546
-I101135
+I4
 aVDavid Lee
 p1547
 aI81
@@ -39812,7 +39812,7 @@ aI61
 aI68
 aI14
 aa(lp1548
-I201936
+I2
 aVTyreke Evans
 p1549
 aI72
@@ -39864,7 +39864,7 @@ aI224
 aI28
 aI41
 aa(lp1550
-I1894
+I3
 aVCorey Maggette
 p1551
 aI70
@@ -39916,7 +39916,7 @@ aI26
 aI26
 aI49
 aa(lp1552
-I200752
+I3
 aVRudy Gay
 p1553
 aI80
@@ -39968,7 +39968,7 @@ aI194
 aI90
 aI134
 aa(lp1554
-I201166
+I1
 aVAaron Brooks
 p1555
 aI82
@@ -40020,7 +40020,7 @@ aI148
 aI32
 aI122
 aa(lp1556
-I1497
+I1
 aVChauncey Billups
 p1557
 aI73
@@ -40072,7 +40072,7 @@ aI39
 aI56
 aI31
 aa(lp1558
-I2430
+I4
 aVCarlos Boozer
 p1559
 aI78
@@ -40124,7 +40124,7 @@ aI43
 aI49
 aI11
 aa(lp1560
-I2561
+I4
 aVDavid West
 p1561
 aI81
@@ -40176,7 +40176,7 @@ aI120
 aI62
 aI60
 aa(lp1562
-I201572
+I5
 aVBrook Lopez
 p1563
 aI82
@@ -40228,7 +40228,7 @@ aI92
 aI73
 aI51
 aa(lp1564
-I101114
+I1
 aVDeron Williams
 p1565
 aI76
@@ -40280,7 +40280,7 @@ aI82
 aI67
 aI25
 aa(lp1566
-I2549
+I5
 aVChris Kaman
 p1567
 aI76
@@ -40332,7 +40332,7 @@ aI235
 aI20
 aI70
 aa(lp1568
-I2730
+I5
 aVDwight Howard
 p1569
 aI82
@@ -40384,7 +40384,7 @@ aI16
 aI60
 aI8
 aa(lp1570
-I1718
+I3
 aVPaul Pierce
 p1571
 aI71
@@ -40436,7 +40436,7 @@ aI29
 aI72
 aI47
 aa(lp1572
-I2222
+I3
 aVGerald Wallace
 p1573
 aI76
@@ -40488,7 +40488,7 @@ aI58
 aI152
 aI26
 aa(lp1574
-I2037
+I2
 aVJamal Crawford
 p1575
 aI79
@@ -40540,7 +40540,7 @@ aI85
 aI36
 aI67
 aa(lp1576
-I1495
+I4
 aVTim Duncan
 p1577
 aI78
@@ -40592,7 +40592,7 @@ aI121
 aI27
 aI6
 aa(lp1578
-I200746
+I4
 aVLaMarcus Aldridge
 p1579
 aI78
@@ -40644,7 +40644,7 @@ aI198
 aI78
 aI53
 aa(lp1580
-I1733
+I4
 aVAl Harrington
 p1581
 aI72
@@ -40696,7 +40696,7 @@ aI160
 aI22
 aI117
 aa(lp1582
-I2736
+I3
 aVLuol Deng
 p1583
 aI70
@@ -40748,7 +40748,7 @@ aI212
 aI107
 aI77
 aa(lp1584
-I201939
+I1
 aVStephen Curry
 p1585
 aI80
@@ -40800,7 +40800,7 @@ aI97
 aI106
 aI101
 aa(lp1586
-I201564
+I2
 aVO.J. Mayo
 p1587
 aI82
@@ -40852,7 +40852,7 @@ aI138
 aI135
 aI182
 aa(lp1588
-I200745
+I4
 aVAndrea Bargnani
 p1589
 aI80
@@ -40904,7 +40904,7 @@ aI136
 aI95
 aI171
 aa(lp1590
-I2744
+I5
 aVAl Jefferson
 p1591
 aI76
@@ -40956,7 +40956,7 @@ aI252
 aI51
 aI40
 aa(lp1592
-I2738
+I3
 aVAndre Iguodala
 p1593
 aI82
@@ -41008,7 +41008,7 @@ aI195
 aI105
 aI45
 aa(lp1594
-I201171
+I4
 aVCarl Landry
 p1595
 aI80
@@ -41060,7 +41060,7 @@ aI40
 aI85
 aI63
 aa(lp1596
-I201155
+I1
 aVRodney Stuckey
 p1597
 aI73
@@ -41112,7 +41112,7 @@ aI361
 aI29
 aI112
 aa(lp1598
-I1891
+I2
 aVJason Terry
 p1599
 aI77
@@ -41164,7 +41164,7 @@ aI135
 aI81
 aI107
 aa(lp1600
-I1713
+I2
 aVVince Carter
 p1601
 aI75
@@ -41216,7 +41216,7 @@ aI170
 aI41
 aI68
 aa(lp1602
-I1938
+I2
 aVManu Ginobili
 p1603
 aI75
@@ -41268,7 +41268,7 @@ aI62
 aI38
 aI18
 aa(lp1604
-I959
+I1
 aVSteve Nash
 p1605
 aI81
@@ -41320,7 +41320,7 @@ aI24
 aI83
 aI16
 aa(lp1606
-I951
+I2
 aVRay Allen
 p1607
 aI80
@@ -41372,7 +41372,7 @@ aI38
 aI159
 aI123
 aa(lp1608
-I2406
+I3
 aVCaron Butler
 p1609
 aI74
@@ -41424,7 +41424,7 @@ aI302
 aI101
 aI167
 aa(lp1610
-I2449
+I4
 aVLuis Scola
 p1611
 aI82
@@ -41476,7 +41476,7 @@ aI144
 aI82
 aI46
 aa(lp1612
-I201566
+I1
 aVRussell Westbrook
 p1613
 aI82
@@ -41528,7 +41528,7 @@ aI341
 aI37
 aI66
 aa(lp1614
-I2202
+I2
 aVJason Richardson
 p1615
 aI79
@@ -41580,7 +41580,7 @@ aI79
 aI138
 aI125
 aa(lp1616
-I2746
+I4
 aVJosh Smith
 p1617
 aI81
@@ -41634,7 +41634,7 @@ aI42
 aasI2011
 (lp1618
 (lp1619
-I201142
+I3
 aVKevin Durant
 p1620
 aI78
@@ -41686,7 +41686,7 @@ aI50
 aI8
 aI12
 aa(lp1621
-I2544
+I3
 aVLeBron James
 p1622
 aI79
@@ -41738,7 +41738,7 @@ aI38
 aI6
 aI1
 aa(lp1623
-I2546
+I3
 aVCarmelo Anthony
 p1624
 aI77
@@ -41790,7 +41790,7 @@ aI124
 aI2
 aI21
 aa(lp1625
-I2548
+I2
 aVDwyane Wade
 p1626
 aI76
@@ -41842,7 +41842,7 @@ aI70
 aI4
 aI9
 aa(lp1627
-I977
+I2
 aVKobe Bryant
 p1628
 aI82
@@ -41894,7 +41894,7 @@ aI155
 aI1
 aI14
 aa(lp1629
-I2405
+I4
 aVAmar'e Stoudemire
 p1630
 aI78
@@ -41946,7 +41946,7 @@ aI106
 aI7
 aI31
 aa(lp1631
-I201565
+I1
 aVDerrick Rose
 p1632
 aI81
@@ -41998,7 +41998,7 @@ aI142
 aI3
 aI8
 aa(lp1633
-I101145
+I2
 aVMonta Ellis
 p1634
 aI80
@@ -42050,7 +42050,7 @@ aI195
 aI13
 aI76
 aa(lp1635
-I2755
+I2
 aVKevin Martin
 p1636
 aI80
@@ -42102,7 +42102,7 @@ aI28
 aI9
 aI40
 aa(lp1637
-I1717
+I4
 aVDirk Nowitzki
 p1638
 aI73
@@ -42154,7 +42154,7 @@ aI24
 aI12
 aI6
 aa(lp1639
-I2730
+I5
 aVDwight Howard
 p1640
 aI78
@@ -42206,7 +42206,7 @@ aI21
 aI21
 aI2
 aa(lp1641
-I201933
+I4
 aVBlake Griffin
 p1642
 aI82
@@ -42258,7 +42258,7 @@ aI152
 aI17
 aI11
 aa(lp1643
-I201566
+I1
 aVRussell Westbrook
 p1644
 aI82
@@ -42310,7 +42310,7 @@ aI189
 aI5
 aI16
 aa(lp1645
-I200746
+I4
 aVLaMarcus Aldridge
 p1646
 aI81
@@ -42362,7 +42362,7 @@ aI146
 aI30
 aI25
 aa(lp1647
-I200745
+I4
 aVAndrea Bargnani
 p1648
 aI66
@@ -42414,7 +42414,7 @@ aI209
 aI11
 aI136
 aa(lp1649
-I101122
+I3
 aVDanny Granger
 p1650
 aI79
@@ -42466,7 +42466,7 @@ aI132
 aI23
 aI65
 aa(lp1651
-I201572
+I5
 aVBrook Lopez
 p1652
 aI82
@@ -42518,7 +42518,7 @@ aI149
 aI18
 aI78
 aa(lp1653
-I201567
+I4
 aVKevin Love
 p1654
 aI73
@@ -42570,7 +42570,7 @@ aI43
 aI87
 aI3
 aa(lp1655
-I2216
+I4
 aVZach Randolph
 p1656
 aI75
@@ -42622,7 +42622,7 @@ aI136
 aI46
 aI10
 aa(lp1657
-I201563
+I3
 aVMichael Beasley
 p1658
 aI73
@@ -42674,7 +42674,7 @@ aI285
 aI10
 aI177
 aa(lp1659
-I1718
+I3
 aVPaul Pierce
 p1660
 aI80
@@ -42726,7 +42726,7 @@ aI18
 aI68
 aI24
 aa(lp1661
-I2561
+I4
 aVDavid West
 p1662
 aI70
@@ -42778,7 +42778,7 @@ aI118
 aI29
 aI28
 aa(lp1663
-I2200
+I4
 aVPau Gasol
 p1664
 aI82
@@ -42830,7 +42830,7 @@ aI51
 aI108
 aI13
 aa(lp1665
-I2547
+I4
 aVChris Bosh
 p1666
 aI77
@@ -42882,7 +42882,7 @@ aI92
 aI76
 aI27
 aa(lp1667
-I2744
+I5
 aVAl Jefferson
 p1668
 aI82
@@ -42934,7 +42934,7 @@ aI226
 aI62
 aI35
 aa(lp1669
-I201939
+I1
 aVStephen Curry
 p1670
 aI74
@@ -42986,7 +42986,7 @@ aI36
 aI63
 aI57
 aa(lp1671
-I2449
+I4
 aVLuis Scola
 p1672
 aI74
@@ -43038,7 +43038,7 @@ aI186
 aI38
 aI48
 aa(lp1673
-I2207
+I2
 aVJoe Johnson
 p1674
 aI72
@@ -43090,7 +43090,7 @@ aI270
 aI25
 aI93
 aa(lp1675
-I2225
+I1
 aVTony Parker
 p1676
 aI78
@@ -43142,7 +43142,7 @@ aI94
 aI40
 aI26
 aa(lp1677
-I2736
+I3
 aVLuol Deng
 p1678
 aI82
@@ -43194,7 +43194,7 @@ aI150
 aI142
 aI89
 aa(lp1679
-I1938
+I2
 aVManu Ginobili
 p1680
 aI80
@@ -43246,7 +43246,7 @@ aI69
 aI35
 aI30
 aa(lp1681
-I200794
+I4
 aVPaul Millsap
 p1682
 aI76
@@ -43298,7 +43298,7 @@ aI76
 aI93
 aI41
 aa(lp1683
-I201942
+I2
 aVDeMar DeRozan
 p1684
 aI82
@@ -43350,7 +43350,7 @@ aI217
 aI77
 aI211
 aa(lp1685
-I1497
+I1
 aVChauncey Billups
 p1686
 aI72
@@ -43402,7 +43402,7 @@ aI19
 aI92
 aI54
 aa(lp1687
-I2746
+I4
 aVJosh Smith
 p1688
 aI77
@@ -43454,7 +43454,7 @@ aI174
 aI48
 aI33
 aa(lp1689
-I951
+I2
 aVRay Allen
 p1690
 aI80
@@ -43506,7 +43506,7 @@ aI22
 aI177
 aI85
 aa(lp1691
-I101135
+I4
 aVDavid Lee
 p1692
 aI73
@@ -43558,7 +43558,7 @@ aI147
 aI128
 aI61
 aa(lp1693
-I2748
+I3
 aVDorell Wright
 p1694
 aI82
@@ -43610,7 +43610,7 @@ aI177
 aI193
 aI185
 aa(lp1695
-I202083
+I2
 aVWesley Matthews
 p1696
 aI82
@@ -43662,7 +43662,7 @@ aI67
 aI123
 aI160
 aa(lp1697
-I101108
+I1
 aVChris Paul
 p1698
 aI80
@@ -43714,7 +43714,7 @@ aI77
 aI134
 aI5
 aa(lp1699
-I1891
+I2
 aVJason Terry
 p1700
 aI82
@@ -43766,7 +43766,7 @@ aI159
 aI56
 aI122
 aa(lp1701
-I2222
+I3
 aVGerald Wallace
 p1702
 aI71
@@ -43818,7 +43818,7 @@ aI156
 aI154
 aI66
 aa(lp1703
-I2202
+I2
 aVJason Richardson
 p1704
 aI80
@@ -43870,7 +43870,7 @@ aI128
 aI150
 aI168
 aa(lp1705
-I101109
+I1
 aVRaymond Felton
 p1706
 aI75
@@ -43922,7 +43922,7 @@ aI245
 aI115
 aI73
 aa(lp1707
-I201155
+I1
 aVRodney Stuckey
 p1708
 aI70
@@ -43974,7 +43974,7 @@ aI163
 aI58
 aI88
 aa(lp1709
-I201143
+I5
 aVAl Horford
 p1710
 aI77
@@ -44026,7 +44026,7 @@ aI57
 aI171
 aI18
 aa(lp1711
-I201163
+I3
 aVWilson Chandler
 p1712
 aI72
@@ -44078,7 +44078,7 @@ aI191
 aI140
 aI176
 aa(lp1713
-I2734
+I1
 aVDevin Harris
 p1714
 aI71
@@ -44130,7 +44130,7 @@ aI161
 aI51
 aI58
 aa(lp1715
-I1882
+I4
 aVElton Brand
 p1716
 aI81
@@ -44182,7 +44182,7 @@ aI135
 aI180
 aI71
 aa(lp1717
-I708
+I4
 aVKevin Garnett
 p1718
 aI71
@@ -44236,7 +44236,7 @@ aI7
 aasI2012
 (lp1719
 (lp1720
-I201142
+I3
 aVKevin Durant
 p1721
 aI66
@@ -44288,7 +44288,7 @@ aI19
 aI7
 aI3
 aa(lp1722
-I977
+I2
 aVKobe Bryant
 p1723
 aI58
@@ -44340,7 +44340,7 @@ aI188
 aI1
 aI27
 aa(lp1724
-I2544
+I3
 aVLeBron James
 p1725
 aI62
@@ -44392,7 +44392,7 @@ aI23
 aI4
 aI1
 aa(lp1726
-I201567
+I4
 aVKevin Love
 p1727
 aI55
@@ -44444,7 +44444,7 @@ aI68
 aI16
 aI5
 aa(lp1728
-I201566
+I1
 aVRussell Westbrook
 p1729
 aI66
@@ -44496,7 +44496,7 @@ aI161
 aI2
 aI25
 aa(lp1730
-I2546
+I3
 aVCarmelo Anthony
 p1731
 aI55
@@ -44548,7 +44548,7 @@ aI199
 aI5
 aI23
 aa(lp1732
-I200746
+I4
 aVLaMarcus Aldridge
 p1733
 aI55
@@ -44600,7 +44600,7 @@ aI81
 aI27
 aI17
 aa(lp1734
-I1717
+I4
 aVDirk Nowitzki
 p1735
 aI62
@@ -44652,7 +44652,7 @@ aI74
 aI12
 aI16
 aa(lp1736
-I101114
+I1
 aVDeron Williams
 p1737
 aI55
@@ -44704,7 +44704,7 @@ aI187
 aI10
 aI34
 aa(lp1738
-I201933
+I4
 aVBlake Griffin
 p1739
 aI66
@@ -44756,7 +44756,7 @@ aI92
 aI30
 aI11
 aa(lp1740
-I101145
+I2
 aVMonta Ellis
 p1741
 aI58
@@ -44808,7 +44808,7 @@ aI254
 aI18
 aI103
 aa(lp1742
-I101135
+I4
 aVDavid Lee
 p1743
 aI57
@@ -44860,7 +44860,7 @@ aI122
 aI39
 aI59
 aa(lp1744
-I101108
+I1
 aVChris Paul
 p1745
 aI60
@@ -44912,7 +44912,7 @@ aI48
 aI67
 aI4
 aa(lp1746
-I1718
+I3
 aVPaul Pierce
 p1747
 aI61
@@ -44964,7 +44964,7 @@ aI69
 aI23
 aI28
 aa(lp1748
-I2744
+I5
 aVAl Jefferson
 p1749
 aI61
@@ -45016,7 +45016,7 @@ aI217
 aI38
 aI12
 aa(lp1750
-I201943
+I1
 aVBrandon Jennings
 p1751
 aI66
@@ -45068,7 +45068,7 @@ aI233
 aI42
 aI82
 aa(lp1752
-I200752
+I3
 aVRudy Gay
 p1753
 aI65
@@ -45120,7 +45120,7 @@ aI213
 aI48
 aI78
 aa(lp1754
-I2207
+I2
 aVJoe Johnson
 p1755
 aI60
@@ -45172,7 +45172,7 @@ aI90
 aI52
 aI72
 aa(lp1756
-I2746
+I4
 aVJosh Smith
 p1757
 aI66
@@ -45224,7 +45224,7 @@ aI289
 aI17
 aI21
 aa(lp1758
-I101115
+I5
 aVAndrew Bynum
 p1759
 aI60
@@ -45276,7 +45276,7 @@ aI34
 aI75
 aI9
 aa(lp1760
-I101122
+I3
 aVDanny Granger
 p1761
 aI62
@@ -45328,7 +45328,7 @@ aI139
 aI43
 aI83
 aa(lp1762
-I2225
+I1
 aVTony Parker
 p1763
 aI60
@@ -45380,7 +45380,7 @@ aI150
 aI22
 aI13
 aa(lp1764
-I202326
+I5
 aVDeMarcus Cousins
 p1765
 aI64
@@ -45432,7 +45432,7 @@ aI288
 aI13
 aI58
 aa(lp1766
-I2547
+I4
 aVChris Bosh
 p1767
 aI57
@@ -45484,7 +45484,7 @@ aI111
 aI64
 aI35
 aa(lp1768
-I2200
+I4
 aVPau Gasol
 p1769
 aI65
@@ -45536,7 +45536,7 @@ aI129
 aI112
 aI19
 aa(lp1770
-I1712
+I4
 aVAntawn Jamison
 p1771
 aI65
@@ -45588,7 +45588,7 @@ aI337
 aI40
 aI199
 aa(lp1772
-I201935
+I2
 aVJames Harden
 p1773
 aI62
@@ -45640,7 +45640,7 @@ aI6
 aI125
 aI30
 aa(lp1774
-I201942
+I2
 aVDeMar DeRozan
 p1775
 aI63
@@ -45692,7 +45692,7 @@ aI270
 aI45
 aI275
 aa(lp1776
-I200794
+I4
 aVPaul Millsap
 p1777
 aI64
@@ -45744,7 +45744,7 @@ aI130
 aI81
 aI29
 aa(lp1778
-I201936
+I2
 aVTyreke Evans
 p1779
 aI63
@@ -45796,7 +45796,7 @@ aI241
 aI73
 aI125
 aa(lp1780
-I201951
+I1
 aVTy Lawson
 p1781
 aI61
@@ -45848,7 +45848,7 @@ aI49
 aI146
 aI41
 aa(lp1782
-I202322
+I1
 aVJohn Wall
 p1783
 aI66
@@ -45900,7 +45900,7 @@ aI271
 aI58
 aI55
 aa(lp1784
-I201583
+I4
 aVRyan Anderson
 p1785
 aI61
@@ -45952,7 +45952,7 @@ aI38
 aI153
 aI68
 aa(lp1786
-I708
+I4
 aVKevin Garnett
 p1787
 aI60
@@ -46004,7 +46004,7 @@ aI114
 aI49
 aI7
 aa(lp1788
-I2449
+I4
 aVLuis Scola
 p1789
 aI66
@@ -46056,7 +46056,7 @@ aI195
 aI56
 aI134
 aa(lp1790
-I1495
+I4
 aVTim Duncan
 p1791
 aI58
@@ -46108,7 +46108,7 @@ aI178
 aI35
 aI10
 aa(lp1792
-I101162
+I5
 aVMarcin Gortat
 p1793
 aI66
@@ -46160,7 +46160,7 @@ aI52
 aI154
 aI37
 aa(lp1794
-I202328
+I5
 aVGreg Monroe
 p1795
 aI66
@@ -46212,7 +46212,7 @@ aI75
 aI80
 aI26
 aa(lp1796
-I201167
+I2
 aVArron Afflalo
 p1797
 aI62
@@ -46264,7 +46264,7 @@ aI43
 aI211
 aI211
 aa(lp1798
-I1891
+I2
 aVJason Terry
 p1799
 aI63
@@ -46316,7 +46316,7 @@ aI147
 aI82
 aI120
 aa(lp1800
-I2430
+I4
 aVCarlos Boozer
 p1801
 aI66
@@ -46368,7 +46368,7 @@ aI119
 aI76
 aI22
 aa(lp1802
-I101150
+I2
 aVLou Williams
 p1803
 aI64
@@ -46420,7 +46420,7 @@ aI197
 aI26
 aI52
 aa(lp1804
-I202348
+I2
 aVJordan Crawford
 p1805
 aI64
@@ -46472,7 +46472,7 @@ aI321
 aI21
 aI238
 aa(lp1806
-I201188
+I5
 aVMarc Gasol
 p1807
 aI65
@@ -46524,7 +46524,7 @@ aI144
 aI207
 aI40
 aa(lp1808
-I1733
+I4
 aVAl Harrington
 p1809
 aI64
@@ -46576,7 +46576,7 @@ aI170
 aI61
 aI137
 aa(lp1810
-I201156
+I2
 aVNick Young
 p1811
 aI62
@@ -46628,7 +46628,7 @@ aI238
 aI68
 aI319
 aa(lp1812
-I2037
+I2
 aVJamal Crawford
 p1813
 aI60
@@ -46680,7 +46680,7 @@ aI261
 aI33
 aI141
 aa(lp1814
-I201587
+I3
 aVNicolas Batum
 p1815
 aI59
@@ -46732,7 +46732,7 @@ aI58
 aI165
 aI123
 aa(lp1816
-I2222
+I3
 aVGerald Wallace
 p1817
 aI58
@@ -46784,7 +46784,7 @@ aI128
 aI235
 aI94
 aa(lp1818
-I2743
+I4
 aVKris Humphries
 p1819
 aI62
@@ -46838,7 +46838,7 @@ aI71
 aasI2013
 (lp1820
 (lp1821
-I2546
+I3
 aVCarmelo Anthony
 p1822
 aI67
@@ -46890,7 +46890,7 @@ aI103
 aI2
 aI12
 aa(lp1823
-I201142
+I3
 aVKevin Durant
 p1824
 aI81
@@ -46942,7 +46942,7 @@ aI8
 aI8
 aI2
 aa(lp1825
-I977
+I2
 aVKobe Bryant
 p1826
 aI78
@@ -46994,7 +46994,7 @@ aI81
 aI4
 aI8
 aa(lp1827
-I2544
+I3
 aVLeBron James
 p1828
 aI76
@@ -47046,7 +47046,7 @@ aI11
 aI6
 aI1
 aa(lp1829
-I201935
+I2
 aVJames Harden
 p1830
 aI78
@@ -47098,7 +47098,7 @@ aI39
 aI13
 aI15
 aa(lp1831
-I201566
+I1
 aVRussell Westbrook
 p1832
 aI82
@@ -47150,7 +47150,7 @@ aI191
 aI3
 aI9
 aa(lp1833
-I201939
+I1
 aVStephen Curry
 p1834
 aI78
@@ -47202,7 +47202,7 @@ aI53
 aI38
 aI32
 aa(lp1835
-I2548
+I2
 aVDwyane Wade
 p1836
 aI69
@@ -47254,7 +47254,7 @@ aI78
 aI11
 aI11
 aa(lp1837
-I200746
+I4
 aVLaMarcus Aldridge
 p1838
 aI74
@@ -47306,7 +47306,7 @@ aI203
 aI30
 aI35
 aa(lp1839
-I201572
+I5
 aVBrook Lopez
 p1840
 aI74
@@ -47358,7 +47358,7 @@ aI83
 aI16
 aI17
 aa(lp1841
-I101145
+I2
 aVMonta Ellis
 p1842
 aI82
@@ -47410,7 +47410,7 @@ aI315
 aI40
 aI109
 aa(lp1843
-I203081
+I1
 aVDamian Lillard
 p1844
 aI82
@@ -47462,7 +47462,7 @@ aI140
 aI71
 aI131
 aa(lp1845
-I101114
+I1
 aVDeron Williams
 p1846
 aI78
@@ -47514,7 +47514,7 @@ aI70
 aI69
 aI39
 aa(lp1847
-I1718
+I3
 aVPaul Pierce
 p1848
 aI77
@@ -47566,7 +47566,7 @@ aI107
 aI24
 aI27
 aa(lp1849
-I101135
+I4
 aVDavid Lee
 p1850
 aI79
@@ -47618,7 +47618,7 @@ aI99
 aI88
 aI26
 aa(lp1851
-I200752
+I3
 aVRudy Gay
 p1852
 aI75
@@ -47670,7 +47670,7 @@ aI309
 aI26
 aI93
 aa(lp1853
-I201942
+I2
 aVDeMar DeRozan
 p1854
 aI82
@@ -47722,7 +47722,7 @@ aI226
 aI72
 aI150
 aa(lp1855
-I2747
+I2
 aVJR Smith
 p1856
 aI80
@@ -47774,7 +47774,7 @@ aI231
 aI32
 aI70
 aa(lp1857
-I201933
+I4
 aVBlake Griffin
 p1858
 aI80
@@ -47826,7 +47826,7 @@ aI77
 aI51
 aI14
 aa(lp1859
-I2744
+I5
 aVAl Jefferson
 p1860
 aI78
@@ -47878,7 +47878,7 @@ aI229
 aI41
 aI16
 aa(lp1861
-I202689
+I1
 aVKemba Walker
 p1862
 aI82
@@ -47930,7 +47930,7 @@ aI242
 aI50
 aI54
 aa(lp1863
-I201950
+I1
 aVJrue Holiday
 p1864
 aI78
@@ -47982,7 +47982,7 @@ aI306
 aI31
 aI87
 aa(lp1865
-I201943
+I1
 aVBrandon Jennings
 p1866
 aI80
@@ -48034,7 +48034,7 @@ aI271
 aI76
 aI125
 aa(lp1867
-I2746
+I4
 aVJosh Smith
 p1868
 aI76
@@ -48086,7 +48086,7 @@ aI292
 aI29
 aI60
 aa(lp1869
-I202331
+I3
 aVPaul George
 p1870
 aI79
@@ -48138,7 +48138,7 @@ aI198
 aI84
 aI38
 aa(lp1871
-I201143
+I5
 aVAl Horford
 p1872
 aI74
@@ -48190,7 +48190,7 @@ aI105
 aI121
 aI24
 aa(lp1873
-I2561
+I4
 aVDavid West
 p1874
 aI73
@@ -48242,7 +48242,7 @@ aI145
 aI66
 aI13
 aa(lp1875
-I202326
+I5
 aVDeMarcus Cousins
 p1876
 aI75
@@ -48294,7 +48294,7 @@ aI223
 aI18
 aI41
 aa(lp1877
-I2730
+I5
 aVDwight Howard
 p1878
 aI76
@@ -48346,7 +48346,7 @@ aI73
 aI113
 aI51
 aa(lp1879
-I101108
+I1
 aVChris Paul
 p1880
 aI70
@@ -48398,7 +48398,7 @@ aI46
 aI107
 aI3
 aa(lp1881
-I201951
+I1
 aVTy Lawson
 p1882
 aI73
@@ -48450,7 +48450,7 @@ aI134
 aI124
 aI71
 aa(lp1883
-I2547
+I4
 aVChris Bosh
 p1884
 aI74
@@ -48502,7 +48502,7 @@ aI48
 aI102
 aI47
 aa(lp1885
-I202691
+I2
 aVKlay Thompson
 p1886
 aI82
@@ -48554,7 +48554,7 @@ aI184
 aI131
 aI275
 aa(lp1887
-I2037
+I2
 aVJamal Crawford
 p1888
 aI76
@@ -48606,7 +48606,7 @@ aI112
 aI45
 aI81
 aa(lp1889
-I2736
+I3
 aVLuol Deng
 p1890
 aI75
@@ -48658,7 +48658,7 @@ aI278
 aI150
 aI103
 aa(lp1891
-I2207
+I2
 aVJoe Johnson
 p1892
 aI72
@@ -48710,7 +48710,7 @@ aI232
 aI127
 aI198
 aa(lp1893
-I2430
+I4
 aVCarlos Boozer
 p1894
 aI79
@@ -48762,7 +48762,7 @@ aI270
 aI44
 aI31
 aa(lp1895
-I201568
+I3
 aVDanilo Gallinari
 p1896
 aI71
@@ -48814,7 +48814,7 @@ aI98
 aI145
 aI94
 aa(lp1897
-I201583
+I4
 aVRyan Anderson
 p1898
 aI81
@@ -48866,7 +48866,7 @@ aI136
 aI70
 aI107
 aa(lp1899
-I202328
+I5
 aVGreg Monroe
 p1900
 aI81
@@ -48918,7 +48918,7 @@ aI214
 aI62
 aI25
 aa(lp1901
-I202718
+I3
 aVChandler Parsons
 p1902
 aI76
@@ -48970,7 +48970,7 @@ aI58
 aI243
 aI121
 aa(lp1903
-I2216
+I4
 aVZach Randolph
 p1904
 aI76
@@ -49022,7 +49022,7 @@ aI284
 aI94
 aI30
 aa(lp1905
-I201564
+I2
 aVO.J. Mayo
 p1906
 aI82
@@ -49074,7 +49074,7 @@ aI115
 aI165
 aI203
 aa(lp1907
-I201152
+I4
 aVThaddeus Young
 p1908
 aI76
@@ -49126,7 +49126,7 @@ aI155
 aI193
 aI84
 aa(lp1909
-I201609
+I1
 aVGoran Dragic
 p1910
 aI77
@@ -49178,7 +49178,7 @@ aI157
 aI139
 aI99
 aa(lp1911
-I201144
+I1
 aVMike Conley
 p1912
 aI80
@@ -49230,7 +49230,7 @@ aI133
 aI164
 aI40
 aa(lp1913
-I201952
+I1
 aVJeff Teague
 p1914
 aI80
@@ -49282,7 +49282,7 @@ aI151
 aI96
 aI100
 aa(lp1915
-I200794
+I4
 aVPaul Millsap
 p1916
 aI78
@@ -49334,7 +49334,7 @@ aI131
 aI98
 aI59
 aa(lp1917
-I201587
+I3
 aVNicolas Batum
 p1918
 aI73
@@ -49386,7 +49386,7 @@ aI87
 aI254
 aI132
 aa(lp1919
-I201588
+I1
 aVGeorge Hill
 p1920
 aI76
@@ -49440,7 +49440,7 @@ aI58
 aasI2014
 (lp1921
 (lp1922
-I201142
+I3
 aVKevin Durant
 p1923
 aI81
@@ -49492,7 +49492,7 @@ aI12
 aI2
 aI2
 aa(lp1924
-I2546
+I3
 aVCarmelo Anthony
 p1925
 aI77
@@ -49544,7 +49544,7 @@ aI123
 aI4
 aI11
 aa(lp1926
-I2544
+I3
 aVLeBron James
 p1927
 aI77
@@ -49596,7 +49596,7 @@ aI10
 aI7
 aI3
 aa(lp1928
-I201567
+I4
 aVKevin Love
 p1929
 aI77
@@ -49648,7 +49648,7 @@ aI48
 aI15
 aI4
 aa(lp1930
-I201935
+I2
 aVJames Harden
 p1931
 aI73
@@ -49700,7 +49700,7 @@ aI19
 aI22
 aI17
 aa(lp1932
-I201933
+I4
 aVBlake Griffin
 p1933
 aI80
@@ -49752,7 +49752,7 @@ aI67
 aI14
 aI12
 aa(lp1934
-I201939
+I1
 aVStephen Curry
 p1935
 aI78
@@ -49804,7 +49804,7 @@ aI23
 aI19
 aI9
 aa(lp1936
-I200746
+I4
 aVLaMarcus Aldridge
 p1937
 aI69
@@ -49856,7 +49856,7 @@ aI299
 aI9
 aI19
 aa(lp1938
-I202326
+I5
 aVDeMarcus Cousins
 p1939
 aI71
@@ -49908,7 +49908,7 @@ aI133
 aI3
 aI5
 aa(lp1940
-I201942
+I2
 aVDeMar DeRozan
 p1941
 aI79
@@ -49960,7 +49960,7 @@ aI218
 aI17
 aI50
 aa(lp1942
-I2744
+I5
 aVAl Jefferson
 p1943
 aI73
@@ -50012,7 +50012,7 @@ aI217
 aI10
 aI7
 aa(lp1944
-I202331
+I3
 aVPaul George
 p1945
 aI80
@@ -50064,7 +50064,7 @@ aI138
 aI18
 aI16
 aa(lp1946
-I1717
+I4
 aVDirk Nowitzki
 p1947
 aI80
@@ -50116,7 +50116,7 @@ aI31
 aI33
 aI15
 aa(lp1948
-I202681
+I1
 aVKyrie Irving
 p1949
 aI71
@@ -50168,7 +50168,7 @@ aI211
 aI20
 aI43
 aa(lp1950
-I203076
+I4
 aVAnthony Davis
 p1951
 aI67
@@ -50220,7 +50220,7 @@ aI70
 aI49
 aI8
 aa(lp1952
-I203081
+I1
 aVDamian Lillard
 p1953
 aI82
@@ -50272,7 +50272,7 @@ aI105
 aI53
 aI82
 aa(lp1954
-I202738
+I1
 aVIsaiah Thomas
 p1955
 aI72
@@ -50324,7 +50324,7 @@ aI88
 aI41
 aI30
 aa(lp1956
-I201609
+I1
 aVGoran Dragic
 p1957
 aI76
@@ -50376,7 +50376,7 @@ aI30
 aI60
 aI37
 aa(lp1958
-I200752
+I3
 aVRudy Gay
 p1959
 aI73
@@ -50428,7 +50428,7 @@ aI189
 aI24
 aI60
 aa(lp1960
-I202322
+I1
 aVJohn Wall
 p1961
 aI82
@@ -50480,7 +50480,7 @@ aI242
 aI28
 aI32
 aa(lp1962
-I101108
+I1
 aVChris Paul
 p1963
 aI62
@@ -50532,7 +50532,7 @@ aI74
 aI86
 aI6
 aa(lp1964
-I2755
+I2
 aVKevin Martin
 p1965
 aI68
@@ -50584,7 +50584,7 @@ aI144
 aI55
 aI165
 aa(lp1966
-I101145
+I2
 aVMonta Ellis
 p1967
 aI82
@@ -50636,7 +50636,7 @@ aI219
 aI39
 aI119
 aa(lp1968
-I2037
+I2
 aVJamal Crawford
 p1969
 aI69
@@ -50688,7 +50688,7 @@ aI132
 aI29
 aI103
 aa(lp1970
-I202691
+I2
 aVKlay Thompson
 p1971
 aI81
@@ -50740,7 +50740,7 @@ aI136
 aI109
 aI248
 aa(lp1972
-I2730
+I5
 aVDwight Howard
 p1973
 aI71
@@ -50792,7 +50792,7 @@ aI36
 aI72
 aI23
 aa(lp1974
-I201167
+I2
 aVArron Afflalo
 p1975
 aI73
@@ -50844,7 +50844,7 @@ aI90
 aI89
 aI117
 aa(lp1976
-I101135
+I4
 aVDavid Lee
 p1977
 aI69
@@ -50896,7 +50896,7 @@ aI111
 aI70
 aI36
 aa(lp1978
-I200794
+I4
 aVPaul Millsap
 p1979
 aI74
@@ -50948,7 +50948,7 @@ aI169
 aI45
 aI34
 aa(lp1980
-I200768
+I1
 aVKyle Lowry
 p1981
 aI79
@@ -51000,7 +51000,7 @@ aI107
 aI113
 aI27
 aa(lp1982
-I201152
+I4
 aVThaddeus Young
 p1983
 aI79
@@ -51052,7 +51052,7 @@ aI284
 aI69
 aI138
 aa(lp1984
-I202688
+I2
 aVBrandon Knight
 p1985
 aI72
@@ -51104,7 +51104,7 @@ aI248
 aI34
 aI102
 aa(lp1986
-I201156
+I2
 aVNick Young
 p1987
 aI64
@@ -51156,7 +51156,7 @@ aI116
 aI30
 aI197
 aa(lp1988
-I202689
+I1
 aVKemba Walker
 p1989
 aI73
@@ -51208,7 +51208,7 @@ aI331
 aI42
 aI62
 aa(lp1990
-I201951
+I1
 aVTy Lawson
 p1991
 aI62
@@ -51260,7 +51260,7 @@ aI143
 aI115
 aI45
 aa(lp1992
-I2216
+I4
 aVZach Randolph
 p1993
 aI79
@@ -51312,7 +51312,7 @@ aI290
 aI38
 aI49
 aa(lp1994
-I2200
+I4
 aVPau Gasol
 p1995
 aI60
@@ -51364,7 +51364,7 @@ aI252
 aI36
 aI31
 aa(lp1996
-I201144
+I1
 aVMike Conley
 p1997
 aI73
@@ -51416,7 +51416,7 @@ aI166
 aI65
 aI44
 aa(lp1998
-I203078
+I2
 aVBradley Beal
 p1999
 aI73
@@ -51468,7 +51468,7 @@ aI298
 aI61
 aI182
 aa(lp2000
-I201145
+I4
 aVJeff Green
 p2001
 aI82
@@ -51520,7 +51520,7 @@ aI260
 aI85
 aI225
 aa(lp2002
-I2225
+I1
 aVTony Parker
 p2003
 aI68
@@ -51572,7 +51572,7 @@ aI134
 aI35
 aI47
 aa(lp2004
-I203487
+I1
 aVMichael Carter-Williams
 p2005
 aI70
@@ -51624,7 +51624,7 @@ aI375
 aI43
 aI127
 aa(lp2006
-I202718
+I3
 aVChandler Parsons
 p2007
 aI74
@@ -51676,7 +51676,7 @@ aI112
 aI198
 aI101
 aa(lp2008
-I201952
+I1
 aVJeff Teague
 p2009
 aI79
@@ -51728,7 +51728,7 @@ aI183
 aI47
 aI78
 aa(lp2010
-I2746
+I4
 aVJosh Smith
 p2011
 aI77
@@ -51780,7 +51780,7 @@ aI402
 aI63
 aI218
 aa(lp2012
-I202083
+I2
 aVWesley Matthews
 p2013
 aI82
@@ -51832,7 +51832,7 @@ aI58
 aI191
 aI183
 aa(lp2014
-I2547
+I4
 aVChris Bosh
 p2015
 aI79
@@ -51884,7 +51884,7 @@ aI43
 aI110
 aI53
 aa(lp2016
-I202330
+I3
 aVGordon Hayward
 p2017
 aI77
@@ -51936,7 +51936,7 @@ aI262
 aI97
 aI97
 aa(lp2018
-I2736
+I3
 aVLuol Deng
 p2019
 aI63
@@ -51988,7 +51988,7 @@ aI270
 aI122
 aI113
 aa(lp2020
-I203079
+I2
 aVDion Waiters
 p2021
 aI70
@@ -52042,7 +52042,7 @@ aI204
 aasI2015
 (lp2022
 (lp2023
-I201566
+I1
 aVRussell Westbrook
 p2024
 aI67
@@ -52094,7 +52094,7 @@ aI192
 aI2
 aI5
 aa(lp2025
-I201935
+I2
 aVJames Harden
 p2026
 aI81
@@ -52146,7 +52146,7 @@ aI30
 aI10
 aI6
 aa(lp2027
-I2544
+I3
 aVLeBron James
 p2028
 aI69
@@ -52198,7 +52198,7 @@ aI74
 aI8
 aI11
 aa(lp2029
-I203076
+I4
 aVAnthony Davis
 p2030
 aI68
@@ -52250,7 +52250,7 @@ aI51
 aI23
 aI4
 aa(lp2031
-I202326
+I5
 aVDeMarcus Cousins
 p2032
 aI59
@@ -52302,7 +52302,7 @@ aI165
 aI5
 aI7
 aa(lp2033
-I201939
+I1
 aVStephen Curry
 p2034
 aI80
@@ -52354,7 +52354,7 @@ aI13
 aI19
 aI8
 aa(lp2035
-I200746
+I4
 aVLaMarcus Aldridge
 p2036
 aI71
@@ -52406,7 +52406,7 @@ aI221
 aI13
 aI15
 aa(lp2037
-I201933
+I4
 aVBlake Griffin
 p2038
 aI67
@@ -52458,7 +52458,7 @@ aI137
 aI20
 aI23
 aa(lp2039
-I202681
+I1
 aVKyrie Irving
 p2040
 aI75
@@ -52510,7 +52510,7 @@ aI56
 aI39
 aI60
 aa(lp2041
-I202691
+I2
 aVKlay Thompson
 p2042
 aI77
@@ -52562,7 +52562,7 @@ aI50
 aI25
 aI63
 aa(lp2043
-I2548
+I2
 aVDwyane Wade
 p2044
 aI62
@@ -52614,7 +52614,7 @@ aI204
 aI3
 aI30
 aa(lp2045
-I200752
+I3
 aVRudy Gay
 p2046
 aI68
@@ -52666,7 +52666,7 @@ aI125
 aI28
 aI47
 aa(lp2047
-I203081
+I1
 aVDamian Lillard
 p2048
 aI82
@@ -52718,7 +52718,7 @@ aI112
 aI32
 aI38
 aa(lp2049
-I201942
+I2
 aVDeMar DeRozan
 p2050
 aI60
@@ -52770,7 +52770,7 @@ aI284
 aI16
 aI94
 aa(lp2051
-I202710
+I2
 aVJimmy Butler
 p2052
 aI65
@@ -52822,7 +52822,7 @@ aI58
 aI136
 aI36
 aa(lp2053
-I202696
+I5
 aVNikola Vucevic
 p2054
 aI74
@@ -52874,7 +52874,7 @@ aI153
 aI42
 aI25
 aa(lp2055
-I202330
+I3
 aVGordon Hayward
 p2056
 aI76
@@ -52926,7 +52926,7 @@ aI92
 aI38
 aI35
 aa(lp2057
-I101108
+I1
 aVChris Paul
 p2058
 aI82
@@ -52978,7 +52978,7 @@ aI40
 aI93
 aI9
 aa(lp2059
-I101145
+I2
 aVMonta Ellis
 p2060
 aI80
@@ -53030,7 +53030,7 @@ aI285
 aI22
 aI189
 aa(lp2061
-I2200
+I4
 aVPau Gasol
 p2062
 aI78
@@ -53082,7 +53082,7 @@ aI144
 aI64
 aI12
 aa(lp2063
-I203506
+I2
 aVVictor Oladipo
 p2064
 aI72
@@ -53134,7 +53134,7 @@ aI229
 aI49
 aI177
 aa(lp2065
-I200768
+I1
 aVKyle Lowry
 p2066
 aI70
@@ -53186,7 +53186,7 @@ aI227
 aI56
 aI65
 aa(lp2067
-I202322
+I1
 aVJohn Wall
 p2068
 aI79
@@ -53238,7 +53238,7 @@ aI238
 aI45
 aI20
 aa(lp2069
-I201188
+I5
 aVMarc Gasol
 p2070
 aI81
@@ -53290,7 +53290,7 @@ aI115
 aI60
 aI18
 aa(lp2071
-I202689
+I1
 aVKemba Walker
 p2072
 aI62
@@ -53342,7 +53342,7 @@ aI358
 aI40
 aI72
 aa(lp2073
-I1717
+I4
 aVDirk Nowitzki
 p2074
 aI77
@@ -53394,7 +53394,7 @@ aI111
 aI51
 aI43
 aa(lp2075
-I201572
+I5
 aVBrook Lopez
 p2076
 aI72
@@ -53446,7 +53446,7 @@ aI117
 aI35
 aI55
 aa(lp2077
-I202699
+I3
 aVTobias Harris
 p2078
 aI68
@@ -53498,7 +53498,7 @@ aI140
 aI108
 aI99
 aa(lp2079
-I202339
+I1
 aVEric Bledsoe
 p2080
 aI81
@@ -53550,7 +53550,7 @@ aI126
 aI74
 aI54
 aa(lp2081
-I202688
+I2
 aVBrandon Knight
 p2082
 aI63
@@ -53602,7 +53602,7 @@ aI171
 aI47
 aI57
 aa(lp2083
-I203952
+I3
 aVAndrew Wiggins
 p2084
 aI82
@@ -53654,7 +53654,7 @@ aI261
 aI104
 aI286
 aa(lp2085
-I200794
+I4
 aVPaul Millsap
 p2086
 aI73
@@ -53706,7 +53706,7 @@ aI98
 aI86
 aI53
 aa(lp2087
-I2744
+I5
 aVAl Jefferson
 p2088
 aI65
@@ -53758,7 +53758,7 @@ aI323
 aI31
 aI29
 aa(lp2089
-I201936
+I2
 aVTyreke Evans
 p2090
 aI79
@@ -53810,7 +53810,7 @@ aI290
 aI44
 aI84
 aa(lp2091
-I202695
+I3
 aVKawhi Leonard
 p2092
 aI64
@@ -53862,7 +53862,7 @@ aI94
 aI95
 aI22
 aa(lp2093
-I202738
+I1
 aVIsaiah Thomas
 p2094
 aI67
@@ -53914,7 +53914,7 @@ aI63
 aI24
 aI56
 aa(lp2095
-I201567
+I4
 aVKevin Love
 p2096
 aI75
@@ -53966,7 +53966,7 @@ aI109
 aI134
 aI39
 aa(lp2097
-I200755
+I2
 aVJJ Redick
 p2098
 aI78
@@ -54018,7 +54018,7 @@ aI21
 aI159
 aI195
 aa(lp2099
-I201609
+I1
 aVGoran Dragic
 p2100
 aI78
@@ -54070,7 +54070,7 @@ aI73
 aI140
 aI116
 aa(lp2101
-I2216
+I4
 aVZach Randolph
 p2102
 aI71
@@ -54122,7 +54122,7 @@ aI187
 aI67
 aI27
 aa(lp2103
-I202324
+I4
 aVDerrick Favors
 p2104
 aI74
@@ -54174,7 +54174,7 @@ aI120
 aI69
 aI37
 aa(lp2105
-I202083
+I2
 aVWesley Matthews
 p2106
 aI60
@@ -54226,7 +54226,7 @@ aI54
 aI192
 aI173
 aa(lp2107
-I201952
+I1
 aVJeff Teague
 p2108
 aI73
@@ -54278,7 +54278,7 @@ aI95
 aI53
 aI44
 aa(lp2109
-I202328
+I5
 aVGreg Monroe
 p2110
 aI69
@@ -54330,7 +54330,7 @@ aI151
 aI76
 aI21
 aa(lp2111
-I201144
+I1
 aVMike Conley
 p2112
 aI70
@@ -54382,7 +54382,7 @@ aI116
 aI79
 aI68
 aa(lp2113
-I2037
+I2
 aVJamal Crawford
 p2114
 aI64
@@ -54434,7 +54434,7 @@ aI210
 aI21
 aI156
 aa(lp2115
-I202718
+I3
 aVChandler Parsons
 p2116
 aI66
@@ -54486,7 +54486,7 @@ aI89
 aI168
 aI148
 aa(lp2117
-I101150
+I2
 aVLou Williams
 p2118
 aI80
@@ -54538,7 +54538,7 @@ aI102
 aI33
 aI87
 aa(lp2119
-I202683
+I5
 aVEnes Kanter
 p2120
 aI75
@@ -54590,7 +54590,7 @@ aI100
 aI68
 aI69
 aa(lp2121
-I202693
+I4
 aVMarkieff Morris
 p2122
 aI82
