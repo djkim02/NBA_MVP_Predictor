@@ -6,6 +6,54 @@ import json
 
 USER_AGENT = "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_4) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/56.0.2924.87 Safari/537.36"
 HEADER = {'User-Agent': USER_AGENT}
+MVP_DICT = {
+	1997:"Karl Malone",			# PF
+	1998:"Michael Jordan",		# SG
+	1999:"Karl Malone",			# PF
+	2000:"Shaquille O'Neal",	# C
+	2001:"Allen Iverson",		# PG
+	2002:"Tim Duncan",			# PF
+	2003:"Tim Duncan",			# PF
+	2004:"Kevin Garnett",		# PF
+	2005:"Steve Nash",			# PG
+	2006:"Steve Nash",			# PG
+	2007:"Dirk Nowitzki",		# PF
+	2008:"Kobe Bryant",			# SG
+	2009:"LeBron James",		# SF
+	2010:"LeBron James",		# SF
+	2011:"Derrick Rose",		# PG
+	2012:"LeBron James",		# SF
+	2013:"LeBron James",		# SF
+	2014:"Kevin Durant",		# SF
+	2015:"Stephen Curry",		# PG
+	2016:"Stephen Curry"		# PG
+	# 6 PGs, 2 SGs, 5 SFs, 6 PFs, 1 C
+	# 6 PGs, 7 Swingmans, 7 Bigmans
+}
+
+NUM_QUALIFYING_PLAYERS_DICT = {
+	1997: 441,
+	1998: 439,
+	1999: 440,
+	2000: 439,
+	2001: 441,
+	2002: 440,
+	2003: 428,
+	2004: 442,
+	2005: 464,
+	2006: 458,
+	2007: 458,
+	2008: 451,
+	2009: 445,
+	2010: 442,
+	2011: 452,
+	2012: 478,
+	2013: 469,
+	2014: 482,
+	2015: 492,
+	2016: 476,
+	2017: 486
+}
 
 # Returns a list of top 50 scoring leaders' player IDs, names, and teams for a given season from nba.com
 def get_scoring_leaders_from_nba(year):
@@ -27,6 +75,7 @@ def get_scoring_leaders_from_nba(year):
 
 	return player_list
 
+
 def get_stats_of_top50_scorers_with_ranks(year):
 	formatted_season = format_season(year)
 	print "Starting to parse {} season's scoring leaders".format(formatted_season)
@@ -44,12 +93,12 @@ def get_stats_of_top50_scorers_with_ranks(year):
 
 
 def get_stats_of_everyone_with_ranks(year):
-	base_link = "http://stats.nba.com/stats/leaguedashplayerstats?College=&Conference=&Country=&DateFrom=&DateTo=&Division=&DraftPick=&DraftYear=&GameScope=&GameSegment=&Height=&LastNGames=0&LeagueID=00&Location=&MeasureType=Base&Month=0&OpponentTeamID=0&Outcome=&PORound=0&PaceAdjust=N&PerMode=PerGame&Period=0&PlayerExperience=&PlayerPosition=&PlusMinus=N&Rank=N&Season={}&SeasonSegment=&SeasonType=Regular+Season&ShotClockRange=&StarterBench=&TeamID=0&VsConference=&VsDivision=&Weight=".format(format_season(year))
+	base_link = "http://stats.nba.com/stats/leaguedashplayerstats?College=&Conference=&Country=&DateFrom=&DateTo=&Division=&DraftPick=&DraftYear=&GameScope=&GameSegment=&Height=&LastNGames=0&LeagueID=00&Location=&MeasureType=Base&Month=0&OpponentTeamID=0&Outcome=&PORound=0&PaceAdjust=N&PerMode=PerGame&Period=0&PlayerExperience=&PlayerPosition=&PlusMinus=N&Rank=N&Season={}&SeasonSegment=&SeasonType=Regular+Season&ShotClockRange=&StarterBench=Starters&TeamID=0&VsConference=&VsDivision=&Weight=".format(format_season(year))
 	base_response = requests.get(base_link, headers = HEADER)
 	base_json_response_data = json.loads(base_response.text)
 	base_full_player_list = base_json_response_data["resultSets"][0]["rowSet"]
 
-	advanced_link = "http://stats.nba.com/stats/leaguedashplayerstats?College=&Conference=&Country=&DateFrom=&DateTo=&Division=&DraftPick=&DraftYear=&GameScope=&GameSegment=&Height=&LastNGames=0&LeagueID=00&Location=&MeasureType=Advanced&Month=0&OpponentTeamID=0&Outcome=&PORound=0&PaceAdjust=N&PerMode=PerGame&Period=0&PlayerExperience=&PlayerPosition=&PlusMinus=N&Rank=N&Season={}&SeasonSegment=&SeasonType=Regular+Season&ShotClockRange=&StarterBench=&TeamID=0&VsConference=&VsDivision=&Weight=".format(format_season(year))
+	advanced_link = "http://stats.nba.com/stats/leaguedashplayerstats?College=&Conference=&Country=&DateFrom=&DateTo=&Division=&DraftPick=&DraftYear=&GameScope=&GameSegment=&Height=&LastNGames=0&LeagueID=00&Location=&MeasureType=Advanced&Month=0&OpponentTeamID=0&Outcome=&PORound=0&PaceAdjust=N&PerMode=PerGame&Period=0&PlayerExperience=&PlayerPosition=&PlusMinus=N&Rank=N&Season={}&SeasonSegment=&SeasonType=Regular+Season&ShotClockRange=&StarterBench=Starters&TeamID=0&VsConference=&VsDivision=&Weight=".format(format_season(year))
 	advanced_response = requests.get(advanced_link, headers = HEADER)
 	advanced_json_response_data = json.loads(advanced_response.text)
 	advanced_full_player_list = advanced_json_response_data["resultSets"][0]["rowSet"]
@@ -109,14 +158,16 @@ def get_stats_from_top_50_scorers_and_pickle():
 
 		print "Done with parsing {} season's stats".format(formatted_season)
 
-	stats_fn = "top_50_scorers_from_1996-97_to_2016-17.pkl"
+	stats_fn = "all_stats.pkl"
 	pickle.dump(stats_dict, open(stats_fn, 'wb'))
 	return stats_dict
+
 
 # Returns all players who played in a season
 def get_all_players_from_a_season(year):
 	formatted_season = format_season(year)
 	return player.PlayerList(season=formatted_season)
+
 
 # Saves a dictionary of top 40 scoring leaders from 1999-00 season through 2016-17 season to a pickle
 def save_scoring_leaders_in_a_pickle(scoring_leaders_pkl_fn):
@@ -126,10 +177,12 @@ def save_scoring_leaders_in_a_pickle(scoring_leaders_pkl_fn):
 
 	pickle.dump(season_scoring_leaders_dict, open(scoring_leaders_pkl_fn, 'wb'))
 
+
 # Returns a dictionary of top 40 scoring leaders from 1999-00 season through 2016-17 season to a pickle
 def read_scoring_leaders_from_a_pickle(scoring_leaders_pkl_fn):
 	top40_scorers = pickle.load(open(scoring_leaders_pkl_fn, 'rb'))
 	return top40_scorers
+
 
 # Returns first and last name given a full name
 def parse_first_and_last_name(player):
@@ -137,6 +190,7 @@ def parse_first_and_last_name(player):
 	first_name = first_and_last_name[0]
 	last_name = first_and_last_name[1]
 	return first_name, last_name
+
 
 # Given a season (one integer) returns a formatted season
 # ex) if season = 2000, returns "1999-00"
@@ -159,6 +213,7 @@ def get_stats(name, first_name, last_name, season):
 	stats.extend(player_general_splits.json["resultSets"][0]["rowSet"][0][1:30])
 	return stats
 
+
 def get_stats_with_id(player_id, season):
 	formatted_season = format_season(season)
 	player_general_splits = player.PlayerGeneralSplits(player_id, season=formatted_season)
@@ -166,6 +221,7 @@ def get_stats_with_id(player_id, season):
 	stats.append(name)
 	stats.extend(player_general_splits.json["resultSets"][0]["rowSet"][0][1:30])
 	return stats
+
 
 # GROUP_VALUE, GP, W, L, W_PCT, MIN, FGM, FGA, FG_PCT, FG3M, FG3A, FG3_PCT, FTM, FTA, FT_PCT, OREB, DREB, REB, AST, TOV, STL, BLK, BLKA, PF, PFD, PTS, PLUS_MINUS, DD2, TD3
 def get_all_stats_and_pickle():
@@ -189,6 +245,7 @@ def get_all_stats_and_pickle():
 	all_stats_fn = "all_stats.pkl"
 	pickle.dump(stats_dict, open(all_stats_fn, 'wb'))
 
+
 # PLAYER_ID, PLAYER_NAME, GP, W, W_PCT, MIN, FG_PCT, FG3_PCT, FT_PCT, REB, AST, TOV, STL, BLK, PTS,
 # PLUS_MINUS, DD2, TD3, GP_RANK, W_RANK, L_RANK, W_PCT_RANK, MIN_RANK, FG_PCT_RANK, FG3_PCT_RANK, FT_PCT_RANK,
 # REB_RANK, AST_RANK, TOV_RANK, STL_RANK, BLK_RANK, PTS_RANK, PLUS_MINUS_RANK, DD2_RANK, TD3_RANK
@@ -202,7 +259,9 @@ def get_all_base_stats_and_advanced_stats_and_pickle():
 	all_stats_fn = "all_stats.pkl"
 	pickle.dump(stats_dict, open(all_stats_fn, 'wb'))
 
-def parse_position_from_wikipedia(first_name, last_name):
+
+# 5 positions, PG, SG, SF, PF, C
+def parse_five_position_from_wikipedia(first_name, last_name):
 	name = first_name + "_" + last_name
 	link = "https://en.wikipedia.org/wiki/" + name
 	html_response = requests.get(link, headers = HEADER)
@@ -248,7 +307,45 @@ def parse_position_from_wikipedia(first_name, last_name):
 	print first_name + " " + last_name + "'s position could not be found!"
 	return 0
 
-def add_position_to_stats(all_stats):
+# 3 positions, PG, Swingman, Bigman
+def parse_three_position_from_wikipedia(first_name, last_name):
+	name = first_name + "_" + last_name
+
+	link = "https://en.wikipedia.org/wiki/" + name
+	html_response = requests.get(link, headers = HEADER)
+	beautiful_soup_html = BeautifulSoup(html_response.text, "html.parser")
+	tags = [a.string for a in beautiful_soup_html.findAll('a', href=True)][:50]
+	for tag in tags:
+		if tag == "Point guard":
+			print first_name + " " + last_name + " is a " + tag
+			return 1
+		elif tag == "Shooting guard" or tag == "Small forward":
+			print first_name + " " + last_name + " is a " + tag
+			return 2
+		elif tag == "Power forward" or tag == "Center":
+			print first_name + " " + last_name + " is a " + tag
+			return 3
+
+	link = "https://en.wikipedia.org/wiki/" + name + "_(basketball)"
+	html_response = requests.get(link, headers = HEADER)
+	beautiful_soup_html = BeautifulSoup(html_response.text, "html.parser")
+	tags = [a.string for a in beautiful_soup_html.findAll('a', href=True)][:50]
+	for tag in tags:
+		if tag == "Point guard":
+			print first_name + " " + last_name + " is a " + tag
+			return 1
+		elif tag == "Shooting guard" or tag == "Small forward":
+			print first_name + " " + last_name + " is a " + tag
+			return 2
+		elif tag == "Power forward" or tag == "Center":
+			print first_name + " " + last_name + " is a " + tag
+			return 3
+
+	print first_name + " " + last_name + "'s position could not be found!"
+	return 0
+
+
+def add_five_position_to_stats(all_stats):
 	seasons = all_stats.keys()
 	not_found_list_dict = {}
 	for season in seasons:
@@ -257,7 +354,7 @@ def add_position_to_stats(all_stats):
 		season_stats = all_stats[season]
 		for player_stats in season_stats:
 			first_name, last_name = parse_first_and_last_name(player_stats[1])
-			pos = parse_position_from_wikipedia(first_name, last_name)
+			pos = parse_five_position_from_wikipedia(first_name, last_name)
 			if pos == 0:
 				not_found_list.append(player_stats[1])
 			else:
@@ -265,15 +362,100 @@ def add_position_to_stats(all_stats):
 		not_found_list_dict[season] = not_found_list
 
 	return not_found_list_dict
-	
+
+
+def add_three_position_to_stats(all_stats):
+	seasons = all_stats.keys()
+	not_found_list_dict = {}
+	for season in seasons:
+		not_found_list = []
+		print "Getting position of {} season".format(format_season(season))
+		season_stats = all_stats[season]
+		for player_stats in season_stats:
+			first_name, last_name = parse_first_and_last_name(player_stats[1])
+			pos = parse_three_position_from_wikipedia(first_name, last_name)
+			if pos == 0:
+				not_found_list.append(player_stats[1])
+			else:
+				player_stats[0] = pos
+		not_found_list_dict[season] = not_found_list
+
+	return not_found_list_dict
+
+
+# Given the category, calculates the model count of top 25,
+# top 50, top 75, and below for a given season
+def maximum_likelihood_based_on_rank(all_stats, category, num_pos):
+	seasons = all_stats.keys()
+
+	# [rank_given_pg_and_mvp, rank_given_swingman_and_mvp, rank_given_bigman_and_mvp,
+	# rank_given_pg_and_not_mvp, rank_given_swingman_and_not_mvp, rank_given_bigman_and_not_mvp]
+	category_given_position_and_mvp = []
+	for i in range(0, num_pos * 2):
+		outer = []
+		for j in range(0, 4):
+			outer.append(0)
+		category_given_position_and_mvp.append(outer)
+
+	for season in range(1997, 2017):
+		# top25 = NUM_QUALIFYING_PLAYERS_DICT[season] / 16
+		# top50 = NUM_QUALIFYING_PLAYERS_DICT[season] / 8
+		# top75 = NUM_QUALIFYING_PLAYERS_DICT[season] / 4
+
+		top25 = 25
+		top50 = 50
+		top75 = 75
+
+		mvp_name = MVP_DICT[season]
+		season_stats = all_stats[season]
+		for player_stats in season_stats:
+			offset = -1
+			if player_stats[1] == mvp_name:
+				offset = num_pos - 1
+
+			if player_stats[category] < top25:
+				category_given_position_and_mvp[player_stats[0] + offset][0] += 1
+			elif player_stats[category] < top50:
+				category_given_position_and_mvp[player_stats[0] + offset][1] += 1
+			elif player_stats[category] < top75:
+				category_given_position_and_mvp[player_stats[0] + offset][2] += 1
+			else:
+				category_given_position_and_mvp[player_stats[0] + offset][3] += 1
+
+	return category_given_position_and_mvp
+
+
+def get_number_of_qualifying_players(year):
+	base_link = "http://stats.nba.com/stats/leaguedashplayerstats?College=&Conference=&Country=&DateFrom=&DateTo=&Division=&DraftPick=&DraftYear=&GameScope=&GameSegment=&Height=&LastNGames=0&LeagueID=00&Location=&MeasureType=Base&Month=0&OpponentTeamID=0&Outcome=&PORound=0&PaceAdjust=N&PerMode=PerGame&Period=0&PlayerExperience=&PlayerPosition=&PlusMinus=N&Rank=N&Season={}&SeasonSegment=&SeasonType=Regular+Season&ShotClockRange=&StarterBench=Starters&TeamID=0&VsConference=&VsDivision=&Weight=".format(format_season(year))
+	base_response = requests.get(base_link, headers = HEADER)
+	base_json_response_data = json.loads(base_response.text)
+	base_full_player_list = base_json_response_data["resultSets"][0]["rowSet"]
+	return len(base_full_player_list)
+
+
+def get_number_of_qualifying_players_for_all_seasons():
+	return_dict = {}
+	for season in range(1997, 2018):
+		return_dict[season] = get_number_of_qualifying_players(season)
+	return return_dict
+
+
+def add_three_positions_for_missing_players(all_stats):
+	for season in range(1997, 2018):
+		season_stats = all_stats[season]
+		for player_stats in season_stats:
+			name = player_stats[1]
+			if name == "Reggie Jackson" or name == "Mike Conley" or name == "Mike James" or name == "Rodney Stuckey":
+				player_stats[0] = 1
+			elif name == "Eric Williams" or name == "Tracy Murray" or name == "Andrei Kirilenko" or name == "Hedo Turkoglu" or name == "Mike Miller" or name == "Mike Dunleavy":
+				player_stats[0] = 2
+			elif name == "Clifford Robinson" or name == "Larry Johnson" or "Lamar Odom":
+				player_stats[0] = 3
+
 
 if __name__ == "__main__":
-	# all_stats_fn = "all_stats.pkl"
-	# all_stats = pickle.load(open(all_stats_fn, 'rb'))
-	# not_found_list_dict = add_position_to_stats(all_stats)
+	all_stats_with_three_pos_fn = "all_stats_with_three_pos.pkl"
+	all_stats = pickle.load(open(all_stats_with_three_pos_fn, 'rb'))
 
-	# for season in not_found_list_dict.keys():
-	# 	print not_found_list_dict[season]
+	print maximum_likelihood_based_on_rank(all_stats, 31, 3)
 
-	all_stats_with_pos_fn = "all_stats_with_pos.pkl"
-	all_stats = pickle.load(open(all_stats_with_pos_fn, 'rb'))
