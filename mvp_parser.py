@@ -55,6 +55,44 @@ NUM_QUALIFYING_PLAYERS_DICT = {
 	2017: 486
 }
 
+CATEGORY_DICT = {
+	# 0:"POSITION",
+	# 1:"PLAYER_NAME",
+	# 2:"GP",
+	# 3:"W",
+	# 4:"W_PCT",
+	# 5:"MIN",
+	# 6:"FG_PCT",
+	# 7:"FG3_PCT",
+	# 8:"FT_PCT",
+	# 9:"REB",
+	# 10:"AST",
+	# 11:"TOV",
+	# 12:"STL",
+	# 13:"BLK",
+	# 14:"PTS",
+	# 15:"PLUS_MINUS",
+	# 16:"DD2",
+	# 17:"TD3",
+	18:["GP_RANK", 50, 100, 150, False],
+	19:["W_RANK", 25, 50, 75, False],
+	20:["L_RANK", 25, 50, 75, False],
+	21:["W_PCT_RANK", 25, 50, 75, False],
+	22:["MIN_RANK", 25, 50, 75, False],
+	23:["FG_PCT_RANK", 50, 100, 150, True],
+	24:["FG3_PCT_RANK", 25, 50, 75, True],
+	25:["FT_PCT_RANK", 50, 100, 150, True],
+	26:["REB_RANK", 25, 50, 75, True],
+	27:["AST_RANK", 15, 30, 45, True],
+	28:["TOV_RANK", 25, 50, 75, False],
+	29:["STL_RANK", 25, 50, 75, True],
+	30:["BLK_RANK", 25, 50, 75, True],
+	31:["PTS_RANK", 15, 30, 45, True],
+	32:["PLUS_MINUS_RANK", 15, 30, 45, True],
+	33:["DD2_RANK", 25, 50, 75, True],
+	34:["TD3_RANK", 5, 10, 15, False]
+}
+
 # Returns a list of top 50 scoring leaders' player IDs, names, and teams for a given season from nba.com
 def get_scoring_leaders_from_nba(year):
 	link = "http://stats.nba.com/stats/leagueLeaders?LeagueID=00&PerMode=PerGame&Scope=S&Season={}&SeasonType=Regular+Season&StatCategory=PTS&Rank=N".format(format_season(year))
@@ -385,8 +423,11 @@ def add_three_position_to_stats(all_stats):
 
 # Given the category, calculates the model count of top 25,
 # top 50, top 75, and below for a given season
-def maximum_likelihood_based_on_rank(all_stats, category, num_pos):
+def get_model_count_given_stats_and_category(all_stats, category, num_pos):
 	seasons = all_stats.keys()
+	top1 = CATEGORY_DICT[category][1]
+	top2 = CATEGORY_DICT[category][2]
+	top3 = CATEGORY_DICT[category][3]
 
 	# [rank_given_pg_and_mvp, rank_given_swingman_and_mvp, rank_given_bigman_and_mvp,
 	# rank_given_pg_and_not_mvp, rank_given_swingman_and_not_mvp, rank_given_bigman_and_not_mvp]
@@ -402,10 +443,6 @@ def maximum_likelihood_based_on_rank(all_stats, category, num_pos):
 		# top50 = NUM_QUALIFYING_PLAYERS_DICT[season] / 8
 		# top75 = NUM_QUALIFYING_PLAYERS_DICT[season] / 4
 
-		top25 = 25
-		top50 = 50
-		top75 = 75
-
 		mvp_name = MVP_DICT[season]
 		season_stats = all_stats[season]
 		for player_stats in season_stats:
@@ -413,11 +450,11 @@ def maximum_likelihood_based_on_rank(all_stats, category, num_pos):
 			if player_stats[1] == mvp_name:
 				offset = num_pos - 1
 
-			if player_stats[category] < top25:
+			if player_stats[category] < top1:
 				category_given_position_and_mvp[player_stats[0] + offset][0] += 1
-			elif player_stats[category] < top50:
+			elif player_stats[category] < top2:
 				category_given_position_and_mvp[player_stats[0] + offset][1] += 1
-			elif player_stats[category] < top75:
+			elif player_stats[category] < top3:
 				category_given_position_and_mvp[player_stats[0] + offset][2] += 1
 			else:
 				category_given_position_and_mvp[player_stats[0] + offset][3] += 1
@@ -453,9 +490,87 @@ def add_three_positions_for_missing_players(all_stats):
 				player_stats[0] = 3
 
 
+def get_cpt_given_model_count_three_pos(model_count, given_position):
+	model_count_given_not_mvp = model_count[0:3]
+	model_count_given_mvp = model_count[3:]
+
+	if given_position:
+		total_given_mvp = [6.0, 7.0, 7.0]
+		total_not_given_mvp = [192.0, 456.0, 332.0]
+
+		for i in range(0, 3):
+			for j in range(0, 4):
+				model_count_given_mvp[i][j] /= total_given_mvp[i]
+				model_count_given_not_mvp[i][j] /= total_not_given_mvp[i]
+
+		posterior_mvp = model_count_given_mvp
+		posterior_not_mvp = model_count_given_not_mvp
+
+	else:
+		posterior_mvp = [0, 0, 0, 0]
+		posterior_not_mvp = [0, 0, 0, 0]
+		total_mvp = 20.0
+		total_not_mvp = 980.0
+
+		for i in range(0, 3):
+			for j in range(0, 4):
+				posterior_mvp[j] += model_count_given_mvp[i][j]
+				posterior_not_mvp[j] += model_count_given_not_mvp[i][j]
+
+		for i in range(0, 4):
+			posterior_mvp[i] /= total_mvp
+			posterior_not_mvp[i] /= total_not_mvp
+
+	return posterior_mvp, posterior_not_mvp
+
+def discretize_player_stats_given_season(season_stats):
+	discretized_stats = []
+	for player_stats in season_stats:
+		stats_dict = {}
+		stats_dict["NAME"] = player_stats[1]
+		stats_dict["Position"] = position_int_to_string(player_stats[0])
+		for category in range(18, 35):
+			category_name = CATEGORY_DICT[category][0]
+			category_top1 = CATEGORY_DICT[category][1]
+			category_top2 = CATEGORY_DICT[category][2]
+			category_top3 = CATEGORY_DICT[category][3]
+
+			if player_stats[category] < category_top1:
+				stats_dict[category_name] = "top" + str(category_top1)
+			elif player_stats[category] < category_top2:
+				stats_dict[category_name] = "top" + str(category_top2)
+			elif player_stats[category] < category_top3:
+				stats_dict[category_name] = "top" + str(category_top3)
+			else:
+				stats_dict[category_name] = "other"
+		discretized_stats.append(stats_dict)
+
+	return json.dumps(discretized_stats)
+
+def position_int_to_string(position):
+	if position == 1:
+		return "PG"
+	elif position == 2:
+		return "Swingman"
+	elif position == 3:
+		return "Bigman"
+	else:
+		return "INVALID POSITION"
+
+def json_to_file(json_stats, file_name):
+	json_file = open(file_name, 'w')
+	json_file.write(json_stats)
+
+
 if __name__ == "__main__":
 	all_stats_with_three_pos_fn = "all_stats_with_three_pos.pkl"
 	all_stats = pickle.load(open(all_stats_with_three_pos_fn, 'rb'))
+	# category = 22
+	# given_position = CATEGORY_DICT[category][4]
+	# posterior = get_cpt_given_model_count_three_pos(get_model_count_given_stats_and_category(all_stats, category, 3), given_position)
 
-	print maximum_likelihood_based_on_rank(all_stats, 31, 3)
-
+	# for cpt in posterior:
+	# 	for category in cpt:
+	# 		print category
+	for season in all_stats.keys():
+		json_to_file(discretize_player_stats_given_season(all_stats[season]), "{}.json".format(season))
