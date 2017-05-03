@@ -3,6 +3,8 @@ import requests
 import cPickle as pickle
 from nba_py import player
 import json
+import numpy as np
+import scipy.stats
 
 USER_AGENT = "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_4) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/56.0.2924.87 Safari/537.36"
 HEADER = {'User-Agent': USER_AGENT}
@@ -55,29 +57,9 @@ NUM_QUALIFYING_PLAYERS_DICT = {
 	2017: 486
 }
 
-CATEGORY_DICT = {
-	# 0:"POSITION",
-	# 1:"PLAYER_NAME",
-	# 2:"GP",
-	# 3:"W",
-	# 4:"W_PCT",
-	# 5:"MIN",
-	# 6:"FG_PCT",
-	# 7:"FG3_PCT",
-	# 8:"FT_PCT",
-	# 9:"REB",
-	# 10:"AST",
-	# 11:"TOV",
-	# 12:"STL",
-	# 13:"BLK",
-	# 14:"PTS",
-	# 15:"PLUS_MINUS",
-	# 16:"DD2",
-	# 17:"TD3",
+DISCRETE_CATEGORY_DICT = {
 	18:["GP_RANK", 50, 100, 150, False],
 	19:["W_RANK", 25, 50, 75, False],
-	20:["L_RANK", 25, 50, 75, False],
-	21:["W_PCT_RANK", 25, 50, 75, False],
 	22:["MIN_RANK", 25, 50, 75, False],
 	23:["FG_PCT_RANK", 50, 100, 150, True],
 	24:["FG3_PCT_RANK", 25, 50, 75, True],
@@ -88,10 +70,32 @@ CATEGORY_DICT = {
 	29:["STL_RANK", 25, 50, 75, True],
 	30:["BLK_RANK", 25, 50, 75, True],
 	31:["PTS_RANK", 15, 30, 45, True],
-	32:["PLUS_MINUS_RANK", 15, 30, 45, True],
+	32:["PLUS_MINUS_RANK", 15, 30, 45, False],
 	33:["DD2_RANK", 25, 50, 75, True],
-	34:["TD3_RANK", 5, 10, 15, False]
+	34:["TD3_RANK", 5, 10, 15, False],
+	49:["PIE_RANK", 5, 10, 15, False]
 }
+
+CONTINUOUS_CATEGORY_DICT = {
+	3:["W", False],
+	4:["W_PCT", False],
+	5:["MIN", False],
+	6:["FG_PCT", True],
+	7:["FG3_PCT", True],
+	8:["FT_PCT", True],
+	9:["REB", True],
+	10:["AST", True],
+	11:["TOV", False],
+	12:["STL", True],
+	13:["BLK", True],
+	14:["PTS", True],
+	15:["PLUS_MINUS", False],
+	16:["DD2", True],
+	17:["TD3", False],
+	43:["PIE", False]
+}
+
+MVP_PROB = [0.02, 0.98]
 
 # Returns a list of top 50 scoring leaders' player IDs, names, and teams for a given season from nba.com
 def get_scoring_leaders_from_nba(year):
@@ -425,9 +429,9 @@ def add_three_position_to_stats(all_stats):
 # top 50, top 75, and below for a given season
 def get_model_count_given_stats_and_category(all_stats, category, num_pos):
 	seasons = all_stats.keys()
-	top1 = CATEGORY_DICT[category][1]
-	top2 = CATEGORY_DICT[category][2]
-	top3 = CATEGORY_DICT[category][3]
+	top1 = DISCRETE_CATEGORY_DICT[category][1]
+	top2 = DISCRETE_CATEGORY_DICT[category][2]
+	top3 = DISCRETE_CATEGORY_DICT[category][3]
 
 	# [rank_given_pg_and_mvp, rank_given_swingman_and_mvp, rank_given_bigman_and_mvp,
 	# rank_given_pg_and_not_mvp, rank_given_swingman_and_not_mvp, rank_given_bigman_and_not_mvp]
@@ -450,16 +454,110 @@ def get_model_count_given_stats_and_category(all_stats, category, num_pos):
 			if player_stats[1] == mvp_name:
 				offset = num_pos - 1
 
-			if player_stats[category] < top1:
+			if player_stats[category] <= top1:
 				category_given_position_and_mvp[player_stats[0] + offset][0] += 1
-			elif player_stats[category] < top2:
+			elif player_stats[category] <= top2:
 				category_given_position_and_mvp[player_stats[0] + offset][1] += 1
-			elif player_stats[category] < top3:
+			elif player_stats[category] <= top3:
 				category_given_position_and_mvp[player_stats[0] + offset][2] += 1
 			else:
 				category_given_position_and_mvp[player_stats[0] + offset][3] += 1
 
 	return category_given_position_and_mvp
+
+def get_mean_and_stddev_given_stats_and_category_with_position(all_stats, category, num_pos):
+	season = all_stats.keys()
+
+	category_given_position_and_mvp = []
+	for i in range(0, num_pos * 2):
+		category_given_position_and_mvp.append([])
+	for season in range(1997, 2017):
+		mvp_name = MVP_DICT[season]
+		season_stats = all_stats[season]
+		for player_stats in season_stats:
+			offset = -1
+			if player_stats[1] == mvp_name:
+				offset = num_pos - 1
+			category_given_position_and_mvp[player_stats[0] + offset].append(player_stats[category])
+
+	np_cgpam = np.array(category_given_position_and_mvp)
+
+	means = []
+	stddevs = []
+	for i in range(len(np_cgpam)):
+		stddevs.append(np.std(np_cgpam[i]))
+		means.append(np.mean(np_cgpam[i]))
+
+	return means, stddevs
+
+def get_mean_and_stddev_given_stats_and_category_without_position(all_stats, category):
+	season = all_stats.keys()
+	category_given_mvp = []
+	for i in range(0, 2):
+		category_given_mvp.append([])
+	for season in range(1997, 2017):
+		mvp_name = MVP_DICT[season]
+		season_stats = all_stats[season]
+		for player_stats in season_stats:
+			offset = 0
+			if player_stats[1] == mvp_name:
+				offset = 1
+			category_given_mvp[offset].append(player_stats[category])
+
+	np_cgam = np.array(category_given_mvp)
+
+	means = []
+	stddevs = []
+	for i in range(len(np_cgam)):
+		stddevs.append(np.std(np_cgam[i]))
+		means.append(np.mean(np_cgam[i]))
+
+	return means, stddevs
+
+def find_mvp_using_continuous_model(all_stats, given_position, which_season):
+	categories = CONTINUOUS_CATEGORY_DICT.keys()
+	for category in categories:
+		mean = 0
+		stddev = 0
+		if given_position and CONTINUOUS_CATEGORY_DICT[category][1]:
+			mean, stddev = get_mean_and_stddev_given_stats_and_category_with_position(all_stats, category, 3)
+		else:
+			mean, stddev = get_mean_and_stddev_given_stats_and_category_without_position(all_stats, category)
+
+		CONTINUOUS_CATEGORY_DICT[category].append(mean)
+		CONTINUOUS_CATEGORY_DICT[category].append(stddev)
+
+	season_stats = all_stats[which_season]
+	mvp_winner = ""
+	mvp_winner_percentage = 0.0
+
+	print CONTINUOUS_CATEGORY_DICT[7][3]
+
+	for player_stats in season_stats:
+		total_factor_given_mvp = 1
+		total_factor_not_given_mvp = 1
+		for category in categories:
+			not_given_index = 0
+			given_index = 1
+
+			if given_position and CONTINUOUS_CATEGORY_DICT[category][1]:
+				position = player_stats[0]
+				not_given_index = position - 1
+				given_index = position + 2
+
+			mean_not_given_mvp = CONTINUOUS_CATEGORY_DICT[category][2][not_given_index]
+			mean_given_mvp = CONTINUOUS_CATEGORY_DICT[category][2][given_index]
+			std_not_given_mvp = CONTINUOUS_CATEGORY_DICT[category][3][not_given_index]
+			std_given_mvp = CONTINUOUS_CATEGORY_DICT[category][3][given_index]
+			factor_given_mvp = scipy.stats.norm(mean_given_mvp, std_given_mvp).pdf(player_stats[category])
+			factor_not_given_mvp = scipy.stats.norm(mean_not_given_mvp, std_not_given_mvp).pdf(player_stats[category])
+			total_factor_given_mvp *= factor_given_mvp
+			total_factor_not_given_mvp *= factor_not_given_mvp
+
+		bayes_factor = total_factor_given_mvp / total_factor_not_given_mvp
+		mvp_winning_prob = (MVP_PROB[0] * bayes_factor) / (MVP_PROB[0] * bayes_factor + MVP_PROB[1])
+		print player_stats[1], mvp_winning_prob
+
 
 
 def get_number_of_qualifying_players(year):
@@ -530,16 +628,16 @@ def discretize_player_stats_given_season(season_stats):
 		stats_dict["NAME"] = player_stats[1]
 		stats_dict["Position"] = position_int_to_string(player_stats[0])
 		for category in range(18, 35):
-			category_name = CATEGORY_DICT[category][0]
-			category_top1 = CATEGORY_DICT[category][1]
-			category_top2 = CATEGORY_DICT[category][2]
-			category_top3 = CATEGORY_DICT[category][3]
+			category_name = DISCRETE_CATEGORY_DICT[category][0]
+			category_top1 = DISCRETE_CATEGORY_DICT[category][1]
+			category_top2 = DISCRETE_CATEGORY_DICT[category][2]
+			category_top3 = DISCRETE_CATEGORY_DICT[category][3]
 
-			if player_stats[category] < category_top1:
+			if player_stats[category] <= category_top1:
 				stats_dict[category_name] = "top" + str(category_top1)
-			elif player_stats[category] < category_top2:
+			elif player_stats[category] <= category_top2:
 				stats_dict[category_name] = "top" + str(category_top2)
-			elif player_stats[category] < category_top3:
+			elif player_stats[category] <= category_top3:
 				stats_dict[category_name] = "top" + str(category_top3)
 			else:
 				stats_dict[category_name] = "other"
@@ -565,12 +663,20 @@ def json_to_file(json_stats, file_name):
 if __name__ == "__main__":
 	all_stats_with_three_pos_fn = "all_stats_with_three_pos.pkl"
 	all_stats = pickle.load(open(all_stats_with_three_pos_fn, 'rb'))
-	# category = 22
-	# given_position = CATEGORY_DICT[category][4]
-	# posterior = get_cpt_given_model_count_three_pos(get_model_count_given_stats_and_category(all_stats, category, 3), given_position)
+
+	# category = 19
+	# # given_position = DISCRETE_CATEGORY_DICT[category][4]
+	# # posterior = get_cpt_given_model_count_three_pos(get_model_count_given_stats_and_category(all_stats, category, 3), given_position
+
+	# posterior = get_cpt_given_model_count_three_pos(get_model_count_given_stats_and_category(all_stats, category, 3), False)
 
 	# for cpt in posterior:
 	# 	for category in cpt:
 	# 		print category
-	for season in all_stats.keys():
-		json_to_file(discretize_player_stats_given_season(all_stats[season]), "{}.json".format(season))
+
+	# # for season in range(1997, 2018):
+	# # 	discretized_stats = discretize_player_stats_given_season(all_stats[season])
+	# # 	json_to_file(discretized_stats, "{}.json".format(season))
+	# print get_mean_and_stddev_given_stats_and_category_with_position(all_stats, 6, 3)
+	# print get_mean_and_stddev_given_stats_and_category_without_position(all_stats, 3)
+	find_mvp_using_continuous_model(all_stats, True, 2014)
