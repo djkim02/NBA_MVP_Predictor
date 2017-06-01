@@ -5,6 +5,8 @@ from nba_py import player
 import json
 import numpy as np
 import scipy.stats
+from sklearn import linear_model, svm, ensemble
+import warnings
 
 USER_AGENT = "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_4) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/56.0.2924.87 Safari/537.36"
 HEADER = {'User-Agent': USER_AGENT}
@@ -465,13 +467,13 @@ def get_model_count_given_stats_and_category(all_stats, category, num_pos):
 
 	return category_given_position_and_mvp
 
-def get_mean_and_stddev_given_stats_and_category_with_position(all_stats, category, num_pos):
+def get_mean_and_stddev_given_stats_and_category_with_position(all_stats, category, num_pos, seasons):
 	season = all_stats.keys()
 
 	category_given_position_and_mvp = []
 	for i in range(0, num_pos * 2):
 		category_given_position_and_mvp.append([])
-	for season in range(1997, 2017):
+	for season in seasons:
 		mvp_name = MVP_DICT[season]
 		season_stats = all_stats[season]
 		for player_stats in season_stats:
@@ -490,12 +492,12 @@ def get_mean_and_stddev_given_stats_and_category_with_position(all_stats, catego
 
 	return means, stddevs
 
-def get_mean_and_stddev_given_stats_and_category_without_position(all_stats, category):
+def get_mean_and_stddev_given_stats_and_category_without_position(all_stats, category, seasons):
 	season = all_stats.keys()
 	category_given_mvp = []
 	for i in range(0, 2):
 		category_given_mvp.append([])
-	for season in range(1997, 2017):
+	for season in seasons:
 		mvp_name = MVP_DICT[season]
 		season_stats = all_stats[season]
 		for player_stats in season_stats:
@@ -514,15 +516,18 @@ def get_mean_and_stddev_given_stats_and_category_without_position(all_stats, cat
 
 	return means, stddevs
 
-def find_mvp_using_continuous_model(all_stats, given_position, which_season):
+def find_mvp_using_continuous_model(all_stats, given_position, which_season, seasons=[]):
 	categories = CONTINUOUS_CATEGORY_DICT.keys()
+	if len(seasons) == 0:
+		for season in range(1997, 2017):
+			seasons.append(season)
 	for category in categories:
 		mean = 0
 		stddev = 0
 		if given_position and CONTINUOUS_CATEGORY_DICT[category][1]:
-			mean, stddev = get_mean_and_stddev_given_stats_and_category_with_position(all_stats, category, 3)
+			mean, stddev = get_mean_and_stddev_given_stats_and_category_with_position(all_stats, category, 3, seasons)
 		else:
-			mean, stddev = get_mean_and_stddev_given_stats_and_category_without_position(all_stats, category)
+			mean, stddev = get_mean_and_stddev_given_stats_and_category_without_position(all_stats, category, seasons)
 
 		CONTINUOUS_CATEGORY_DICT[category].append(mean)
 		CONTINUOUS_CATEGORY_DICT[category].append(stddev)
@@ -531,7 +536,7 @@ def find_mvp_using_continuous_model(all_stats, given_position, which_season):
 	mvp_winner = ""
 	mvp_winner_percentage = 0.0
 
-	print CONTINUOUS_CATEGORY_DICT[7][3]
+	top3 = []
 
 	for player_stats in season_stats:
 		total_factor_given_mvp = 1
@@ -546,6 +551,7 @@ def find_mvp_using_continuous_model(all_stats, given_position, which_season):
 				given_index = position + 2
 
 			mean_not_given_mvp = CONTINUOUS_CATEGORY_DICT[category][2][not_given_index]
+			# print given_index
 			mean_given_mvp = CONTINUOUS_CATEGORY_DICT[category][2][given_index]
 			std_not_given_mvp = CONTINUOUS_CATEGORY_DICT[category][3][not_given_index]
 			std_given_mvp = CONTINUOUS_CATEGORY_DICT[category][3][given_index]
@@ -556,8 +562,10 @@ def find_mvp_using_continuous_model(all_stats, given_position, which_season):
 
 		bayes_factor = total_factor_given_mvp / total_factor_not_given_mvp
 		mvp_winning_prob = (MVP_PROB[0] * bayes_factor) / (MVP_PROB[0] * bayes_factor + MVP_PROB[1])
-		print player_stats[1], mvp_winning_prob
+		top3.append([bayes_factor, player_stats[1], mvp_winning_prob])
 
+	top3 = sorted(top3, reverse=True)[:3]
+	print top3
 
 
 def get_number_of_qualifying_players(year):
@@ -661,8 +669,58 @@ def json_to_file(json_stats, file_name):
 
 
 if __name__ == "__main__":
+	warnings.filterwarnings("ignore")
 	all_stats_with_three_pos_fn = "all_stats_with_three_pos.pkl"
 	all_stats = pickle.load(open(all_stats_with_three_pos_fn, 'rb'))
+
+	features = []
+	data = []
+
+	training_seasons = [2004, 2005, 2006, 2007, 2008, 2009, 2010, 2011, 2012, 2013, 2014, 2015, 2016]
+	test_seasons = [1997, 1998, 1999, 2000, 2001, 2002, 2003]
+
+	for season in training_seasons:
+		season_stats = all_stats[season]
+		mvp_name = MVP_DICT[season]
+		for each_player_stats in season_stats:
+			each_features = []
+			for dict_keys in CONTINUOUS_CATEGORY_DICT.keys():
+				each_features.append(each_player_stats[dict_keys])
+
+			features.append(each_features)
+			temp = []
+			if each_player_stats[1] == mvp_name:
+				temp.append(100)
+				data.append(temp)
+			else:
+				temp.append(0)
+				data.append(temp)
+
+	# regr = linear_model.LinearRegression()
+	# regr = svm.SVR()
+	regr = ensemble.RandomForestClassifier()
+	data = np.array(data).reshape(-1, 1)
+	regr.fit(features, data)
+
+
+	for season in test_seasons:
+		season_stats = all_stats[season]
+		top3 = []
+		for each_player_stats in season_stats:
+			each_training_data = []
+			for dict_keys in CONTINUOUS_CATEGORY_DICT.keys():
+				each_training_data.append(each_player_stats[dict_keys])
+			each_prediction = regr.predict(each_training_data)
+			each_top3 = []
+			each_top3.append(each_prediction[0])
+			each_top3.append(each_player_stats[1])
+			top3.append(each_top3)
+		top3 = sorted(top3, reverse=True)[:3]
+		print top3
+
+
+
+	
 
 	# category = 19
 	# # given_position = DISCRETE_CATEGORY_DICT[category][4]
@@ -679,4 +737,19 @@ if __name__ == "__main__":
 	# # 	json_to_file(discretized_stats, "{}.json".format(season))
 	# print get_mean_and_stddev_given_stats_and_category_with_position(all_stats, 6, 3)
 	# print get_mean_and_stddev_given_stats_and_category_without_position(all_stats, 3)
-	find_mvp_using_continuous_model(all_stats, True, 2014)
+
+	# seasons = []
+	# for season in range(1997, 2011):
+	# 	seasons.append(season)
+
+	# # for season in range(1997, 1998):
+	# # 	find_mvp_using_continuous_model(all_stats, True, season, seasons)
+
+	# for season in range(2010, 2017):
+	# 	find_mvp_using_continuous_model(all_stats, True, season, seasons)
+
+	seasons = []
+	for season in range(1997, 2011):
+		seasons.append(season)
+
+
